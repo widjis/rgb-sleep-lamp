@@ -2,6 +2,16 @@
 
 A USB-C-powered RGB lamp with a 3D-printed enclosure, an ESP-12F controller, and a WS2812B LED strip. This repository preserves the mechanical design, electronics revisions, custom libraries, fabrication exports, and design-review evidence.
 
+## Mechanical design
+
+| Assembled lamp | Transparent internal view |
+| --- | --- |
+| ![Assembled RGB Sleep Lamp enclosure](mechanical/freecad/assembled-model.png) | ![Transparent CAD view showing the LED core, PCB envelope and mounting structure](mechanical/freecad/assembled-transparent.png) |
+
+These saved CAD previews illustrate the enclosure and internal arrangement; the component blocks in the transparent view are placement references. The latest editable enclosure is the native FreeCAD document linked below.
+
+[Open the FreeCAD design](mechanical/freecad/RGB%20Sleep%20Lamp.FCStd) · [Assembly animation](mechanical/freecad/RGB-Sleep-Lamp-native-assembly.mp4) · [Exploded-view animation](mechanical/freecad/RGB-Sleep-Lamp-explode-reverse.mp4)
+
 ## Open the current designs
 
 | Design | Main file |
