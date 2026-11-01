@@ -1,0 +1,1821 @@
+{
+  "moved_at": "2026-10-26T13:24:10.279549+00:00",
+  "from": "/Users/widjis/Documents/Projects/ai-cad-studio/data/2a402aaefb3240eb9283bf89086b0521",
+  "to": "/Users/widjis/Documents/Hardware Project/RGB Sleep Lamp",
+  "mechanical_revision": 9,
+  "electronics_revision": 1,
+  "verification": "Every original regular file size and SHA256, and every original symlink target, matches after move. No project active job at move.",
+  "original_inventory": {
+    "files": {
+      "project.json": {
+        "bytes": 162126,
+        "sha256": "b9d6a0516c4d53b91f959e6fd9b087443ff876f7caef4575ca4c44a28d6079ab"
+      },
+      "checks/.DS_Store": {
+        "bytes": 6148,
+        "sha256": "69b4ac92af326276a00c91bea36cd65aa4617e6a40c243350b05e6251e061142"
+      },
+      "checks/diffuser-r8/diffuser-r8-slicer-review.json": {
+        "bytes": 5983,
+        "sha256": "f104ac344572c30178aab1911de027854a21ecf29b356abd9fae5073f0a7631b"
+      },
+      "checks/diffuser-r8/open-bottom.log": {
+        "bytes": 423,
+        "sha256": "d2a8625444c2649423225fe7cc88b2354193d5d9a642871c1fb369deef92bb70"
+      },
+      "checks/diffuser-r8/top-down-snug.log": {
+        "bytes": 417,
+        "sha256": "082b05fbf1151cb8f2addff7e7a52e6af4f0084192c6273d717c065c12f8b552"
+      },
+      "checks/diffuser-r8/top-down.log": {
+        "bytes": 417,
+        "sha256": "31c7b958fd5efc1b1c4437b59346f35dd7fa3683d64e571c92daa433e82ed1ed"
+      },
+      "checks/diffuser-r8/diffuser-r8-top-down-snug.3mf": {
+        "bytes": 180621,
+        "sha256": "42540608e220b9027d0da2c9fd82e0819764b902575d030e155dc0e422719044"
+      },
+      "checks/r9-pcb-and-led/DESIGN-NOTES.txt": {
+        "bytes": 1894,
+        "sha256": "5f7b4bba73f59b332626f65b2e45f73dfb1fa1d1776c3b292c7870e1a70541ce"
+      },
+      "checks/r9-pcb-and-led/pcb_mount_layout.json": {
+        "bytes": 1809,
+        "sha256": "d46fd94ff859a68cf822037f24092548b4e31761fecc17b2819fccfece4cad58"
+      },
+      "checks/r9-pcb-and-led/pcb-layout-preview.svg.png": {
+        "bytes": 243672,
+        "sha256": "9739cb5b0d61329c492fadf6ab5abb2d854937a1f88ed5ceaf6b6bf1b7929e2e"
+      },
+      "checks/r9-pcb-and-led/pcb-layout-concept.svg": {
+        "bytes": 5005,
+        "sha256": "da0ad045806ab24d4a9da2608e314c75f23196c323c5598fa95e993ca2dbff42"
+      },
+      "checks/r9-pcb-and-led/slicer.log": {
+        "bytes": 413,
+        "sha256": "46f829f1363dbede257cf7e4db2492dd4d9cba19e245d114ca29b6a7216727ed"
+      },
+      "checks/r9-pcb-and-led/pcb-round-mechanical-template.kicad_pcb": {
+        "bytes": 10735,
+        "sha256": "ac762c96ec515dce2d4bdb4cd8724759e4181001726149a749debfdb5893a671"
+      },
+      "checks/r9-pcb-and-led/template-drc.json": {
+        "bytes": 1086,
+        "sha256": "4a8c143604f3a48604964dae6321a5c0d3089db3876cdf6ad6208fb51223dbd0"
+      },
+      "checks/r9-pcb-and-led/diffuser-r9-slicer-review.json": {
+        "bytes": 1350,
+        "sha256": "4b5da4fd9d21ab2ac181a52665814454d58ee6d5c1849aea1adf2d802ba0898c"
+      },
+      "checks/r9-pcb-and-led/led-wrap-plan.json": {
+        "bytes": 727,
+        "sha256": "13c2f480be1da5aaa576e93ffc3edf698cac92980b8b1c853d333a25c0a2acac"
+      },
+      "electronics/revisions/1/header-pinout.json": {
+        "bytes": 252,
+        "sha256": "a47d5782478f769d266c49cb32840b9ab5d470ea4837908463a45b5e2f2abd57"
+      },
+      "electronics/revisions/1/power-review.net": {
+        "bytes": 70007,
+        "sha256": "754e90cd720a99aa34ff7d937871960793eb668f303c718666809f2796382605"
+      },
+      "electronics/revisions/1/source-manifest.json": {
+        "bytes": 20668,
+        "sha256": "86e392b6c8ffc8067883d8db3d54477bef1bbd8678f35b54193b7a813017ae69"
+      },
+      "electronics/revisions/1/erc.json": {
+        "bytes": 1180,
+        "sha256": "176ddf71e264b75a28ab5854e1352f19f78e4a8de3183ccc534d429fd1cf26e6"
+      },
+      "electronics/revisions/1/routing-practice-drc.json": {
+        "bytes": 78384,
+        "sha256": "1d94021eaa62c2d00bc38f3e753c45a99fdf5cb0639db71c780375710ca855cc"
+      },
+      "electronics/revisions/1/circuit.kicad_sch": {
+        "bytes": 103359,
+        "sha256": "4679b3f47d96d13824f5688aed20ddacb8930266540e06e3f3d7501d36a761ad"
+      },
+      "electronics/revisions/1/bom.csv": {
+        "bytes": 2130,
+        "sha256": "21bef5a1d691e320285efa0676667a770a8d84742302dc02a951d0217b5fd160"
+      },
+      "electronics/revisions/1/power-design-notes.txt": {
+        "bytes": 3438,
+        "sha256": "a9addaf3eed9dcee7825b49c44208ac3da06181f9e0144a410ef28a0a828e372"
+      },
+      "electronics/revisions/1/circuit.kicad_pro": {
+        "bytes": 17179,
+        "sha256": "73efb97c262967a37c4e51e4fec6b4b2497d035a0361ea5447fc8c2826f2a04c"
+      },
+      "electronics/revisions/1/BASELINE-NOTES.txt": {
+        "bytes": 539,
+        "sha256": "bd0d25c42f5738b453ecc340bb5f09bf2da8101020b8ea3a1b6fe84274a393cb"
+      },
+      "electronics/revisions/1/board.json": {
+        "bytes": 30882,
+        "sha256": "4cf7ecdb2b1fbc0397121685976585bdc569424bba30e8fd2e4ad9474b8bca67"
+      },
+      "electronics/revisions/1/schematic-pins.json": {
+        "bytes": 9061,
+        "sha256": "738905ff7473496423d7b2cf144e13f83982725802a6691fb26aa7eadbedd064"
+      },
+      "electronics/revisions/1/power.kicad_sch": {
+        "bytes": 135143,
+        "sha256": "37fb51899c8707b3f4cfada7cb7ed87735946cbee1f5d489af3b9c9439b981be"
+      },
+      "electronics/revisions/1/esp12-minimum-erc.rpt": {
+        "bytes": 382,
+        "sha256": "5db79efe0288c4e6b535c0686310a02222eee9d7f01e6574401483cba4896304"
+      },
+      "electronics/revisions/1/HEADER-PINOUT.txt": {
+        "bytes": 1095,
+        "sha256": "7925d3802f38ab78f1c7de4df4a7527bbef3db0109ecf2e1a78c5dc8fec88917"
+      },
+      "electronics/revisions/1/pcb-bottom.svg": {
+        "bytes": 8240,
+        "sha256": "3e2ebfb8e677de307069ddf0f20df547ff421179fba792f3a39763bd755d9540"
+      },
+      "electronics/revisions/1/drc.json": {
+        "bytes": 79926,
+        "sha256": "d9ae4405d72e56a78261c964f92cf5c73676bb542136bff8821f04e1aac2a990"
+      },
+      "electronics/revisions/1/ROUTING-PRACTICE.txt": {
+        "bytes": 2365,
+        "sha256": "1b8fad9382d3a243ff987630f83387ff84197891832b9edad74cc1213db41979"
+      },
+      "electronics/revisions/1/GPS Tracker.kicad_prl": {
+        "bytes": 2637,
+        "sha256": "81c8ae69c07023df381e51e45782b054247652c7834b84fa8af169b937af3df6"
+      },
+      "electronics/revisions/1/pcb-top.svg": {
+        "bytes": 109308,
+        "sha256": "809ca4675a04bb7fd3d2a0c2e23bf897ac0a154000ca4aa99832b3d99b3676ff"
+      },
+      "electronics/revisions/1/ESP12-MINIMUM-README.txt": {
+        "bytes": 172,
+        "sha256": "f4526f57975451a8b728754457c2a86a3dee463438f8dff3438f7a7b64398596"
+      },
+      "electronics/revisions/1/schematic-cleanup-review.txt": {
+        "bytes": 1127,
+        "sha256": "b3a837c7af78e6af023c6fe6941fdc0dc8ee4017384add26daee0949ee83a9fc"
+      },
+      "electronics/revisions/1/validation.json": {
+        "bytes": 50163,
+        "sha256": "4c680a81a7ddfe35142e404c6d0e697177a4168f39457397f11b6f25825c0195"
+      },
+      "electronics/revisions/1/circuit.kicad_prl": {
+        "bytes": 2294,
+        "sha256": "8aaf88ad31d865cf6b6cf0be8b900c1342f2d2a0e4753bea5b28aa793cfd2028"
+      },
+      "electronics/revisions/1/sym-lib-table": {
+        "bytes": 159,
+        "sha256": "13957749895059d446de46320556c5e21a9fe5a139db41abf5c0b9d01f2fe065"
+      },
+      "electronics/revisions/1/circuit.json": {
+        "bytes": 23180,
+        "sha256": "b2aa9b288de2b093b305c35407553bc5007ad4eb7f5b7b3afe4d9f4d6652cde0"
+      },
+      "electronics/revisions/1/circuit.kicad_pcb": {
+        "bytes": 187594,
+        "sha256": "057fb0d894dfaf82e03c68e66ae48c485cd2b2e6b835a7678e399f6c5941f744"
+      },
+      "electronics/revisions/1/GPS_Local.kicad_sym": {
+        "bytes": 1821,
+        "sha256": "0f2ec4db71b38c6e4e44a9593e5295f97700802ebec361022db4d684f0100332"
+      },
+      "electronics/revisions/1/netlist.net": {
+        "bytes": 69878,
+        "sha256": "6e85619d084c5773e9acf0f9054ac9b1cbc7d3295aaba49e7d8501fc6e05d02b"
+      },
+      "electronics/revisions/1/schematic/circuit.svg": {
+        "bytes": 691335,
+        "sha256": "c16a36488218935100a7f14ecb48201e92b52a27bfabc447147c0a48827eb7ad"
+      },
+      "electronics/revisions/1/schematic/circuit-Battery _ Boost _ LDO.svg": {
+        "bytes": 694865,
+        "sha256": "5a94423b455ace2c8856f3649c037063deb138d5ee1ca25718a313a08ecf1cd0"
+      },
+      "electronics/revisions/1/source-gps/header-pinout.json": {
+        "bytes": 252,
+        "sha256": "a47d5782478f769d266c49cb32840b9ab5d470ea4837908463a45b5e2f2abd57"
+      },
+      "electronics/revisions/1/source-gps/power-review.net": {
+        "bytes": 70007,
+        "sha256": "754e90cd720a99aa34ff7d937871960793eb668f303c718666809f2796382605"
+      },
+      "electronics/revisions/1/source-gps/GPS Tracker.kicad_pro": {
+        "bytes": 17179,
+        "sha256": "73efb97c262967a37c4e51e4fec6b4b2497d035a0361ea5447fc8c2826f2a04c"
+      },
+      "electronics/revisions/1/source-gps/routing-practice-drc.json": {
+        "bytes": 78384,
+        "sha256": "1d94021eaa62c2d00bc38f3e753c45a99fdf5cb0639db71c780375710ca855cc"
+      },
+      "electronics/revisions/1/source-gps/power-design-notes.txt": {
+        "bytes": 3438,
+        "sha256": "a9addaf3eed9dcee7825b49c44208ac3da06181f9e0144a410ef28a0a828e372"
+      },
+      "electronics/revisions/1/source-gps/GPS Tracker.kicad_sch": {
+        "bytes": 103540,
+        "sha256": "3f4a98dfa7485ce0b0be6c3f197b402e716c4a0ec4db854da510738440762e7c"
+      },
+      "electronics/revisions/1/source-gps/power.kicad_sch": {
+        "bytes": 135371,
+        "sha256": "5b55ed4af4d5fde3ab52e689de10b289a915d97cc2969ad52e71251672dfd9ba"
+      },
+      "electronics/revisions/1/source-gps/esp12-minimum-erc.rpt": {
+        "bytes": 382,
+        "sha256": "5db79efe0288c4e6b535c0686310a02222eee9d7f01e6574401483cba4896304"
+      },
+      "electronics/revisions/1/source-gps/HEADER-PINOUT.txt": {
+        "bytes": 1095,
+        "sha256": "7925d3802f38ab78f1c7de4df4a7527bbef3db0109ecf2e1a78c5dc8fec88917"
+      },
+      "electronics/revisions/1/source-gps/GPS Tracker.kicad_pcb": {
+        "bytes": 187594,
+        "sha256": "057fb0d894dfaf82e03c68e66ae48c485cd2b2e6b835a7678e399f6c5941f744"
+      },
+      "electronics/revisions/1/source-gps/ROUTING-PRACTICE.txt": {
+        "bytes": 2365,
+        "sha256": "1b8fad9382d3a243ff987630f83387ff84197891832b9edad74cc1213db41979"
+      },
+      "electronics/revisions/1/source-gps/GPS Tracker.kicad_prl": {
+        "bytes": 2637,
+        "sha256": "81c8ae69c07023df381e51e45782b054247652c7834b84fa8af169b937af3df6"
+      },
+      "electronics/revisions/1/source-gps/ESP12-MINIMUM-README.txt": {
+        "bytes": 172,
+        "sha256": "f4526f57975451a8b728754457c2a86a3dee463438f8dff3438f7a7b64398596"
+      },
+      "electronics/revisions/1/source-gps/schematic-cleanup-review.txt": {
+        "bytes": 1127,
+        "sha256": "b3a837c7af78e6af023c6fe6941fdc0dc8ee4017384add26daee0949ee83a9fc"
+      },
+      "electronics/revisions/1/source-gps/sym-lib-table": {
+        "bytes": 159,
+        "sha256": "13957749895059d446de46320556c5e21a9fe5a139db41abf5c0b9d01f2fe065"
+      },
+      "electronics/revisions/1/source-gps/GPS_Local.kicad_sym": {
+        "bytes": 1821,
+        "sha256": "0f2ec4db71b38c6e4e44a9593e5295f97700802ebec361022db4d684f0100332"
+      },
+      "electronics/revisions/1/source-gps/.history/GPS Tracker.kicad_sch": {
+        "bytes": 103540,
+        "sha256": "3f4a98dfa7485ce0b0be6c3f197b402e716c4a0ec4db854da510738440762e7c"
+      },
+      "electronics/revisions/1/source-gps/.history/power.kicad_sch": {
+        "bytes": 135371,
+        "sha256": "5b55ed4af4d5fde3ab52e689de10b289a915d97cc2969ad52e71251672dfd9ba"
+      },
+      "electronics/revisions/1/source-gps/.history/GPS Tracker.kicad_pcb": {
+        "bytes": 187594,
+        "sha256": "057fb0d894dfaf82e03c68e66ae48c485cd2b2e6b835a7678e399f6c5941f744"
+      },
+      "electronics/revisions/1/source-gps/.history/.gitignore": {
+        "bytes": 87,
+        "sha256": "1e18182125437ce3d2ec460b357a9ea06f059d795052de04a9a9f1044b8e20ba"
+      },
+      "electronics/revisions/1/source-gps/.history/README.txt": {
+        "bytes": 554,
+        "sha256": "79c41e25e7633a1deff5e5a7456573c64f0061d508b7e0e5753d985456fe29e7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/config": {
+        "bytes": 137,
+        "sha256": "dbc59dfd1198cb34a4dffa1675048fa0f822440952a0c058e098f22d0f7ea8aa"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/HEAD": {
+        "bytes": 23,
+        "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/description": {
+        "bytes": 73,
+        "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/index": {
+        "bytes": 321,
+        "sha256": "32001b38211d7d8acf7adc778a2b6b78418bb64a9b6c1fec6fcfb5099a62c87f"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/59/a27044e856e4b63eca1ca3f494b6a627aeb99d": {
+        "bytes": 956,
+        "sha256": "2978a969b184d621cb21cec2b5297beb0c47b71bd2888223bd2f7f121ab4a29b"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/3e/c232aca6b797f9c1d5eae54a3bdd04e658ed29": {
+        "bytes": 12599,
+        "sha256": "32ec79b860d258313ec0bbb42e93ca5f8bd14b1cea451f9232e1c1434cdda7f4"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/3b/b25cded6f0a8a2b3f894b50f858dfc99c9df68": {
+        "bytes": 12498,
+        "sha256": "ab40130e2dab8e459d83ce4c593e85c24c9f2114e83158c07eb7a0c8c76c02bc"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/69/08c75d0436ed508e0135c9af5f59f828ad8e1f": {
+        "bytes": 3175,
+        "sha256": "2173ce83f82163c1ae73f8cc0ed5d5a275efc574781aabdbab7d09d080d9b24e"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/67/43751c0c25ed770e9aadba6ef3b3a1b9f3ee3b": {
+        "bytes": 153,
+        "sha256": "46b9b5f771c39c6b49ff6bf5c937aa5131ef44da287a5ed1e321097402cba445"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/94/74f85860f3993434a443cde4fc5075ed4dd836": {
+        "bytes": 125,
+        "sha256": "e8211ea748a237538d79853f1fd0657de03e41eaef60933d2c0c584de64356ca"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/94/3c9a6c7d4394b99f7ed0deb4e105568c4c828b": {
+        "bytes": 65,
+        "sha256": "daa27ba00ff87fabc591bbce520fc50466c330fb5ce85fff72b6472e9a9fb352"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/02/beb7d8a961d144046cd93f9644b50ca7e5ee77": {
+        "bytes": 154,
+        "sha256": "46d91b785dbea047ef504fb7ad247a24071fadbd10dc8c818bde82144625b5b1"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/b2/5007d97f578e4d0d171a99485de5a9bff2ba11": {
+        "bytes": 125,
+        "sha256": "94e9839ab11ee06bdbad9f2c5d6d518d57137e82a4329e9821211a1e62445616"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/ad/5cdd3936b0e46d12b695c28dc80a90613676d3": {
+        "bytes": 125,
+        "sha256": "8c39103d489e62951e5739ac4b7d579c27f3eb4fb14e46f13568b5e5ea001ccb"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/bb/ef404601667e388c4f6175a181ddc60d28d612": {
+        "bytes": 154,
+        "sha256": "c06b69c954ac05514e24bd3eeb29dbcb8e65b272b3a60b783017f494209736af"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/bb/e2b9527507ac17d2f96cb1c9959a9bdff9ea21": {
+        "bytes": 3089,
+        "sha256": "dc45034e3723a5a593651c2ad5f060507c8f0431541a61aeb0c1d831b00c43c2"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d7/33a2a0cec36e7454998e9081b692fb526e15d3": {
+        "bytes": 154,
+        "sha256": "e260462668d3e6f73ae2bdc613ea3cf25ea0087f345aee7266dfb03007fafbfd"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d7/2ba70197a60afbe101d56e9468e0c5fd7e0970": {
+        "bytes": 156,
+        "sha256": "e8d3e3fbaf12f1212b854aa2a0514622ba3e79163dd84b026f0ee867180b427b"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d0/f978ee3d70acd786007fbbb56e4ac686b471a6": {
+        "bytes": 124,
+        "sha256": "e7c0a6baa827dbd9c25ff87c4343fccdc9537265c5e94f6c9f018034be876e52"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/be/50440812a0821918237f28ef65e54af211ce79": {
+        "bytes": 2828,
+        "sha256": "1aaed808a13e46452553acb052efe823d765efd70fa8dd015a7442b6192a0261"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/df/5abd7bfa4c7b0d80bf246aa2855a3de00deb15": {
+        "bytes": 3127,
+        "sha256": "9668f3890c66804de57bc78a066b316712a8d615253fa0ea5fdbac7c5d8e4658"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/b4/0dbdac9a5b834b8e29d22f88849153d4b749a5": {
+        "bytes": 153,
+        "sha256": "297865a3c8b30e7e240b44045b2d7afbd5b42734ad85893bce59e9ae468ca4f2"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/bd/e697323431fea487b1ff99d18b8908ede6ef92": {
+        "bytes": 154,
+        "sha256": "bc93f9ba73987aa1b082a7a528ad7c2ba9d0627b8ee9b2c57aaf77d4a9ae732c"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/bd/97790d3a7ba0a520bfe306248f005f420a2976": {
+        "bytes": 18680,
+        "sha256": "7ed6b4d35400af8f91db3ccb4894773a05e1fd22f2b53f274d8e3108c64540bc"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d6/1415918f096e04fd915a3ec9e25b05aad6f4b1": {
+        "bytes": 153,
+        "sha256": "58ac303cbbe3de7a6f1067e5c38a69c9f46a0fb892dafb2e2bca73400149cbc8"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d8/9a272c250cc37b052481b3a6dc1844d7b340c8": {
+        "bytes": 2829,
+        "sha256": "df397a97e1cc4c613eaabf1c0a0f43becaf0ff88a7a96f19988c3b05b56f1e93"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d8/0632cc14ddf1824749b78a550abaf4e45a6e5f": {
+        "bytes": 125,
+        "sha256": "ea67d431a790d14ea3cdde88bf2c452c818da7e2602229298cb24709394455b6"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/ab/7a04eebd5dfcf954f540c03a147d6a9515ca66": {
+        "bytes": 124,
+        "sha256": "0ec45ddff6efa89d8fecdffa09fef8a869f2398719fdf061094e06ce159a5c00"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/e5/c24827245b06b8d33272f817d9e4143bc9d299": {
+        "bytes": 153,
+        "sha256": "acdb4b6468a53c39b70805d80bbb2dcb3eae86a794b53e53156145ddd9c8cf94"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/ee/7772c9be570107d33601abce58668cdbf9391e": {
+        "bytes": 124,
+        "sha256": "f908173f60bedf85da97dd8f9d46b78533a3f2b5554b39301f99cc9d0ef47ca2"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/c1/7678962915e1a932e510e8a2d93937c9d7571b": {
+        "bytes": 42257,
+        "sha256": "222622146d65e6771c7c905fcbd42d05a0fb7de1882d410da82c45f492e789ff"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/4b/29c129e6b98b5825cd6b1363c36f82fc261b32": {
+        "bytes": 156,
+        "sha256": "b05d4f3e52014fe3fb715c9d6966b7594a4da4e493105b48887ee99be07d5cdc"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/16/e1e137116a69826b2dc5da0335bc0c528606e7": {
+        "bytes": 39053,
+        "sha256": "7b4a62f972757868b01f3e6500e0676a006aeb76ba0aeefa258dd056cad98e5d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/42/aa36e1d953531a60906e580bcaa973229059ac": {
+        "bytes": 153,
+        "sha256": "ab32e4341fb0b6cf98be141e212e5311d81e569c426f91f258379f9280eaf43c"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/45/0d37bb1c4258b2f5601dea6308ed7a9bf46c95": {
+        "bytes": 66,
+        "sha256": "b262cd63eae7d97f3308d93961a1bb520f844b2496263646867d66f1bd38155d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/74/d03d9c5cd5990977e5cfe3870f3419aaa5b940": {
+        "bytes": 157,
+        "sha256": "5fa7a5a728782397629358a769444d0122cef6c88ea22942c618a4214016bc81"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/7e/e8988ef24634cb7d194cd92e57db2ad6615e19": {
+        "bytes": 15690,
+        "sha256": "306378596b0396ad69818291e30fdcf8e059ae9b702270fb17bf1d21fdf9898b"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/2f/01938312ad3b7b1449fdcf66ab6ea58daf1315": {
+        "bytes": 66,
+        "sha256": "f8b20ae15fd338e6f649974796888ab3638f74bd0d0d17043766459f02b89afc"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/2f/e36b03957e2416fd200377c67daf9020aedd60": {
+        "bytes": 152,
+        "sha256": "1c01ba55ba6d0af7a54b55a2b432600d788df4e1cd6f8ada1d307fd923de45fe"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/2f/9ae0970d7d0fc1a0e1d93969a764be9f3aa5df": {
+        "bytes": 66,
+        "sha256": "5763eafe4c376ebc0f9686ff55b063bcfeed5c585370b347813703bbb09fcf14"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/43/526a4195338b1267eebb2fc755150f2d495760": {
+        "bytes": 154,
+        "sha256": "643e2ba5b6657a04502557141653a5082774bfa444417af5b47ee852ff77cae7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/07/4febf613bcd5d5da7cdec2a618d65b53f1aee7": {
+        "bytes": 124,
+        "sha256": "be1ee34060e1de57e651e80c624eb3bcce780fee7c3373ac0884af696e245df3"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/38/006a04832f54e92f77f880397c593f5515d30b": {
+        "bytes": 155,
+        "sha256": "81bc9f10c7a6bb2a83d11b31a32e746041b3b3a3fa0cda9ff5f1b09ebb8d3958"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/9a/e4147c420375e2d5c5f393eb391565def147b6": {
+        "bytes": 15706,
+        "sha256": "5d79e3b4e11da8ccd84aee52270e7b06269849af25d8b68c785d502051fc3244"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/5c/3345c8693cfd072f6d4a9231c0119c07a79cb2": {
+        "bytes": 125,
+        "sha256": "7680c10cc05e4d8b4e25e345dff1c25c6f9c8a2e99ff158c14f4eb7701af6a2e"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/09/bfe066dc4957218a59866fab3454d4c0322771": {
+        "bytes": 153,
+        "sha256": "5aac20af58a5c1c3a37ebe6f2bf5a62b7d2bbe1650f02ebadfd782c0ffd7c0de"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/65/a6d47f249f956f0859cb2a25a4d0eb8d4fd8fe": {
+        "bytes": 124,
+        "sha256": "109309a4d8300376776ef28890d68741718780caeaf757d5c98ea6c8fd56270d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/98/74397664ed097bf27bdc0a5bef291370b4229d": {
+        "bytes": 125,
+        "sha256": "2e79b0b14373f80226ab17a0df2a5c10b1abbe7040c14a13dad42b029bad0cf7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/53/678da20abebf8655f0182fdb9f2b6fca5dc7a2": {
+        "bytes": 154,
+        "sha256": "d40b5c374b232ce466226ec491cdb73e731476d5db354ad8e041ad358137c952"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/3f/15adeb8bb0765a8574fea5a9f154ec5bd3a4ef": {
+        "bytes": 18550,
+        "sha256": "184552f892c65804c945af590f9e40d1bea9fc5734dbeb36ce65bfe76c1879a4"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/30/41e4481e0574826147faec973af90980918b4a": {
+        "bytes": 153,
+        "sha256": "c8a94f55ba65aae239ec37c0747f674cae090cd95eaab1bdba93380e8728c9f3"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/30/fb97be5d988cb2cb49e53f8da7affa506df6c2": {
+        "bytes": 155,
+        "sha256": "ae280f96ae21c0410261df56f9f8834dd156bbebf2923906d0a4d75f2b1fcd4d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/5e/2a0b4d1731d2193ee59d893bc0cd74634938f0": {
+        "bytes": 882,
+        "sha256": "0f1d098d3a60930c05cce1be31eddfc944f0469d989bf5914924155d9a0c7de2"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/5b/079a69823222706f85947b75499abf560ac658": {
+        "bytes": 4271,
+        "sha256": "11c4093fd8b8518bf71b12bd9a0a5f89f22d06b5bb6167d1d082f48579fafd27"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/0f/b1de03651e364b6969276d7a3490aaaa0f10da": {
+        "bytes": 157,
+        "sha256": "33d38b0a212f17040c7b9e12021c79d4b3aed90114b2ba226e4d0b2f2f7e952f"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/90/2fc9ce03fde5c58484afec6759096c24533ca5": {
+        "bytes": 154,
+        "sha256": "252deb26d349117ebd080b188b7852142d1a5da036950da7a1539ab67f5a46cb"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/90/d4be809052a2739bfafb0253375cac154a73a1": {
+        "bytes": 92,
+        "sha256": "c01f2ae68fbe6ae06c363a201c87e42d4bd4e7de7f3cefd8fb0de1f5758b6255"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d4/d89605a6bb506dd69676d1dd3c6cf86b580664": {
+        "bytes": 154,
+        "sha256": "ab19ba25b278ff6bdfe37a8cf065dad6ee4fdf6265273982b7f4b19235f709d6"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/ba/6c8478d955b3b09594fb68f780773640471ba5": {
+        "bytes": 2779,
+        "sha256": "a4914d8011527015d7648d52c12c341f550dd3046657b839fea413ed58e2d010"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/a7/ba9f6678201e001a830fe8cc22903978ee54ca": {
+        "bytes": 15714,
+        "sha256": "d808bc1a3eda29af1ccec1c95f9ee834574d9915d02326f405cbc960591e74d3"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/b6/f4b48674b065af1d15bbf0568e6bc05c45df90": {
+        "bytes": 124,
+        "sha256": "d3c9ed7b47c37e5f3e48c8fa5a6c6cdbc03400bcdc3e0fcfdc87ce4670e0eea4"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/d2/18f9824b5d4a430a418f1b9d3b8aa0335a525e": {
+        "bytes": 66,
+        "sha256": "6126e8c3ecb90210e8217ae7b130fc92c1daed190ad8b63962f0cb5146b1b1ab"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/af/6347a7df75e6f08c74c81fb22a2f2a4c38745f": {
+        "bytes": 157,
+        "sha256": "0062f0c570a7e2aede8a32c3a499414329dd7c5abe7f20f105313b3708c6fc9e"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/db/b36ff81da570abf6b57c1490eeb9caebf58d8c": {
+        "bytes": 39030,
+        "sha256": "fb9f71d85a9c49e64e4c3d0e789c97e67860f5958cc7e0a531821285b5a29f3c"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/a8/93f8fb639ef20bec8a7d7c873d4cd4aee6935b": {
+        "bytes": 66,
+        "sha256": "553f1c5a332e24e334cfd63197cf0eefd6eb35ef542a2cd4fcf0cba4ed4443ee"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/a8/61ad8862fd7b1b08ec2f5d71a5ba163f974d8c": {
+        "bytes": 155,
+        "sha256": "b9ad791bc39f2d0e6f1a3f43889f901ae5479dc6e5eb82989e3d4608785d80de"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/de/e4d7fb17c6053e98f9b05d3ef58f554af96ba8": {
+        "bytes": 92,
+        "sha256": "c8111ed2825edd497eb8590f3a94f11ad290f08f2f1e0228938ab08e1fdf5ac5"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/de/1173d822204977396dc6d90db21d57acfa5072": {
+        "bytes": 65,
+        "sha256": "27124a0285c34d953bd7ad375a47b03bdbc74e983c8707a7e58285b0cdee5c11"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/de/89e1060acbffb7bd7b90b2e1625aef115b4c2b": {
+        "bytes": 12506,
+        "sha256": "9d8f70a4b14567f3c90fb35626cde61e1bd8cdc32057d6ef3be1833de0c917fa"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/a6/e42fbf1e252ccf9e0803e605603740bea03bf5": {
+        "bytes": 153,
+        "sha256": "5a1879501614a1c4420faf9145d46c0bd1d3a9ae21bae8ebb4a6f82e52e31629"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/ef/77a08a187a57f8765a338cf59fbc0e36e942cd": {
+        "bytes": 156,
+        "sha256": "a8209599f75107512a45b9a5c097a746e161f283dac76dfc62648d20923314d9"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/e6/51c7f854efc97126b6c0e0fc69b412f184705b": {
+        "bytes": 124,
+        "sha256": "b7e23d7810ceabfe54079d9234fe0f0d4c1111deed5821fddc061e8da510ec6f"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/c2/a0c18564109ac50fb156b99576f2d54e8a50d9": {
+        "bytes": 154,
+        "sha256": "49b3e847dcd58a39df221cbb50779c28d564304e12b3a1c6e6712b37c25db169"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/f1/ca75faeac0bdfba6025dc6b25dadd6f993aff7": {
+        "bytes": 155,
+        "sha256": "6e20742256a58aea09a06615d1f864586409c818a310d44f7c8036a68628fc2a"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/cb/08ce4bebf991ef3a4b05b0efac41d159ba1f40": {
+        "bytes": 42262,
+        "sha256": "b035ccbcc68deece2def4434c55ff1d079a9eb954e5b404da973ad90aa71e33a"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/f8/c302cf10e3f3d9f12092b1469f8fb2e6fea072": {
+        "bytes": 65,
+        "sha256": "91fe399f4f76d6519f23e2ffba10477b07055386794ce3058cb13210a7ad23a8"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/83/8a1417f3467ca29f2dbcd70f35afbc318ea618": {
+        "bytes": 15692,
+        "sha256": "af37262112b276b78bdea9f97ea93323ff07cc8f9091e5043a3d0d1d592460f2"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/1b/b43ab4498ac952800bfafa511278d87a571d67": {
+        "bytes": 123,
+        "sha256": "19874e50e0d6fa9e0183ad346db643e14a7a68af6a42a2be2a386129a505ea73"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/48/9fa4228a9bb3706fa550fce478d49f8c15255f": {
+        "bytes": 124,
+        "sha256": "60c6f0cadb688dbbf3ebada7aa9c4c431bba6cf8f71aec46353b2a528b87916d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/4a/7661efc642f1f0f512783686f80079e2ab8cb2": {
+        "bytes": 93,
+        "sha256": "a655d149b1d25c6b176b7aa93438152e0142d9e75ed17693112ee275840cd326"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/15/b9185f8a3e5df5eb1a75e8714997324305c411": {
+        "bytes": 42197,
+        "sha256": "7c8034f3eb6cb0c18ab001f8e3ef88b7519e58acd799bbced4c87853df23cc8d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/12/f9fffdcfc00e26ddbbd5570f48fb39e5a06f16": {
+        "bytes": 15700,
+        "sha256": "168ea39038219fb8ae0461b1bc79c8ea7b9024d67336267470f7f2cbda788217"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/12/58f1c5d9ed3fa839241a629132da1d7bd20aa5": {
+        "bytes": 18551,
+        "sha256": "5b42d98dfce2317bd68f54de42424336dec2e4e4e018cd011faa0b2f24b5756c"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/76/ee865e126335e1f6d3c16a070f666eb3aefca5": {
+        "bytes": 15693,
+        "sha256": "1f9af1b9c6359b608fe952a20c6b77e88cbacbdfcd975119ad205c2da1466f21"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/1c/8c4f7f9adb92ab704bb10e7fe2ff0874889d4c": {
+        "bytes": 154,
+        "sha256": "b59c22d7f66065633feb22b7c6dc7b925f7c4adb02dc8d3278abfbe2288a1fb7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/82/967e0b9dd9cede721a3efe86fe664ee60aa86f": {
+        "bytes": 125,
+        "sha256": "35228fecb5ddaa060b6c2db2147b8b090b669c436088e99f324dcec28060de3e"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/2e/7e09e897a9f3ee0d14f973a9bb0f6a4fd0b066": {
+        "bytes": 154,
+        "sha256": "bbd053a08353298fb97f9a4bdfbefe18e13913f141c3dbe0d8237cce1622b113"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/2b/e18ccf0a1f2ea2f909aece71f9b1d935e57983": {
+        "bytes": 39048,
+        "sha256": "4f617b1330b50e3a9d1b1f08a0eb8d6df6992a1d84b157c8680b315d37f91c11"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/47/3064491e7d286013b5fc02513d0a465eec5784": {
+        "bytes": 3215,
+        "sha256": "bcd991b2d850dc7d375c0efe83ebd76ce55a9cf16f86f2065a1a08fe7c4d3f52"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/objects/14/aa1a70456ecc72cc4a0e8de051cb604f79f3b8": {
+        "bytes": 2577,
+        "sha256": "e358531da5d48694b4b49b995244ad7b839c3fe67ef14d727b0ddef5f762998a"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/info/exclude": {
+        "bytes": 113,
+        "sha256": "fdb7dc7be17051c3c5067cdf2b8fdf2ca3a8daf2b5e91f34c6ce1ff3a94c5f6a"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/logs/HEAD": {
+        "bytes": 4412,
+        "sha256": "25d0c72918604765f4fa844f25adc35390b11ed2decd89bf4f125a026c3c985b"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/logs/refs/heads/master": {
+        "bytes": 4412,
+        "sha256": "25d0c72918604765f4fa844f25adc35390b11ed2decd89bf4f125a026c3c985b"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/hooks/README.sample": {
+        "bytes": 177,
+        "sha256": "7319d7f1803fda2b3416143e426b9ec4c3c3c817c75188b2b82cb3e68ff293ab"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/heads/master": {
+        "bytes": 41,
+        "sha256": "73896e94f8303c51ff2e920f50091e306e44629db0a41bb83eeea3111b99f9c7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_2": {
+        "bytes": 41,
+        "sha256": "5df12e5d46f683d263145c5c3b0aafb4e041a011ff4b8f7be8110f2ab54dc4c7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_5": {
+        "bytes": 41,
+        "sha256": "7a4f619ba74151fad43832c52215b8dba21e981fc99cdc8437a54a87fb31cb99"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_pcb_3": {
+        "bytes": 41,
+        "sha256": "73896e94f8303c51ff2e920f50091e306e44629db0a41bb83eeea3111b99f9c7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_4": {
+        "bytes": 41,
+        "sha256": "49ba50d3976bfa17465fc7740e5985f676e41eab033a5ce2d36250e54371f693"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_pcb_2": {
+        "bytes": 41,
+        "sha256": "a0b4a2426564bf5babdd4fde20efa2af53654b727c3127a7cb6bdf3f3d05f2d3"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_3": {
+        "bytes": 41,
+        "sha256": "5df12e5d46f683d263145c5c3b0aafb4e041a011ff4b8f7be8110f2ab54dc4c7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Last_Save_pcb": {
+        "bytes": 41,
+        "sha256": "73896e94f8303c51ff2e920f50091e306e44629db0a41bb83eeea3111b99f9c7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_8": {
+        "bytes": 41,
+        "sha256": "dd74e78aec908216c4adde13ece42944775b60ce680d7f14677f69652fbf122e"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_6": {
+        "bytes": 41,
+        "sha256": "cdc8e146aed5c9bb26c4b5fa21a4f5865211f8aa38a2c6f7411500ae9c8ce75d"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_1": {
+        "bytes": 41,
+        "sha256": "5df12e5d46f683d263145c5c3b0aafb4e041a011ff4b8f7be8110f2ab54dc4c7"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_sch_7": {
+        "bytes": 41,
+        "sha256": "dd74e78aec908216c4adde13ece42944775b60ce680d7f14677f69652fbf122e"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Save_pcb_1": {
+        "bytes": 41,
+        "sha256": "47233bc71cfb4e221f28041936209ec27b134ff0247a15f5bd0d2f2bf138d4e6"
+      },
+      "electronics/revisions/1/source-gps/.history/.git/refs/tags/Last_Save_sch": {
+        "bytes": 41,
+        "sha256": "dd74e78aec908216c4adde13ece42944775b60ce680d7f14677f69652fbf122e"
+      },
+      "electronics/revisions/1/source-gps/backups/before-expansion-headers-20261026-053617/power-review.net": {
+        "bytes": 65046,
+        "sha256": "60c6e2805a68f1b9c530f413258ea405ca3086b6f57b94e1f2078d9ffcb39bfe"
+      },
+      "electronics/revisions/1/source-gps/backups/before-expansion-headers-20261026-053617/GPS Tracker.kicad_sch": {
+        "bytes": 85363,
+        "sha256": "82e5cb060f13c6af772e6e573414b50c4efd7cfb32aba234697c41d9b2b55710"
+      },
+      "electronics/revisions/1/source-gps/backups/before-expansion-headers-20261026-053617/power.kicad_sch": {
+        "bytes": 135371,
+        "sha256": "5b55ed4af4d5fde3ab52e689de10b289a915d97cc2969ad52e71251672dfd9ba"
+      },
+      "electronics/revisions/1/source-gps/backups/before-expansion-headers-20261026-053617/esp12-minimum-erc.rpt": {
+        "bytes": 382,
+        "sha256": "fc5f5a0b5def59bc1ed646eb7956fb4af395f4a65c5d5317f96069388ea90d91"
+      },
+      "electronics/revisions/1/source-gps/backups/before-expansion-headers-20261026-053617/GPS Tracker.kicad_pcb": {
+        "bytes": 173874,
+        "sha256": "a3f4fd9bfb444c25615a9d59dd300822fce5b8ae86d7823a7b9915dd7f07024d"
+      },
+      "electronics/revisions/1/source-gps/backups/before-unrouted-pcb-20261026-053003/power-review.net": {
+        "bytes": 64472,
+        "sha256": "f4e45b01920f3d5b30132229599aa59d9d6679aa5e26853fcf2d6de3e6a9cf7e"
+      },
+      "electronics/revisions/1/source-gps/backups/before-unrouted-pcb-20261026-053003/GPS Tracker.kicad_pro": {
+        "bytes": 16830,
+        "sha256": "b094f1bfec7f2968bf8963776b571979a9d3d283c85007abb773e83f4ba379aa"
+      },
+      "electronics/revisions/1/source-gps/backups/before-unrouted-pcb-20261026-053003/GPS Tracker.kicad_sch": {
+        "bytes": 84906,
+        "sha256": "42ad3bd41a6672deb9c9b0fb0069df0547c055c74adfd5c9cd8c8dcd1e9575ed"
+      },
+      "electronics/revisions/1/source-gps/backups/before-unrouted-pcb-20261026-053003/power.kicad_sch": {
+        "bytes": 135668,
+        "sha256": "8142297a4d6bebb86fb23174c4766df933ec4d04baff7bc79885de58e6acfd7a"
+      },
+      "electronics/revisions/1/source-gps/backups/before-unrouted-pcb-20261026-053003/esp12-minimum-erc.rpt": {
+        "bytes": 382,
+        "sha256": "8a73816922a1a17ea6e6e158baf8889d26412f2725dc95a7eacab8cac4e7e93b"
+      },
+      "electronics/revisions/1/source-gps/backups/before-unrouted-pcb-20261026-053003/GPS Tracker.kicad_pcb": {
+        "bytes": 13505,
+        "sha256": "9cf2046dc8911019616742692c46fb29b26c5f117e550f35fdc5fafb447a6725"
+      },
+      "electronics/revisions/1/source-gps/backups/before-1s-power-20261026-002001/GPS Tracker.kicad_pro": {
+        "bytes": 16830,
+        "sha256": "b094f1bfec7f2968bf8963776b571979a9d3d283c85007abb773e83f4ba379aa"
+      },
+      "electronics/revisions/1/source-gps/backups/before-1s-power-20261026-002001/GPS Tracker.kicad_sch": {
+        "bytes": 50002,
+        "sha256": "b812ff626b810f24e70e6d0ae4acf3ebb3a219f273add2962fe78935d5bb1d2a"
+      },
+      "electronics/revisions/1/source-gps/backups/before-1s-power-20261026-002001/esp12-minimum-erc.rpt": {
+        "bytes": 345,
+        "sha256": "7713ff44eff773cca6fdaa313e214b97db0b135e8e9d3a21eff18ab29f6eca32"
+      },
+      "electronics/revisions/1/source-gps/backups/before-1s-power-20261026-002001/GPS Tracker.kicad_pcb": {
+        "bytes": 13505,
+        "sha256": "9cf2046dc8911019616742692c46fb29b26c5f117e550f35fdc5fafb447a6725"
+      },
+      "electronics/revisions/1/source-gps/backups/before-1s-power-20261026-002001/GPS Tracker.kicad_prl": {
+        "bytes": 2637,
+        "sha256": "81c8ae69c07023df381e51e45782b054247652c7834b84fa8af169b937af3df6"
+      },
+      "electronics/revisions/1/source-gps/backups/before-1s-power-20261026-002001/ESP12-MINIMUM-README.txt": {
+        "bytes": 1295,
+        "sha256": "ec2ce9b9e60d688bcee31e53b738fdb36edb56e73589ac7d1c6d8e2e1a99e84e"
+      },
+      "electronics/revisions/1/source-gps/backups/before-esp12-minimum-20261025-232826/GPS Tracker.kicad_pro": {
+        "bytes": 16830,
+        "sha256": "b094f1bfec7f2968bf8963776b571979a9d3d283c85007abb773e83f4ba379aa"
+      },
+      "electronics/revisions/1/source-gps/backups/before-esp12-minimum-20261025-232826/GPS Tracker.kicad_sch": {
+        "bytes": 17986,
+        "sha256": "8fede2602ac0a34dd4eb9a2b35969c72441bc0a7c858f45cb744d3746562139d"
+      },
+      "electronics/revisions/1/source-gps/backups/before-esp12-minimum-20261025-232826/GPS Tracker.kicad_pcb": {
+        "bytes": 13505,
+        "sha256": "9cf2046dc8911019616742692c46fb29b26c5f117e550f35fdc5fafb447a6725"
+      },
+      "electronics/revisions/1/source-gps/backups/before-esp12-minimum-20261025-232826/~GPS Tracker.kicad_pro.lck": {
+        "bytes": 37,
+        "sha256": "d531bb5285bb1f30dc544a540e7295bf7998f421e0f20bf401cf68f7bff66dce"
+      },
+      "electronics/revisions/1/source-gps/backups/before-esp12-minimum-20261025-232826/GPS Tracker.kicad_prl": {
+        "bytes": 2637,
+        "sha256": "81c8ae69c07023df381e51e45782b054247652c7834b84fa8af169b937af3df6"
+      },
+      "electronics/revisions/1/source-gps/backups/before-power-symbol-fix-20261025-233408/GPS Tracker.kicad_sch": {
+        "bytes": 40256,
+        "sha256": "e0279fe436968e98af3f1c18a9b18d46f031138bcc8119e947b1049160cec5b6"
+      },
+      "electronics/revisions/1/source-gps/backups/before-native-format-repair-20261026-052527/GPS Tracker.kicad_sch": {
+        "bytes": 49197,
+        "sha256": "b8b4cc57dfe59286258e5bb3cb93b3d5d0b004f5555f3f1a1ba852cc69a826da"
+      },
+      "electronics/revisions/1/source-gps/backups/before-native-format-repair-20261026-052527/power.kicad_sch": {
+        "bytes": 81451,
+        "sha256": "0f335f614ae9088ad6084acef2806e9bb025a03152c7882f5c7d894d581afd6c"
+      },
+      "electronics/revisions/1/source-gps/backups/before-full-schematic-cleanup-20261026-052409/power-review.net": {
+        "bytes": 64479,
+        "sha256": "de081c9c6518376e50cde97e18a5d109e942bb180e9a87ce6abfdb2fbecaa57f"
+      },
+      "electronics/revisions/1/source-gps/backups/before-full-schematic-cleanup-20261026-052409/GPS Tracker.kicad_sch": {
+        "bytes": 49110,
+        "sha256": "9e391f67d8417c8bd826b42b99393bb373875637d848887eca3d63a7717e341b"
+      },
+      "electronics/revisions/1/source-gps/backups/before-full-schematic-cleanup-20261026-052409/power.kicad_sch": {
+        "bytes": 82144,
+        "sha256": "cbf0b527120cd9a3b0e5278e4d39a407b86d1bcf0085bd3803db46bed02f91f6"
+      },
+      "electronics/revisions/1/source-gps/backups/before-full-schematic-cleanup-20261026-052409/esp12-minimum-erc.rpt": {
+        "bytes": 382,
+        "sha256": "0340a8065a14d58bc57a298a2e7ce0795a07652644f2c68405b5f7e8003f8331"
+      },
+      "revisions/9/model.json": {
+        "bytes": 1703,
+        "sha256": "aeab859520ce1371832dcd6a4decf0672d66597d6f736f6568e5829ebc804792"
+      },
+      "revisions/9/diffuser.step": {
+        "bytes": 261295,
+        "sha256": "74f6cb139f7b1a7807e366f2d23993ebf1f748976dc291f36c9a142f5aac7256"
+      },
+      "revisions/9/base.step": {
+        "bytes": 750363,
+        "sha256": "50969b92a00d1678751dd763b3497cd77551787567b8a55b81d2f24138125c44"
+      },
+      "revisions/9/source-request.json": {
+        "bytes": 372,
+        "sha256": "48d045dd5c97b89ad8017bebca18d1cf283106d642f22de3103ec6a10308f93b"
+      },
+      "revisions/9/bottom_cover.step": {
+        "bytes": 57415,
+        "sha256": "f68f42485f5a310c2c02e115547bc33a8fe5375a00a94d5fab814442cf8fdb67"
+      },
+      "revisions/9/scene.json": {
+        "bytes": 1286459,
+        "sha256": "d4e008b58d6f26b957f2a4360776d9ee912c32244f8d910711a7725aeea3110f"
+      },
+      "revisions/9/led_core.step": {
+        "bytes": 42013,
+        "sha256": "d3df6e71ba27735ea4a6ff4628b265d6d3001d9da8b884fb2efcce378b9c3644"
+      },
+      "revisions/9/diffuser.stl": {
+        "bytes": 862184,
+        "sha256": "8c7ead1ccfc319889a58c4546391ad45c1675a749112380e33888b52b4a64d50"
+      },
+      "revisions/9/base.stl": {
+        "bytes": 836484,
+        "sha256": "cac63458a51eec2e068ee591cacaf07df2adf214f2e2c94612f509d322dd7f09"
+      },
+      "revisions/9/validation.json": {
+        "bytes": 1757,
+        "sha256": "79e9a059ff51fbaa30963950e5522703061127ffb67a15fd35323138873702cf"
+      },
+      "revisions/9/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "cb1a897749a0c506bdbe4757f80cff0ed859c0904c496d28ecc4d2afbf19c280"
+      },
+      "revisions/9/assembly.step": {
+        "bytes": 1143430,
+        "sha256": "e14bdacbea4e58846d1a06989ec439a09dbb870e4d8405c7215e857a2a788d5d"
+      },
+      "revisions/9/bottom_cover.stl": {
+        "bytes": 256984,
+        "sha256": "cc1b5c31e642cb62e980a852362fdae50483eaa42f1d5025222f6f7e5bf6020b"
+      },
+      "revisions/9/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/9/source/build.py": {
+        "bytes": 19516,
+        "sha256": "8de8efe7d6e09fd78e05cf221ee24179d82d619ed8f23729228631e4fd5d79f1"
+      },
+      "revisions/9/source/diffuser.step": {
+        "bytes": 261295,
+        "sha256": "74f6cb139f7b1a7807e366f2d23993ebf1f748976dc291f36c9a142f5aac7256"
+      },
+      "revisions/9/source/top_access_checks.json": {
+        "bytes": 6125,
+        "sha256": "49e20f8be636fed08237526921f3dd908de28083ee1dc6349e8d28606c9955fb"
+      },
+      "revisions/9/source/base.step": {
+        "bytes": 750363,
+        "sha256": "50969b92a00d1678751dd763b3497cd77551787567b8a55b81d2f24138125c44"
+      },
+      "revisions/9/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/9/source/pcb_mount_layout.json": {
+        "bytes": 1809,
+        "sha256": "d46fd94ff859a68cf822037f24092548b4e31761fecc17b2819fccfece4cad58"
+      },
+      "revisions/9/source/diffuser_transition_checks.json": {
+        "bytes": 475,
+        "sha256": "2f0a007291f987aa5454feaf8a367e79c799cc47da919ead2da09f810cb03dc1"
+      },
+      "revisions/9/source/bottom_cover.step": {
+        "bytes": 57415,
+        "sha256": "f68f42485f5a310c2c02e115547bc33a8fe5375a00a94d5fab814442cf8fdb67"
+      },
+      "revisions/9/source/thread_checks.json": {
+        "bytes": 663,
+        "sha256": "4b95c78fa29586e045c4e58b84ef8105d6b19a24e9ac332875be35e25e42c775"
+      },
+      "revisions/9/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/9/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "d3df6e71ba27735ea4a6ff4628b265d6d3001d9da8b884fb2efcce378b9c3644"
+      },
+      "revisions/9/source/diffuser.stl": {
+        "bytes": 1193284,
+        "sha256": "af5272ac659544664d4b11c6792e22027953032f339ac23103f6b03bf35ff941"
+      },
+      "revisions/9/source/base.stl": {
+        "bytes": 1016084,
+        "sha256": "c07ada3c0ce72da91ea962e30e59a24090fbfcef2707dc9a589810871dee7a88"
+      },
+      "revisions/9/source/bottom_cover.stl": {
+        "bytes": 326684,
+        "sha256": "b63872b93202470c59f7ced13b0b72b65d4a37950ad409a0b55b43c32f832320"
+      },
+      "revisions/9/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/9/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/7/model.json": {
+        "bytes": 1622,
+        "sha256": "8eae7e7a682c6de3fc109f91003294bc31a209b9e2942ce6601de7ce2fd64036"
+      },
+      "revisions/7/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "8b227f66a49e1e966e728e8f40ce7eaf035933802afa86fd4a23b087f77683e0"
+      },
+      "revisions/7/base.step": {
+        "bytes": 158723,
+        "sha256": "8914872d63859632a1c4c58517a53fdb7da5ece51217189cb730e47be8b797dc"
+      },
+      "revisions/7/source-request.json": {
+        "bytes": 372,
+        "sha256": "f23f1d906955aa947e6200af3b04e637a829c7bfc3c3d70e719517da65853463"
+      },
+      "revisions/7/bottom_cover.step": {
+        "bytes": 302985,
+        "sha256": "99f0891362ea8e64e97873ab9b42fa68cb094548b52a97b035c1961d41a72596"
+      },
+      "revisions/7/scene.json": {
+        "bytes": 911754,
+        "sha256": "6d0b37056ac2ce9ef422162cea8f0c6ed88cf624b3e37ba12e0bb2b09a8f0e15"
+      },
+      "revisions/7/led_core.step": {
+        "bytes": 42013,
+        "sha256": "52579d49112df6ecd4d5cced4a65859e666b5156048cb0aa15234871fe4f3f48"
+      },
+      "revisions/7/diffuser.stl": {
+        "bytes": 715184,
+        "sha256": "ce8c2ab322da35502dec2c4e8423858ff483c2b9496f96331f1b94ae1a12ec39"
+      },
+      "revisions/7/base.stl": {
+        "bytes": 282984,
+        "sha256": "f56c48b991ed9e6a0b1690b2f0f39758932e7c11dbd1500454acd7edcbac3bd2"
+      },
+      "revisions/7/validation.json": {
+        "bytes": 1756,
+        "sha256": "e51d36e1bcc1c2c7c245fbefb88be10c828887e85b565e7e6198ddbecbecda26"
+      },
+      "revisions/7/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "0f739a5fee4920add4fe83961875b679634ee1c6df0146948e2e179235626619"
+      },
+      "revisions/7/assembly.step": {
+        "bytes": 781935,
+        "sha256": "b91a880be1eb6c472a9b334254f9cbf6ede63b601c598457c6778c328b3f7640"
+      },
+      "revisions/7/bottom_cover.stl": {
+        "bytes": 380984,
+        "sha256": "1f560a4aafab8c8aad4c07b14770d021d90beb034cb14907ae8f23a14a9eafbb"
+      },
+      "revisions/7/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/7/source/build.py": {
+        "bytes": 11620,
+        "sha256": "82712e6d88f09c63c97ae781aae4bcff520280fe500d94dba981242ba2585d73"
+      },
+      "revisions/7/source/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "8b227f66a49e1e966e728e8f40ce7eaf035933802afa86fd4a23b087f77683e0"
+      },
+      "revisions/7/source/top_access_checks.json": {
+        "bytes": 2696,
+        "sha256": "696db83317bd562eae85f85e9901ac55bf3cc6680e3e3a522fd3fab54f04416b"
+      },
+      "revisions/7/source/base.step": {
+        "bytes": 158723,
+        "sha256": "8914872d63859632a1c4c58517a53fdb7da5ece51217189cb730e47be8b797dc"
+      },
+      "revisions/7/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/7/source/bottom_cover.step": {
+        "bytes": 302985,
+        "sha256": "99f0891362ea8e64e97873ab9b42fa68cb094548b52a97b035c1961d41a72596"
+      },
+      "revisions/7/source/thread_checks.json": {
+        "bytes": 671,
+        "sha256": "48bd1aa74d885d6b6c096c7677b7c1051418ebfa34fdb57f11f5d5fbc1207c1f"
+      },
+      "revisions/7/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/7/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "52579d49112df6ecd4d5cced4a65859e666b5156048cb0aa15234871fe4f3f48"
+      },
+      "revisions/7/source/diffuser.stl": {
+        "bytes": 991684,
+        "sha256": "c2f1d1fd6df9a60b3ee5c593fd66a7249060e8e3d5f796afe22f8e3debe6107b"
+      },
+      "revisions/7/source/base.stl": {
+        "bytes": 338284,
+        "sha256": "e64d2c77b3b728919588b0960f6542a5e102c2c296e44c151bec05805b9e0d94"
+      },
+      "revisions/7/source/bottom_cover.stl": {
+        "bytes": 489584,
+        "sha256": "6cbda7d8c07cd375ac4c5bc0e23f37e613cbccd3793fa50adb1c58b30ca8baac"
+      },
+      "revisions/7/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/7/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/6/model.json": {
+        "bytes": 1622,
+        "sha256": "31beefa215f64e798ad17d903e26a8f591d9b4f0757254787e338ae18939f2f1"
+      },
+      "revisions/6/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "0dfc3c85a2d5b31d1ad6f6f4d2caecefc467b7cde7259f4ebfe757abb10e1e51"
+      },
+      "revisions/6/base.step": {
+        "bytes": 189364,
+        "sha256": "afb244391e98ec94c0b5b7c1f10e0ba715d2249b37fa77629674ba8df2cf74e8"
+      },
+      "revisions/6/source-request.json": {
+        "bytes": 372,
+        "sha256": "5ce01c4f71af823842ae094e647a2830573daeadde87c701ea45af56b5ea013e"
+      },
+      "revisions/6/bottom_cover.step": {
+        "bytes": 302985,
+        "sha256": "c0fd8b8b8bcb76a68eba9d7ffd804f2b16c05c3d4e7dd7e776ea8c6d27d8bba7"
+      },
+      "revisions/6/scene.json": {
+        "bytes": 920142,
+        "sha256": "1f77f9e0d47c5c689c5e20d6536b2d582886d76a5939ffc6daf3c55cc30c1bf9"
+      },
+      "revisions/6/led_core.step": {
+        "bytes": 42013,
+        "sha256": "ec496bfe87d75ffc280c4cf0c2e32be39706d094e0d3b0dee0a6a30c7dd6800b"
+      },
+      "revisions/6/diffuser.stl": {
+        "bytes": 715184,
+        "sha256": "ce8c2ab322da35502dec2c4e8423858ff483c2b9496f96331f1b94ae1a12ec39"
+      },
+      "revisions/6/base.stl": {
+        "bytes": 292084,
+        "sha256": "91a4c1e16107622a13ee5c491d4e5ddeca9955a8355660740f20add9612f9a8a"
+      },
+      "revisions/6/validation.json": {
+        "bytes": 1756,
+        "sha256": "0b8e8fddf188a1b66f26525fd4b29f9be12b680c9688e2204c9b1e38d3964ef6"
+      },
+      "revisions/6/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "25a13375f2e3f4da859014af0213b57995633e8a81fea45b993c0062e07f4a58"
+      },
+      "revisions/6/assembly.step": {
+        "bytes": 816536,
+        "sha256": "eb8f85e7d26063bbaac16353dca37cd408f7a9a40738f2d1c69fb7a94e2740dc"
+      },
+      "revisions/6/bottom_cover.stl": {
+        "bytes": 380984,
+        "sha256": "1f560a4aafab8c8aad4c07b14770d021d90beb034cb14907ae8f23a14a9eafbb"
+      },
+      "revisions/6/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/6/source/build.py": {
+        "bytes": 10519,
+        "sha256": "8272255d13aa30ab3206df42b2793ca643241a8a2910a62943af5d948ea31fa9"
+      },
+      "revisions/6/source/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "0dfc3c85a2d5b31d1ad6f6f4d2caecefc467b7cde7259f4ebfe757abb10e1e51"
+      },
+      "revisions/6/source/top_access_checks.json": {
+        "bytes": 2474,
+        "sha256": "7e3826f8a1318b9d74f34bebe297c83e3a1c28ff02fbca68f7eff4dc6b621da3"
+      },
+      "revisions/6/source/base.step": {
+        "bytes": 189364,
+        "sha256": "afb244391e98ec94c0b5b7c1f10e0ba715d2249b37fa77629674ba8df2cf74e8"
+      },
+      "revisions/6/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/6/source/bottom_cover.step": {
+        "bytes": 302985,
+        "sha256": "c0fd8b8b8bcb76a68eba9d7ffd804f2b16c05c3d4e7dd7e776ea8c6d27d8bba7"
+      },
+      "revisions/6/source/thread_checks.json": {
+        "bytes": 671,
+        "sha256": "48bd1aa74d885d6b6c096c7677b7c1051418ebfa34fdb57f11f5d5fbc1207c1f"
+      },
+      "revisions/6/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/6/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "ec496bfe87d75ffc280c4cf0c2e32be39706d094e0d3b0dee0a6a30c7dd6800b"
+      },
+      "revisions/6/source/diffuser.stl": {
+        "bytes": 991684,
+        "sha256": "c2f1d1fd6df9a60b3ee5c593fd66a7249060e8e3d5f796afe22f8e3debe6107b"
+      },
+      "revisions/6/source/base.stl": {
+        "bytes": 348784,
+        "sha256": "707ff2d3dab24def09a9fb43b7a71ce09e551ddeff981fd08ca2e5068f6b9e51"
+      },
+      "revisions/6/source/bottom_cover.stl": {
+        "bytes": 489584,
+        "sha256": "6cbda7d8c07cd375ac4c5bc0e23f37e613cbccd3793fa50adb1c58b30ca8baac"
+      },
+      "revisions/6/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/6/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/1/model.json": {
+        "bytes": 18426,
+        "sha256": "fafbc8da6901efeca1968298c87ca82efcb730a2387ec92bd3beeb1c2b962b71"
+      },
+      "revisions/1/diffuser.step": {
+        "bytes": 9563,
+        "sha256": "d3936eb58104a3028144ef026e4731c23ae50c956d0fd68d5f6c0922cf670009"
+      },
+      "revisions/1/base.step": {
+        "bytes": 163773,
+        "sha256": "4f0c3ea1d908d26a957f993d39a03d276c302ba9df1fc77f2dafb2e48e855761"
+      },
+      "revisions/1/input.json": {
+        "bytes": 8473,
+        "sha256": "d48decc908893c60c96a9874965d820fdd0be8a9b1443a6f1984ab17ac405c75"
+      },
+      "revisions/1/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "db187b457cf473e7d5c5e69d0ce148b59602dca88abe2d4099c0833b615a1c87"
+      },
+      "revisions/1/scene.json": {
+        "bytes": 637954,
+        "sha256": "c49be15f71b39ce6375a2b9857898b47b9432e8539bf01d077fb279bbc733287"
+      },
+      "revisions/1/model.py": {
+        "bytes": 9669,
+        "sha256": "9bd02720847595af02beebeae11989d29151070dbf1e7707427b3bcc42cf26ea"
+      },
+      "revisions/1/led_core.step": {
+        "bytes": 40851,
+        "sha256": "13d45f7a506dd7266289db2c76c8ddafdb20a0f0526f552637a1ddb221fb9895"
+      },
+      "revisions/1/diffuser.stl": {
+        "bytes": 33484,
+        "sha256": "81d436d39e0d2aff95d10fed68a1bb95fc17437ed777ac46011e7eb82c4ecaea"
+      },
+      "revisions/1/base.stl": {
+        "bytes": 325684,
+        "sha256": "da18ba5887eedc25192b2441ebf4d32ed0283f5ca0a5c34e3daee90ee854d52d"
+      },
+      "revisions/1/validation.json": {
+        "bytes": 1389,
+        "sha256": "257ae5369d63aca7ee45e94cc70777956904bff94a0cc568d4b95c404d3068a2"
+      },
+      "revisions/1/assembly.step": {
+        "bytes": 235348,
+        "sha256": "c3a43b3643188ece71352b3231e8d8bfead1269de303b8f74b7d16a9b6786355"
+      },
+      "revisions/1/bottom_cover.stl": {
+        "bytes": 67684,
+        "sha256": "269f8d6679b0fcd4c8791e765db3d95a1eaf09b47de99f6e291b5da56593433e"
+      },
+      "revisions/1/led_core.stl": {
+        "bytes": 87084,
+        "sha256": "7cc92f2784defbf3c908897551e2d3451dddd6aa9ebb0e8e3ddba90c51ec46af"
+      },
+      "revisions/8/model.json": {
+        "bytes": 1635,
+        "sha256": "418193e26471eac16079621e7d599ebdc70c734d350a634a7df5dee7c308fa69"
+      },
+      "revisions/8/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "a77269680f8615750960a72c45198ec5bc3c4ad79be2445ed305dc236e949d1f"
+      },
+      "revisions/8/base.step": {
+        "bytes": 693295,
+        "sha256": "c86793be4a2d47a71abb8203dd715265f95e4a955eae9742aee9632258e38ae4"
+      },
+      "revisions/8/source-request.json": {
+        "bytes": 372,
+        "sha256": "56d8d5a0d0eeacf3a1311913d9d729a7ea888546ee8f3343c81c3bcfe42963fb"
+      },
+      "revisions/8/bottom_cover.step": {
+        "bytes": 57415,
+        "sha256": "4131e1cc428579308b6799d15118a89a1a474dcc9873c2ef253783b0b40d5409"
+      },
+      "revisions/8/scene.json": {
+        "bytes": 1015643,
+        "sha256": "a442acbd845926ed782fc9b15f726be7c03568e608de83cd569a92214fa59c83"
+      },
+      "revisions/8/led_core.step": {
+        "bytes": 42013,
+        "sha256": "6325bd7207a965b1f11ab42036ce5c4a37b2883c14c59fea07b6881b29c85b6c"
+      },
+      "revisions/8/diffuser.stl": {
+        "bytes": 715184,
+        "sha256": "ce8c2ab322da35502dec2c4e8423858ff483c2b9496f96331f1b94ae1a12ec39"
+      },
+      "revisions/8/base.stl": {
+        "bytes": 520884,
+        "sha256": "ae28605f9ae0adeb21a0ff9a32d16402ddab208fae192c02a22d2cfcbb795488"
+      },
+      "revisions/8/validation.json": {
+        "bytes": 1757,
+        "sha256": "004750011ba63a488889fad1077e1df63780e7d4f1310afb68d6b930c2e9c05c"
+      },
+      "revisions/8/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "f1aa5b65ce4ab1d7078d3059634598edb2be271fdae9e536090a0bef588cbfe6"
+      },
+      "revisions/8/assembly.step": {
+        "bytes": 1082088,
+        "sha256": "7cc1a4f76fda25c6347a0f3eff2381e5ca6218cc22148d1f8cbcca832e9f0400"
+      },
+      "revisions/8/bottom_cover.stl": {
+        "bytes": 256984,
+        "sha256": "cc1b5c31e642cb62e980a852362fdae50483eaa42f1d5025222f6f7e5bf6020b"
+      },
+      "revisions/8/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/8/source/build.py": {
+        "bytes": 15244,
+        "sha256": "867a43062ee20ae288b82bd2bd61f9040feba796a7cbc9f4a7cd8187d7e14918"
+      },
+      "revisions/8/source/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "a77269680f8615750960a72c45198ec5bc3c4ad79be2445ed305dc236e949d1f"
+      },
+      "revisions/8/source/top_access_checks.json": {
+        "bytes": 3626,
+        "sha256": "5b938b1f2e1925aafec7c1f4563568461b210f65e0b8811abcfde9095947b372"
+      },
+      "revisions/8/source/base.step": {
+        "bytes": 693295,
+        "sha256": "c86793be4a2d47a71abb8203dd715265f95e4a955eae9742aee9632258e38ae4"
+      },
+      "revisions/8/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/8/source/bottom_cover.step": {
+        "bytes": 57415,
+        "sha256": "4131e1cc428579308b6799d15118a89a1a474dcc9873c2ef253783b0b40d5409"
+      },
+      "revisions/8/source/thread_checks.json": {
+        "bytes": 663,
+        "sha256": "2195b991d39da587435b8b6bcade0b930a6046361fd589ca90367a112f6744a6"
+      },
+      "revisions/8/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/8/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "6325bd7207a965b1f11ab42036ce5c4a37b2883c14c59fea07b6881b29c85b6c"
+      },
+      "revisions/8/source/diffuser.stl": {
+        "bytes": 991684,
+        "sha256": "c2f1d1fd6df9a60b3ee5c593fd66a7249060e8e3d5f796afe22f8e3debe6107b"
+      },
+      "revisions/8/source/base.stl": {
+        "bytes": 638084,
+        "sha256": "04920acf2149c619e708417321e9c015e5c5d34720a9be4d665783ab47ca6cc9"
+      },
+      "revisions/8/source/bottom_cover.stl": {
+        "bytes": 326684,
+        "sha256": "b63872b93202470c59f7ced13b0b72b65d4a37950ad409a0b55b43c32f832320"
+      },
+      "revisions/8/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/8/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/4/model.json": {
+        "bytes": 1593,
+        "sha256": "09f65756598cd6d5d040659dce19fa025a719853787f5b879039682b0b660643"
+      },
+      "revisions/4/diffuser.step": {
+        "bytes": 255934,
+        "sha256": "6a37816215f344acc1c3e23d8a5332e891b5ba94c05e208fdd06a8471774bcee"
+      },
+      "revisions/4/base.step": {
+        "bytes": 371429,
+        "sha256": "e654685bfbeab8bdd079165ac68b31249d00a670e0172a4850c7e39a44fc03ed"
+      },
+      "revisions/4/source-request.json": {
+        "bytes": 372,
+        "sha256": "c906708f0eeed384e1dc877417e491cef72654af228a0757275172de892a6c0c"
+      },
+      "revisions/4/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "159eaa35400a0f7cb0e3429c83f4329eea24ea82f7cd223915e0df62d1986a00"
+      },
+      "revisions/4/scene.json": {
+        "bytes": 814698,
+        "sha256": "8872647a860edf27f5013ea84486dc5932274541ebea42471cd5bdc18c6862c2"
+      },
+      "revisions/4/led_core.step": {
+        "bytes": 42013,
+        "sha256": "f619597e9288478c3e66b65025af9ada53550162a7883effff50660951d662db"
+      },
+      "revisions/4/diffuser.stl": {
+        "bytes": 708584,
+        "sha256": "b9efc9ab8245394f6c8732d9db38aa3e270ca51ec03646c22b0249a2342388b1"
+      },
+      "revisions/4/base.stl": {
+        "bytes": 435984,
+        "sha256": "65058fed19da20814af8d08add47125ef1828d1b09e8d930b2c8a4ce1c447611"
+      },
+      "revisions/4/validation.json": {
+        "bytes": 1756,
+        "sha256": "c509f4aba77fdec401c090241ab0c6b8d63cdcf393ab53730516d5680fce2f39"
+      },
+      "revisions/4/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "3b1603ef63492618825d800c08689362c1c628d1467c483aab252d3ff10293c4"
+      },
+      "revisions/4/assembly.step": {
+        "bytes": 708864,
+        "sha256": "4fabcd964d2984d2fc9b2fe32988de9c2e24d6078093808ffda05a1535cf6b39"
+      },
+      "revisions/4/bottom_cover.stl": {
+        "bytes": 84484,
+        "sha256": "2146aa5c582133eac79018475dd9b7f83e63a7426f6aa77e990c4334a83bca07"
+      },
+      "revisions/4/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/4/source/build.py": {
+        "bytes": 4533,
+        "sha256": "c3856420477436453e39fc56573a4ee8b4c965f5de862dfd59c6b18aba10ab39"
+      },
+      "revisions/4/source/diffuser.step": {
+        "bytes": 255934,
+        "sha256": "6a37816215f344acc1c3e23d8a5332e891b5ba94c05e208fdd06a8471774bcee"
+      },
+      "revisions/4/source/base.step": {
+        "bytes": 371429,
+        "sha256": "e654685bfbeab8bdd079165ac68b31249d00a670e0172a4850c7e39a44fc03ed"
+      },
+      "revisions/4/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/4/source/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "159eaa35400a0f7cb0e3429c83f4329eea24ea82f7cd223915e0df62d1986a00"
+      },
+      "revisions/4/source/thread_checks.json": {
+        "bytes": 663,
+        "sha256": "c3ba0f773fd9d9963ab0cbb571c7a94afffaf971ec8906c1e1359124b1e9e25f"
+      },
+      "revisions/4/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/4/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "f619597e9288478c3e66b65025af9ada53550162a7883effff50660951d662db"
+      },
+      "revisions/4/source/diffuser.stl": {
+        "bytes": 983784,
+        "sha256": "97b76b10a4a58770b91ea395a56af71bfc4cfc8204beeac71458e946ea02246d"
+      },
+      "revisions/4/source/base.stl": {
+        "bytes": 535184,
+        "sha256": "f1f524e1e18ef423f9067c1e12f0c009d7088d67186bcdbf588f6ba4f9d9f9bc"
+      },
+      "revisions/4/source/bottom_cover.stl": {
+        "bytes": 101284,
+        "sha256": "676821130de9b901ad88113c2675415fc21128fa1872ee50bcb034701f5b9d84"
+      },
+      "revisions/4/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/4/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/3/model.json": {
+        "bytes": 1536,
+        "sha256": "29dcb0f10c1efb58e89be7813cc19bf562d6abcb7170bf27391d831eb9c2429c"
+      },
+      "revisions/3/diffuser.step": {
+        "bytes": 21144,
+        "sha256": "3e1dcc0b322acb9dadb0b5b0801621145d16cac67be51fe3aa0ef7f3c6075861"
+      },
+      "revisions/3/base.step": {
+        "bytes": 131688,
+        "sha256": "5aa9f4180784d00ee9a3f9d91701fcf76f955408032afe549e67f85bdb1053fa"
+      },
+      "revisions/3/source-request.json": {
+        "bytes": 372,
+        "sha256": "3e321e7e20735b88b3cda70559f807d209bcd7ca097cbd00d7d0e47bb03734d2"
+      },
+      "revisions/3/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "c7c7348f2b8a1c95b003425d3a4b0adb981bec64efc40b860ffaa1a14b7f5acd"
+      },
+      "revisions/3/scene.json": {
+        "bytes": 656653,
+        "sha256": "5078a23c111c429930e28ee2daf48dab03d6b2a63483ec123abf7fac13a35ede"
+      },
+      "revisions/3/led_core.step": {
+        "bytes": 42013,
+        "sha256": "682e6c95c352d8d965baf7d1038e017d6d9fe4ed4076d6cca11178c30a1d6dfd"
+      },
+      "revisions/3/diffuser.stl": {
+        "bytes": 640384,
+        "sha256": "199d4a318f93a3431d950dc5a57a85db9aee43bd5ba32535c892978ad0e46ef0"
+      },
+      "revisions/3/base.stl": {
+        "bytes": 366384,
+        "sha256": "b1397733211692fa989422421f0072501d783a131d5c69d78a506ecfff4c2f2a"
+      },
+      "revisions/3/validation.json": {
+        "bytes": 1756,
+        "sha256": "dc5f43b07821d8b8bf3d0e2f660ad966a9302888a9b51b444e8310781c837361"
+      },
+      "revisions/3/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "c2ff58203c92bcd48276d6dc617971f8b3030d902f0fb3030e2addb80a04a030"
+      },
+      "revisions/3/assembly.step": {
+        "bytes": 219881,
+        "sha256": "326eb24c8f150e8b812c311dafe2ba5699280472a41065890cb8758886d9183e"
+      },
+      "revisions/3/bottom_cover.stl": {
+        "bytes": 84484,
+        "sha256": "2146aa5c582133eac79018475dd9b7f83e63a7426f6aa77e990c4334a83bca07"
+      },
+      "revisions/3/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/3/source/build.py": {
+        "bytes": 2748,
+        "sha256": "d7f3539d88478c7c0a03d0f0fbf38fe89351502074ae998e09356b208dd87f85"
+      },
+      "revisions/3/source/diffuser.step": {
+        "bytes": 21144,
+        "sha256": "3e1dcc0b322acb9dadb0b5b0801621145d16cac67be51fe3aa0ef7f3c6075861"
+      },
+      "revisions/3/source/base.step": {
+        "bytes": 131688,
+        "sha256": "5aa9f4180784d00ee9a3f9d91701fcf76f955408032afe549e67f85bdb1053fa"
+      },
+      "revisions/3/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/3/source/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "c7c7348f2b8a1c95b003425d3a4b0adb981bec64efc40b860ffaa1a14b7f5acd"
+      },
+      "revisions/3/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/3/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "682e6c95c352d8d965baf7d1038e017d6d9fe4ed4076d6cca11178c30a1d6dfd"
+      },
+      "revisions/3/source/diffuser.stl": {
+        "bytes": 894484,
+        "sha256": "2db8b96f34c874f38e8cd14cf195371665e91e01d611103984dfb79cb3256a85"
+      },
+      "revisions/3/source/base.stl": {
+        "bytes": 460884,
+        "sha256": "6ab06d145ad3ab7b2a41d9fbdb2496ba8fab81cf45017e38a03592cba80fb1b3"
+      },
+      "revisions/3/source/bottom_cover.stl": {
+        "bytes": 101284,
+        "sha256": "676821130de9b901ad88113c2675415fc21128fa1872ee50bcb034701f5b9d84"
+      },
+      "revisions/3/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/3/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/2/model.json": {
+        "bytes": 1536,
+        "sha256": "29dcb0f10c1efb58e89be7813cc19bf562d6abcb7170bf27391d831eb9c2429c"
+      },
+      "revisions/2/diffuser.step": {
+        "bytes": 14792,
+        "sha256": "88074586cf1f28840dc23fcf15797a6c1f5d588bed6a73778535d79673690672"
+      },
+      "revisions/2/base.step": {
+        "bytes": 164551,
+        "sha256": "b07f4746e5ef93c8684a6a4f21df67df882a92ba81b55c86c4c9881e3fad2c27"
+      },
+      "revisions/2/source-request.json": {
+        "bytes": 9697,
+        "sha256": "58c1b76746b1a2903c33e6da0bf3e80f3aeffc04d2cdaf6a3e9434e87e7dd561"
+      },
+      "revisions/2/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "8ad5c6037ba5c018916ef780e5ed76f88bf6c82fb02af9fcdc2565a158b96f36"
+      },
+      "revisions/2/scene.json": {
+        "bytes": 689063,
+        "sha256": "0a931d8eb57c265a1c46e2bb44d321f9ba52e3685d7596194dc020ae56e344f0"
+      },
+      "revisions/2/led_core.step": {
+        "bytes": 42013,
+        "sha256": "4ac0e617de6a8ca6f10a715ebf6826cb51455f17cbcc5d073cc95af63a8f2328"
+      },
+      "revisions/2/diffuser.stl": {
+        "bytes": 608884,
+        "sha256": "4534fd778b1ff573b23ddff3b18b74b6b0a01e9689b879dfcd0a52393d317b1e"
+      },
+      "revisions/2/base.stl": {
+        "bytes": 423084,
+        "sha256": "036c0c4f098c992d7f7a21d6dcaf8841f42ce64fd01673673bed9a8dd95dd95e"
+      },
+      "revisions/2/validation.json": {
+        "bytes": 1756,
+        "sha256": "57ffd12ffe8becf154f19f761621f1ad4bb7a595015626b8b5cf31a3e153ea5f"
+      },
+      "revisions/2/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "9571d185620446c73a39e0ae1ca11f60ef5990801309ba4fc0a9ff12825fda7a"
+      },
+      "revisions/2/assembly.step": {
+        "bytes": 246426,
+        "sha256": "037b3f5afef7b0f58a648c00ee209b93685e287db2106cb23ab7d305f86dbe39"
+      },
+      "revisions/2/bottom_cover.stl": {
+        "bytes": 84484,
+        "sha256": "2146aa5c582133eac79018475dd9b7f83e63a7426f6aa77e990c4334a83bca07"
+      },
+      "revisions/2/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/2/source/build.py": {
+        "bytes": 1202,
+        "sha256": "5e4a4e9cdb42624cad9e0f02e82e513c615301ee80bde211dbf00defb22ebfd8"
+      },
+      "revisions/2/source/diffuser.step": {
+        "bytes": 14792,
+        "sha256": "88074586cf1f28840dc23fcf15797a6c1f5d588bed6a73778535d79673690672"
+      },
+      "revisions/2/source/base.step": {
+        "bytes": 164551,
+        "sha256": "b07f4746e5ef93c8684a6a4f21df67df882a92ba81b55c86c4c9881e3fad2c27"
+      },
+      "revisions/2/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/2/source/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "8ad5c6037ba5c018916ef780e5ed76f88bf6c82fb02af9fcdc2565a158b96f36"
+      },
+      "revisions/2/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/2/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "4ac0e617de6a8ca6f10a715ebf6826cb51455f17cbcc5d073cc95af63a8f2328"
+      },
+      "revisions/2/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "revisions/5/model.json": {
+        "bytes": 1593,
+        "sha256": "09f65756598cd6d5d040659dce19fa025a719853787f5b879039682b0b660643"
+      },
+      "revisions/5/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "821b66bbd30366705675adc9b7d0b3c38d61a569a178f79daccd9f416a195735"
+      },
+      "revisions/5/base.step": {
+        "bytes": 371429,
+        "sha256": "a26f787581cc6bdd48d9957dbb10f097e4b1a7d3130f25bb4e8584b2141d54fe"
+      },
+      "revisions/5/source-request.json": {
+        "bytes": 372,
+        "sha256": "778e334d3f7d9b088791d179f9bafeba2331c13377f7a0b21c8bb0b401d76544"
+      },
+      "revisions/5/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "1966746549aec48f7bf3c823222381fcaa3426e012959e3207a7340ad010f802"
+      },
+      "revisions/5/scene.json": {
+        "bytes": 819900,
+        "sha256": "baf64cba629cc3ee594cc6249fc0578bdcc435c43868ebf335630e0c030de625"
+      },
+      "revisions/5/led_core.step": {
+        "bytes": 42013,
+        "sha256": "eae66f40625807a56af4204030dd41559aa39b3dc65c0cae50005c58bb5dabd5"
+      },
+      "revisions/5/diffuser.stl": {
+        "bytes": 715184,
+        "sha256": "ce8c2ab322da35502dec2c4e8423858ff483c2b9496f96331f1b94ae1a12ec39"
+      },
+      "revisions/5/base.stl": {
+        "bytes": 435984,
+        "sha256": "65058fed19da20814af8d08add47125ef1828d1b09e8d930b2c8a4ce1c447611"
+      },
+      "revisions/5/validation.json": {
+        "bytes": 1756,
+        "sha256": "afb11148925751f09dcd8df5a7637752081339b343f30b903e7a1a091ef61236"
+      },
+      "revisions/5/source-sandbox.sb": {
+        "bytes": 1572,
+        "sha256": "591b229178c775983099eaac1f8111781966aad9b80b5da565ffd863863c8fb9"
+      },
+      "revisions/5/assembly.step": {
+        "bytes": 711530,
+        "sha256": "6515c23e7e99f53a9b1c89426765ba13ee903579956773d24197b8a201cc2640"
+      },
+      "revisions/5/bottom_cover.stl": {
+        "bytes": 84484,
+        "sha256": "2146aa5c582133eac79018475dd9b7f83e63a7426f6aa77e990c4334a83bca07"
+      },
+      "revisions/5/led_core.stl": {
+        "bytes": 108184,
+        "sha256": "62e8f2d4b178e00236ca3564b61d56b1ec505b3a9d1cd5be7ad1b0ee95d34d48"
+      },
+      "revisions/5/source/build.py": {
+        "bytes": 5025,
+        "sha256": "2608e06a33073c81e8b39f8b353a4b5b7d73b9e7f71f26b787ac98214a94dd14"
+      },
+      "revisions/5/source/diffuser.step": {
+        "bytes": 258586,
+        "sha256": "821b66bbd30366705675adc9b7d0b3c38d61a569a178f79daccd9f416a195735"
+      },
+      "revisions/5/source/base.step": {
+        "bytes": 371429,
+        "sha256": "a26f787581cc6bdd48d9957dbb10f097e4b1a7d3130f25bb4e8584b2141d54fe"
+      },
+      "revisions/5/source/config.json": {
+        "bytes": 2,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "revisions/5/source/bottom_cover.step": {
+        "bytes": 16802,
+        "sha256": "1966746549aec48f7bf3c823222381fcaa3426e012959e3207a7340ad010f802"
+      },
+      "revisions/5/source/thread_checks.json": {
+        "bytes": 663,
+        "sha256": "2195b991d39da587435b8b6bcade0b930a6046361fd589ca90367a112f6744a6"
+      },
+      "revisions/5/source/baseline.json": {
+        "bytes": 18429,
+        "sha256": "232624fce0f5189294a807b58b3e4ff8b134a7846e29e82fbb58be6bd7038d82"
+      },
+      "revisions/5/source/led_core.step": {
+        "bytes": 42013,
+        "sha256": "eae66f40625807a56af4204030dd41559aa39b3dc65c0cae50005c58bb5dabd5"
+      },
+      "revisions/5/source/diffuser.stl": {
+        "bytes": 991684,
+        "sha256": "c2f1d1fd6df9a60b3ee5c593fd66a7249060e8e3d5f796afe22f8e3debe6107b"
+      },
+      "revisions/5/source/base.stl": {
+        "bytes": 535184,
+        "sha256": "f1f524e1e18ef423f9067c1e12f0c009d7088d67186bcdbf588f6ba4f9d9f9bc"
+      },
+      "revisions/5/source/bottom_cover.stl": {
+        "bytes": 101284,
+        "sha256": "676821130de9b901ad88113c2675415fc21128fa1872ee50bcb034701f5b9d84"
+      },
+      "revisions/5/source/led_core.stl": {
+        "bytes": 129684,
+        "sha256": "945d8404c5f1cec8e4360459857e9964aced53423f4e6e3789b9cf66c1e6916e"
+      },
+      "revisions/5/.cache/ezdxf/font_manager_cache.json": {
+        "bytes": 50452,
+        "sha256": "7c451d2b4287d37d92a84a946f99a978341d8e7466a80377926b15b0a3245417"
+      },
+      "attachments/fecc856e2a63408f98bc8c1cb8a409b4.png": {
+        "bytes": 281510,
+        "sha256": "6ea11ad4476ddd5723220892f0b26c2c983a02c6a00c8b884a7ad6c9b3b8f232"
+      },
+      "attachments/bc02a46fa71b4df2939bb1dc65fdb123.png": {
+        "bytes": 196443,
+        "sha256": "895b242b6555766d277bfe993b0274082d9c2fe9428c568eb5e78cf3f5f59fb7"
+      },
+      "attachments/3bc8e283bf60432a83f4a50ec003262f.png": {
+        "bytes": 1685404,
+        "sha256": "c8fad6f3e24bba3372551fd995f7f88172d4282e16bb1c3a6bc2854de0dec769"
+      },
+      "attachments/38d6d0ee4d35420595f7a81d190b29fc.png": {
+        "bytes": 218391,
+        "sha256": "826178cd121e7d8f32d81a6040e7a4add43b99932e798d4bafbb4ddf373c38bc"
+      },
+      "attachments/a656fdf47e544e34bc0c06062afcf8cb.png": {
+        "bytes": 232381,
+        "sha256": "5829cb333d96e40e524650808e66c1719ca739f4fbe97d40b6028dc14012059d"
+      },
+      "attachments/359af76d811147eabba4ed6af1c6f636.png": {
+        "bytes": 240079,
+        "sha256": "b3360091323fe6cb5c0f3c63aff8a13cd2cb4d08e03b06402fe23fa6e8d0265f"
+      },
+      "attachments/acdb9a5d754a4c01a56cf48efe5c8856.png": {
+        "bytes": 240079,
+        "sha256": "b3360091323fe6cb5c0f3c63aff8a13cd2cb4d08e03b06402fe23fa6e8d0265f"
+      },
+      "attachments/ce138700706f45a0bd5461e80fa7ac32.json": {
+        "bytes": 1567,
+        "sha256": "4f59d2816b4149b043841217264f51fe861d515b4927b45c38c06bb6acf1fe66"
+      },
+      "attachments/0b8d95f3621441ebba49acbfaca555f7.png": {
+        "bytes": 248608,
+        "sha256": "9591bdd3b152f4d6a0805bfaa1af6c518982ce17039f8ed8138fd7760c3c13dc"
+      },
+      "attachments/47f0a28b433d42219f5dcdfafbd3d39e.png": {
+        "bytes": 257345,
+        "sha256": "961f4eb632faa8329ab18edcde4bc7b427787882e0ff9e11fb204c8a423c45ac"
+      },
+      "attachments/6b8971b305ce40e88919e2f2e205ed5f.png": {
+        "bytes": 219921,
+        "sha256": "670f34c21f605e2d16a41192cc93ed83cebcc7fb743c171dc015f80b582df8f8"
+      },
+      "attachments/4e88c0c15cba410885349178ead8f457.png": {
+        "bytes": 232381,
+        "sha256": "5829cb333d96e40e524650808e66c1719ca739f4fbe97d40b6028dc14012059d"
+      },
+      "attachments/3bc8e283bf60432a83f4a50ec003262f.json": {
+        "bytes": 2012,
+        "sha256": "14b37ca68595f4add2c486320318245255b80054eb9ec1bd550245e268f0a805"
+      },
+      "attachments/d6e5daed313f4155918ada291e81fe91.png": {
+        "bytes": 159271,
+        "sha256": "8248705cb30d55671dc64037fa5b78e3b84afc653adbf19f3c5a6cf99c56112d"
+      },
+      "attachments/012442a0ce6f4eaabcbf1c611c599270.png": {
+        "bytes": 318569,
+        "sha256": "a61ae293d027688c3d0302ac1b230375f0d1555e09c6b71531a09cf6ff868f0f"
+      },
+      "attachments/ce138700706f45a0bd5461e80fa7ac32.png": {
+        "bytes": 624041,
+        "sha256": "37551c9b0ad2c29a58ae21c91db354147cc03185357b4f978edec4cab41a1471"
+      },
+      "backups/before-electronics-import-20261026-204957/project.json": {
+        "bytes": 71127,
+        "sha256": "f3875095b719aa9e0928b743ed2a804243f33b1f8ed91246cf3d80b2e9c049e5"
+      }
+    },
+    "symlinks": {}
+  }
+}

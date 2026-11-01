@@ -1,0 +1,13 @@
+{
+  "status": "MECHANICAL_CONCEPT",
+  "offset_inward_mm": 5,
+  "outer_envelope_diameter_mm": 74,
+  "notch_radius_mm": 11,
+  "mounting_holes": "unchanged diameter3.2mm, radius25mm",
+  "board_area_mm2": 3734.5243981329986,
+  "board_collision_mm3": 0.0,
+  "vertical_insertion_sweep_collision_mm3": 0.0,
+  "valid": true,
+  "physical_fit": "NOT_RUN",
+  "electrical_layout": "NOT_RUN"
+}

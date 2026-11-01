@@ -1,0 +1,12 @@
+{
+  "source": "../circuit.kicad_pcb",
+  "board_sha256": "902e79e8c2df16d4ae6d8e37e48c5f9563f362d803aed1d94b60dbe16b32969a",
+  "renderer": "KiCad 10.0.7 native CLI",
+  "quality": "basic",
+  "views": [
+    "top",
+    "bottom"
+  ],
+  "zoom": 0.82,
+  "date": "2026-10-30"
+}

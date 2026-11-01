@@ -1,0 +1,61 @@
+{
+  "status": "PROPOSED mechanical board, not E1; donor fit NOT final",
+  "outline_radius_mm": 31,
+  "outline_diameter_mm": 62,
+  "thickness_mm": 1.6,
+  "reduction_reason": "\u00d874 intersects existing cover posts with inward radius32; \u00d862 provides 1 mm radial margin",
+  "mount_circle_radius_mm": 25,
+  "angular_offset_deg": 45,
+  "hole_xy_mm": [
+    [
+      17.67766952966369,
+      17.677669529663685
+    ],
+    [
+      -17.677669529663685,
+      17.67766952966369
+    ],
+    [
+      -17.677669529663692,
+      -17.677669529663685
+    ],
+    [
+      17.677669529663685,
+      -17.677669529663692
+    ]
+  ],
+  "hole_diameter_mm": 3.2,
+  "hole_radius_mm": 1.6,
+  "seat_plane_inner_floor_mm": 8,
+  "seat_plane_exported_base_mm": 10.4,
+  "component_height_assumption_mm": 18,
+  "component_top_inner_floor_mm": 27.6,
+  "cover_underside_inner_floor_mm": 32,
+  "post_diameter_mm": 9,
+  "root_diameter_mm": 13,
+  "root_height_mm": 2,
+  "root_slope_deg": 45,
+  "pocket_diameter_mm": 3.7,
+  "pocket_depth_mm": 4.5,
+  "minimum_post_wall_mm": 2.35,
+  "pocket_floor_remaining_mm": 3.5,
+  "insert": "nominal M3x4x4; provisional interference, coupon required",
+  "screw_stack": "M3x5 plus assumed 0.5 mm washer + 1.6 mm PCB = 2.1 mm stack; 2.9 mm engagement, 1.1 mm insert-end margin; verify hardware",
+  "collisions_mm3": {
+    "board": 0.0,
+    "components": 0.0,
+    "cover": 0.0,
+    "insertion_sweep": 0.0
+  },
+  "tool_overlap_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reference_geometry": "not fused, not exported, no new printed part",
+  "installation": "Remove diffuser and central cover/core, install inserts from above, lower PCB, fasten four screws, connect wiring then replace cover/core",
+  "electronics": "E1 files and metadata untouched",
+  "physical_fit": "NOT_RUN",
+  "slicer": "NOT_RUN"
+}

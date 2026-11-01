@@ -1,0 +1,33 @@
+{
+  "status": "REVIEW_DRC_ZERO_GEOMETRIC_VIOLATIONS_CONNECTIVITY_PENDING",
+  "KiCad": "10.0.7",
+  "erc_violations": 0,
+  "geometry_violations": 0,
+  "parity_violations": 0,
+  "unconnected_items": 2,
+  "buck_pin_net_audit": "PASSED",
+  "inside": [
+    "D1",
+    "D2",
+    "H1",
+    "H2",
+    "H3",
+    "U1",
+    "U2",
+    "U3",
+    "U4"
+  ],
+  "parked_count": 38,
+  "routing": "PARTIAL; final native DRC has 2 isolated GND zone connections",
+  "donor_values_footprints": "PROVISIONAL; measure actual donor",
+  "thermal_loop_stability_physical_tests": "NOT_RUN",
+  "silkscreen_label": "ORANGEFLAVOR LABS; SVG path outlines imported as grouped native F.SilkS polygons; Arial Bold 1.35 mm cap height; left outer arc R34.1 mm; native render visually reviewed",
+  "clearance_mm": 0.3,
+  "min_track_mm": 0.3,
+  "min_via_diameter_mm": 1.2,
+  "min_via_drill_mm": 0.6,
+  "board_edge_clearance_mm": 0.35,
+  "final_drc": "drc-final.json",
+  "silkscreen_artwork_source": "artwork/ORANGEFLAVOR-LABS-curved.svg",
+  "silkscreen_electrical_geometry_unchanged": true
+}

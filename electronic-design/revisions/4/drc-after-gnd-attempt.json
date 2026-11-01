@@ -1,0 +1,407 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T05:42:33",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "circuit.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Items shorting two nets (nets /GPIO15 and GND)",
+            "items": [
+                {
+                    "description": "Track [/GPIO15] on F.Cu, length 0.6688 mm",
+                    "pos": {
+                        "x": 96.1017,
+                        "y": 119.5
+                    },
+                    "uuid": "2f5aaa43-4534-48a4-b5f1-c6440901bf48"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 118.5
+                    },
+                    "uuid": "c9024b9b-0e95-4d43-8782-b2100094431c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets /GPIO15 and GND)",
+            "items": [
+                {
+                    "description": "Track [/GPIO15] on F.Cu, length 6.2785 mm",
+                    "pos": {
+                        "x": 96.5745,
+                        "y": 119.027
+                    },
+                    "uuid": "5238498a-69b6-4791-860f-39c697bef14d"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 118.5
+                    },
+                    "uuid": "c9024b9b-0e95-4d43-8782-b2100094431c"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.0165 mm)",
+            "items": [
+                {
+                    "description": "Track [USER_BUTTON_N] on B.Cu, length 6.1503 mm",
+                    "pos": {
+                        "x": 98.2089,
+                        "y": 119.125
+                    },
+                    "uuid": "68eceaba-807a-4640-a703-f6e9d416a3b7"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 118.5
+                    },
+                    "uuid": "c9024b9b-0e95-4d43-8782-b2100094431c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [/RESET_N] on B.Cu, length 6.0920 mm",
+                    "pos": {
+                        "x": 120.7,
+                        "y": 112.97
+                    },
+                    "uuid": "50030162-9184-4dbc-a41c-a22cb6afa2ca"
+                },
+                {
+                    "description": "Track [GND] on B.Cu, length 10.9340 mm",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 118.0
+                    },
+                    "uuid": "9fd7acfa-d3e8-47fe-bee4-15a965396569"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 10.9340 mm",
+                    "pos": {
+                        "x": 115.75,
+                        "y": 118.0
+                    },
+                    "uuid": "9fd7acfa-d3e8-47fe-bee4-15a965396569"
+                },
+                {
+                    "description": "Track [/UART_RX] on B.Cu, length 9.6160 mm",
+                    "pos": {
+                        "x": 120.7,
+                        "y": 107.89
+                    },
+                    "uuid": "d979158b-d31a-49b8-af66-cfa778d7cfb8"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and +3.3V)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 119.5
+                    },
+                    "uuid": "bf8ad285-1230-4e5b-a797-05181ea4a174"
+                },
+                {
+                    "description": "Pad 2 [+3.3V] of R4 on F.Cu",
+                    "pos": {
+                        "x": 89.5875,
+                        "y": 120.5
+                    },
+                    "uuid": "c26edcf7-341f-480a-91c3-706853c36ceb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and /BOOT_GPIO0)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 101.5
+                    },
+                    "uuid": "13c52982-a2d3-4d76-bf3c-d084d73b3f80"
+                },
+                {
+                    "description": "Track [/BOOT_GPIO0] on F.Cu, length 8.6000 mm",
+                    "pos": {
+                        "x": 82.785,
+                        "y": 101.785
+                    },
+                    "uuid": "fc214d8b-4c98-4100-a25d-52e7b915a511"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and /UART_RX)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 118.8,
+                        "y": 107.5
+                    },
+                    "uuid": "1ae9f388-db00-4d7e-ba0b-7728d25118aa"
+                },
+                {
+                    "description": "Track [/UART_RX] on B.Cu, length 9.6160 mm",
+                    "pos": {
+                        "x": 120.7,
+                        "y": 107.89
+                    },
+                    "uuid": "d979158b-d31a-49b8-af66-cfa778d7cfb8"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.1701 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.5557 mm",
+                    "pos": {
+                        "x": 89.5875,
+                        "y": 118.0
+                    },
+                    "uuid": "61199dd2-aeb0-457f-93b3-5233fb8ce533"
+                },
+                {
+                    "description": "Pad 2 [+3.3V] of R4 on F.Cu",
+                    "pos": {
+                        "x": 89.5875,
+                        "y": 120.5
+                    },
+                    "uuid": "c26edcf7-341f-480a-91c3-706853c36ceb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2322 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.0000 mm",
+                    "pos": {
+                        "x": 96.5,
+                        "y": 117.5
+                    },
+                    "uuid": "011edfe8-14e7-454a-92db-17cf4f495d6e"
+                },
+                {
+                    "description": "Track [/GPIO15] on F.Cu, length 6.2785 mm",
+                    "pos": {
+                        "x": 96.5745,
+                        "y": 119.027
+                    },
+                    "uuid": "5238498a-69b6-4791-860f-39c697bef14d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.1488 mm)",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 1.5331 mm",
+                    "pos": {
+                        "x": 89.5875,
+                        "y": 120.5
+                    },
+                    "uuid": "592989c0-2c74-4877-b26e-3844c5f862c0"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 119.5
+                    },
+                    "uuid": "bf8ad285-1230-4e5b-a797-05181ea4a174"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets /GPIO2 and GND)",
+            "items": [
+                {
+                    "description": "Track [/GPIO2] on B.Cu, length 12.4541 mm",
+                    "pos": {
+                        "x": 80.9787,
+                        "y": 119.468
+                    },
+                    "uuid": "87b70284-b8b0-4f78-9830-f2e840f21702"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 119.5
+                    },
+                    "uuid": "bf8ad285-1230-4e5b-a797-05181ea4a174"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0201 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [+3.3V] of R4 on F.Cu",
+                    "pos": {
+                        "x": 89.5875,
+                        "y": 120.5
+                    },
+                    "uuid": "c26edcf7-341f-480a-91c3-706853c36ceb"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 119.5
+                    },
+                    "uuid": "bf8ad285-1230-4e5b-a797-05181ea4a174"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 119.5
+                    },
+                    "uuid": "bf8ad285-1230-4e5b-a797-05181ea4a174"
+                },
+                {
+                    "description": "Pad 2 [+3.3V] of R4 on F.Cu",
+                    "pos": {
+                        "x": 89.5875,
+                        "y": 120.5
+                    },
+                    "uuid": "c26edcf7-341f-480a-91c3-706853c36ceb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

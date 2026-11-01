@@ -1,0 +1,86 @@
+{
+  "status": "LAYOUT_REVIEW_DRC_CLEAN",
+  "kicad_version": "10.0.7",
+  "date": "2026-10-30",
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "ignored_drc_checks": [],
+  "drc_exclusions": [],
+  "erc_violations": 0,
+  "native_connectivity_unconnected": 0,
+  "schematic_net_pin_groups_unchanged": true,
+  "footprint_positions_pad_numbers_and_nets_unchanged": true,
+  "tracks": 444,
+  "vias": 34,
+  "minimum_track_mm": 0.3,
+  "minimum_via_diameter_mm": 1.2,
+  "minimum_via_drill_mm": 0.6,
+  "clearance_mm": 0.3,
+  "edge_clearance_mm": 0.35,
+  "gnd_vias_added_mm": [
+    [
+      106.7,
+      111.5
+    ],
+    [
+      106,
+      114
+    ]
+  ],
+  "gnd_trace_added_F_Cu_mm": [
+    [
+      94.4,
+      117.5
+    ],
+    [
+      98,
+      117.5
+    ],
+    [
+      98,
+      114
+    ],
+    [
+      106,
+      114
+    ]
+  ],
+  "gnd_trace_width_mm": 0.3,
+  "3v3_route_width_mm": 0.5,
+  "3v3_route_mm": [
+    [
+      94.7578,
+      116.062
+    ],
+    [
+      95.8,
+      115.0198
+    ],
+    [
+      95.8,
+      112.8
+    ],
+    [
+      107.7,
+      112.8
+    ],
+    [
+      109.6,
+      114.7
+    ],
+    [
+      109.6,
+      117.5
+    ]
+  ],
+  "led_via_centered_mm": [
+    87.25,
+    120.75
+  ],
+  "board_sha256": "902e79e8c2df16d4ae6d8e37e48c5f9563f362d803aed1d94b60dbe16b32969a",
+  "backup": "backups/before-full-drc-cleanup-20261030",
+  "native_visual_review": "PASSED: final main-file top render reviewed",
+  "native_render": "drc-cleanup-20261030/pcb-top.png",
+  "readable_drc_report": "drc-final.rpt"
+}

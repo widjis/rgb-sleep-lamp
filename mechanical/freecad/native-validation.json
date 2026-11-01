@@ -1,0 +1,32 @@
+{
+  "base": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 53782.33580951949,
+    "assembly_z": 0
+  },
+  "bottom_cover": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 16794.58996003703,
+    "assembly_z": 34.4
+  },
+  "diffuser": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 42325.71811382531,
+    "assembly_z": 37.4
+  },
+  "led_core": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 44985.89432161552,
+    "assembly_z": 37.4
+  },
+  "pcb": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4779.041010123249,
+    "expected_volume_mm3": 4779.041010123251
+  }
+}

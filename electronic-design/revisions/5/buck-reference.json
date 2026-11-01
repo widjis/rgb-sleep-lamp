@@ -1,0 +1,24 @@
+{
+  "U3": "MP1584EN SOIC8E",
+  "pinout": {
+    "1": "SW",
+    "2": "EN",
+    "3": "COMP",
+    "4": "FB",
+    "5": "GND",
+    "6": "FREQ",
+    "7": "VIN",
+    "8": "BST",
+    "9": "EP GND"
+  },
+  "reference_values_not_measured_donor": true,
+  "feedback_nominal_V": 4.979104477611941,
+  "donor_verification_required": [
+    "IC marking/variant",
+    "L1 value,current,DCR,size",
+    "diode marking/package",
+    "all RC values/packages",
+    "COMP tuning with C5 bulk capacitor"
+  ],
+  "datasheet": "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1584EN-LF-Z/document_id/204/"
+}

@@ -1,0 +1,550 @@
+{
+  "status": "PLACEMENT_REVIEW_UNROUTED",
+  "native_tool": "10.0.7",
+  "footprints": [
+    {
+      "ref": "R5",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        115.5,
+        119
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "/GPIO15",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "ESP-12F",
+      "footprint": "Lamp_Local:ESP12F_AntennaOverhang",
+      "xy_mm": [
+        102,
+        128
+      ],
+      "rotation_deg": 180,
+      "pad_nets": {
+        "1": "/RESET_N",
+        "2": "/ADC",
+        "3": "/ESP_EN",
+        "4": "/GPIO16",
+        "5": "/GPIO14",
+        "6": "/GPIO12",
+        "7": "/GPIO13",
+        "8": "+3.3V",
+        "9": "unconnected-(U1-CS0-Pad9)",
+        "10": "unconnected-(U1-MISO-Pad10)",
+        "11": "unconnected-(U1-GPIO9-Pad11)",
+        "12": "unconnected-(U1-GPIO10-Pad12)",
+        "13": "unconnected-(U1-MOSI-Pad13)",
+        "14": "unconnected-(U1-SCLK-Pad14)",
+        "15": "GND",
+        "16": "/GPIO15",
+        "17": "/GPIO2",
+        "18": "/BOOT_GPIO0",
+        "19": "LED_DATA_3V3",
+        "20": "USER_BUTTON_N",
+        "21": "/UART_RX",
+        "22": "/UART_TX"
+      }
+    },
+    {
+      "ref": "F1",
+      "value": "1A / >=32V",
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "xy_mm": [
+        108,
+        77
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+20V",
+        "2": "Net-(U3-IN+)"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "xy_mm": [
+        102,
+        113.5
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+5V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "xy_mm": [
+        96,
+        113.5
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J6",
+      "value": "GPIO HEADER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "xy_mm": [
+        91,
+        82
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "/BOOT_GPIO0",
+        "2": "/GPIO2",
+        "3": "LED_DATA_3V3",
+        "4": "USER_BUTTON_N",
+        "5": "/GPIO12",
+        "6": "/GPIO13",
+        "7": "/GPIO14",
+        "8": "/GPIO15"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        114,
+        113
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "/BOOT_GPIO0",
+        "2": "+3.3V"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        88,
+        120
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "/ESP_EN"
+      }
+    },
+    {
+      "ref": "U4",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "xy_mm": [
+        95,
+        102
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "GND",
+        "2": "+3.3V",
+        "3": "+5V"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        116,
+        116
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "/GPIO2",
+        "2": "+3.3V"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "xy_mm": [
+        113,
+        118
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "22uF / 10V",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "xy_mm": [
+        122,
+        90
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+5V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "H1",
+      "value": "M3 / 3.2mm",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "xy_mm": [
+        114.5,
+        74.885263
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "": ""
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "22uF / 10V tantalum",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C",
+      "xy_mm": [
+        92,
+        109
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "H3",
+      "value": "M3 / 3.2mm",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "xy_mm": [
+        114.5,
+        125.114736
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "": ""
+      }
+    },
+    {
+      "ref": "J4",
+      "value": "PDC004 20V OUT",
+      "footprint": "Lamp_Local:PD20_Wire_2Pad",
+      "xy_mm": [
+        100,
+        74
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+20V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "D1",
+      "value": "PWR RED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "xy_mm": [
+        117,
+        112
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "GND",
+        "2": "Net-(D1-A)"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        86,
+        107
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "USER_BUTTON_N"
+      }
+    },
+    {
+      "ref": "J5",
+      "value": "CASE BUTTON / GPIO5",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "xy_mm": [
+        86,
+        101
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "USER_BUTTON_N",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "3V3 TEST",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "xy_mm": [
+        85,
+        82
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "47uF / 35V",
+      "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+      "xy_mm": [
+        118,
+        85
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "Net-(U3-IN+)",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "470uF / 10V",
+      "footprint": "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm",
+      "xy_mm": [
+        121,
+        115
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+5V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U3",
+      "value": "MP1584 MODULE / SET 5.0V",
+      "footprint": "Lamp_Local:MP1584_Wired_Interface",
+      "xy_mm": [
+        116,
+        101
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "Net-(U3-IN+)",
+        "2": "GND",
+        "3": "+5V",
+        "4": "GND"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "xy_mm": [
+        111,
+        113.5
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "H2",
+      "value": "M3 / 3.2mm",
+      "footprint": "MountingHole:MountingHole_3.2mm_M3",
+      "xy_mm": [
+        71,
+        100
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "": ""
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "WS2812B: 5V / DIN / GND",
+      "footprint": "Lamp_Local:LED_Wire_3Pad",
+      "xy_mm": [
+        79,
+        112
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "+5V",
+        "2": "Net-(J3-Pin_2)",
+        "3": "GND"
+      }
+    },
+    {
+      "ref": "U2",
+      "value": "74AHCT1G125",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "xy_mm": [
+        106.5,
+        112.5
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "GND",
+        "2": "LED_DATA_3V3",
+        "3": "GND",
+        "4": "Net-(R7-Pad1)",
+        "5": "+5V"
+      }
+    },
+    {
+      "ref": "SW2",
+      "value": "FLASH",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "xy_mm": [
+        96,
+        92
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "/BOOT_GPIO0",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "UART TTL 3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "xy_mm": [
+        80,
+        90
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "GND",
+        "2": "/UART_RX",
+        "3": "/UART_TX",
+        "4": "/RESET_N"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "10uF / 10V",
+      "footprint": "Capacitor_SMD:CP_Elec_5x5.4",
+      "xy_mm": [
+        100,
+        109
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+5V",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        88,
+        116
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "/RESET_N"
+      }
+    },
+    {
+      "ref": "J7",
+      "value": "CONTROL / POWER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "xy_mm": [
+        90,
+        88
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "/GPIO16",
+        "2": "/ADC",
+        "3": "/ESP_EN",
+        "4": "/RESET_N",
+        "5": "/UART_TX",
+        "6": "/UART_RX",
+        "7": "+3.3V",
+        "8": "GND"
+      }
+    },
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "xy_mm": [
+        86,
+        92
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "/RESET_N",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        102.5,
+        104.5
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "LED_DATA_3V3",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "330",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        119.5,
+        123.5
+      ],
+      "rotation_deg": 90,
+      "pad_nets": {
+        "1": "Net-(R7-Pad1)",
+        "2": "Net-(J3-Pin_2)"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "xy_mm": [
+        120,
+        120.5
+      ],
+      "rotation_deg": 0,
+      "pad_nets": {
+        "1": "+3.3V",
+        "2": "Net-(D1-A)"
+      }
+    }
+  ],
+  "tracks": 0,
+  "vias": 0
+}

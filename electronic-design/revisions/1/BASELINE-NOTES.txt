@@ -1,0 +1,3 @@
+Imported native KiCad electronics baseline from GPS Tracker. Preserve native schematic hierarchy, geometry, placement and nets. This is NOT a completed RGB LED lamp circuit; no RGB driver or enclosure fit validation. The native files are authoritative. Do not rebuild from this metadata summary as a flattened circuit. Keep autorouting disabled; user is learning manual routing.
+Source archive in source-gps/ preserves all158files with hash manifest.
+All former GPS project reports are historical; current validation is erc.json/drc.json.

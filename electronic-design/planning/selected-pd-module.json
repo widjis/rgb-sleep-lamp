@@ -1,0 +1,17 @@
+{
+  "module": "PDC004 fixed20V",
+  "supplier": "EasyWare",
+  "sku": "EP004131",
+  "supplier_url": "https://store.easyware.id/produk/pd-trigger-mini-tegangan-tetap/",
+  "replaces": "ZY12PDN",
+  "reserve_mm": [
+    11,
+    18,
+    5
+  ],
+  "dimensions_status": "PROVISIONAL; supplier does not publish mechanical dimensions; online PDC004 variants report PCB16x10 and overall18x11x5",
+  "port_position": "existing +Y opening; detailed socket datum unchanged/provisional",
+  "retention": "TBD after actual module measurement",
+  "power_chain": "USB-C PD source with20V PDO -> PDC00420V -> buck5V -> 3V3 regulator; WS2812B supplied5V",
+  "electrical_E1": "unchanged"
+}

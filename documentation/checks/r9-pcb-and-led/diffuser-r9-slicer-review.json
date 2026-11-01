@@ -1,0 +1,50 @@
+{
+  "file": "diffuser-r9-snug.gcode",
+  "support_filament_mm": 9558.15,
+  "support_volume_mm3": 22990.03,
+  "extrusion_filament_by_role_mm": {
+    "Custom": 20.0,
+    "Skirt/Brim": 9.82,
+    "Support material interface": 246.28,
+    "Support material": 9311.87,
+    "Perimeter": 918.27,
+    "External perimeter": 13534.09,
+    "Solid infill": 1679.13,
+    "Overhang perimeter": 27.06,
+    "Bridge infill": 45.67,
+    "Top solid infill": 514.14,
+    "Internal infill": 106.91
+  },
+  "support_z_range_mm": [
+    0.2,
+    144.05
+  ],
+  "support_by_10mm_z_bins_filament_mm": {
+    "0": 662.7,
+    "10": 685.85,
+    "20": 667.37,
+    "30": 686.34,
+    "40": 688.38,
+    "50": 686.68,
+    "60": 668.05,
+    "70": 687.42,
+    "80": 688.31,
+    "90": 687.73,
+    "100": 689.54,
+    "110": 666.92,
+    "120": 686.83,
+    "130": 623.5,
+    "140": 82.53
+  },
+  "model_layers": 1151,
+  "statistics": {
+    "filament used [mm]": "26413.23",
+    "filament used [cm3]": "63.53",
+    "filament used [g]": "78.78",
+    "estimated printing time (normal mode)": "9h 10m 30s"
+  },
+  "support_mass_g_estimate": 28.51,
+  "revision": 9,
+  "geometry_modified_in_this_slice": false,
+  "conclusion": "R9 transition blend does not materially reduce automatic support versusR8 snug28.44g. Remaining R6 external curve and thread overhangs remain. No physical print validation."
+}

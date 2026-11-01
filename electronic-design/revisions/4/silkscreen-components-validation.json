@@ -1,0 +1,419 @@
+{
+  "source_board_sha256": "9316717bfc83dbaf3c32afd8b57b20e1fffde99583499c4bb3c3ae43182ced20",
+  "count": 47,
+  "text_height_mm": 0.8,
+  "stroke_width_mm": 0.12,
+  "labels": {
+    "C1": {
+      "x": 114.0,
+      "y": 119.8036,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.45
+    },
+    "C10": {
+      "x": 88.25,
+      "y": 78.6964,
+      "angle": 0,
+      "side": "top",
+      "score": 0.69
+    },
+    "C11": {
+      "x": 122.8619,
+      "y": 88.75,
+      "angle": 0,
+      "side": "right",
+      "score": 1.15
+    },
+    "C12": {
+      "x": 107.6881,
+      "y": 81.1,
+      "angle": 0,
+      "side": "left",
+      "score": 4.71
+    },
+    "C13": {
+      "x": 106.5,
+      "y": 96.1036,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.45
+    },
+    "C2": {
+      "x": 114.05,
+      "y": 113.9464,
+      "angle": 0,
+      "side": "top",
+      "score": 0.45
+    },
+    "C3": {
+      "x": 121.5,
+      "y": 75.4214,
+      "angle": 0,
+      "side": "top",
+      "score": 0.45
+    },
+    "C4": {
+      "x": 89.25,
+      "y": 86.9714,
+      "angle": 0,
+      "side": "top",
+      "score": 0.7
+    },
+    "C5": {
+      "x": 74.75,
+      "y": 86.9741,
+      "angle": 0,
+      "side": "top",
+      "score": 0.45
+    },
+    "C7": {
+      "x": 84.569,
+      "y": 98.0,
+      "angle": 0,
+      "side": "left",
+      "score": 0.92
+    },
+    "C8": {
+      "x": 110.131,
+      "y": 101.0,
+      "angle": 0,
+      "side": "right",
+      "score": 1.07
+    },
+    "C9": {
+      "x": 101.0,
+      "y": 92.5714,
+      "angle": 0,
+      "side": "top",
+      "score": 0.84
+    },
+    "D1": {
+      "x": 113.0,
+      "y": 108.8839,
+      "angle": 0,
+      "side": "top",
+      "score": 0.84
+    },
+    "D2": {
+      "x": 116.431,
+      "y": 82.75,
+      "angle": 0,
+      "side": "right",
+      "score": 0.99
+    },
+    "F1": {
+      "x": 105.6262,
+      "y": 76.4,
+      "angle": 0,
+      "side": "left",
+      "score": 0.6
+    },
+    "H1": {
+      "x": 114.5,
+      "y": 70.5317,
+      "angle": 0,
+      "side": "top",
+      "score": 0.2
+    },
+    "H2": {
+      "x": 71.0,
+      "y": 104.3536,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.2
+    },
+    "H3": {
+      "x": 119.075,
+      "y": 125.1147,
+      "angle": 0,
+      "side": "right",
+      "score": 0.35
+    },
+    "J1": {
+      "x": 111.6543,
+      "y": 104.75,
+      "angle": 0,
+      "side": "left",
+      "score": 1.24
+    },
+    "J2": {
+      "x": 87.75,
+      "y": 108.3014,
+      "angle": 0,
+      "side": "top",
+      "score": 0.6
+    },
+    "J3": {
+      "x": 85.7607,
+      "y": 92.25,
+      "angle": 0,
+      "side": "right",
+      "score": 0.43
+    },
+    "J4": {
+      "x": 100.25,
+      "y": 76.4286,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.28
+    },
+    "J5": {
+      "x": 85.5,
+      "y": 100.7864,
+      "angle": 0,
+      "side": "top",
+      "score": 0.77
+    },
+    "J6": {
+      "x": 83.5557,
+      "y": 108.89,
+      "angle": 0,
+      "side": "right",
+      "score": 0.6
+    },
+    "J7": {
+      "x": 123.7,
+      "y": 100.6114,
+      "angle": 0,
+      "side": "top",
+      "score": 1.16
+    },
+    "L1": {
+      "x": 98.5,
+      "y": 77.5714,
+      "angle": 0,
+      "side": "top",
+      "score": 0.45
+    },
+    "R1": {
+      "x": 115.881,
+      "y": 131.75,
+      "angle": 0,
+      "side": "right",
+      "score": 1.09
+    },
+    "R10": {
+      "x": 110.25,
+      "y": 95.4286,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.92
+    },
+    "R11": {
+      "x": 117.3869,
+      "y": 93.5,
+      "angle": 0,
+      "side": "right",
+      "score": 0.6
+    },
+    "R12": {
+      "x": 109.5,
+      "y": 93.8036,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.45
+    },
+    "R13": {
+      "x": 119.3375,
+      "y": 91.0536,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.53
+    },
+    "R14": {
+      "x": 107.3,
+      "y": 82.8214,
+      "angle": 0,
+      "side": "top",
+      "score": 0.7
+    },
+    "R15": {
+      "x": 106.55,
+      "y": 91.1786,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.94
+    },
+    "R2": {
+      "x": 115.881,
+      "y": 130.0,
+      "angle": 0,
+      "side": "right",
+      "score": 0.85
+    },
+    "R3": {
+      "x": 89.394,
+      "y": 122.25,
+      "angle": 0,
+      "side": "left",
+      "score": 1.0
+    },
+    "R4": {
+      "x": 83.569,
+      "y": 120.0,
+      "angle": 0,
+      "side": "left",
+      "score": 5.31
+    },
+    "R5": {
+      "x": 94.431,
+      "y": 115.0,
+      "angle": 0,
+      "side": "right",
+      "score": 3.71
+    },
+    "R6": {
+      "x": 117.006,
+      "y": 107.3125,
+      "angle": 0,
+      "side": "right",
+      "score": 0.6
+    },
+    "R7": {
+      "x": 86.5,
+      "y": 90.6786,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.7
+    },
+    "R8": {
+      "x": 83.75,
+      "y": 81.8214,
+      "angle": 0,
+      "side": "top",
+      "score": 0.7
+    },
+    "R9": {
+      "x": 90.4125,
+      "y": 110.3964,
+      "angle": 0,
+      "side": "top",
+      "score": 3.0
+    },
+    "SW1": {
+      "x": 102.681,
+      "y": 109.25,
+      "angle": 0,
+      "side": "left",
+      "score": 0.6
+    },
+    "SW2": {
+      "x": 96.5,
+      "y": 113.4286,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.45
+    },
+    "U1": {
+      "x": 102.335,
+      "y": 114.1414,
+      "angle": 0,
+      "side": "top",
+      "score": 1.0
+    },
+    "U2": {
+      "x": 90.1375,
+      "y": 81.8214,
+      "angle": 0,
+      "side": "top",
+      "score": 1.08
+    },
+    "U3": {
+      "x": 117.0,
+      "y": 91.3786,
+      "angle": 0,
+      "side": "bottom",
+      "score": 2.68
+    },
+    "U4": {
+      "x": 95.5,
+      "y": 101.0286,
+      "angle": 0,
+      "side": "bottom",
+      "score": 0.77
+    }
+  },
+  "callouts": {
+    "R4": [
+      [
+        84.7,
+        120.2
+      ],
+      [
+        87.8,
+        120.2
+      ],
+      [
+        87.8,
+        120.5
+      ],
+      [
+        88.6,
+        120.5
+      ]
+    ],
+    "R5": [
+      [
+        93.3,
+        115.0
+      ],
+      [
+        93.3,
+        115.4
+      ],
+      [
+        92.4,
+        115.4
+      ],
+      [
+        92.4,
+        118.0
+      ]
+    ],
+    "C12": [
+      [
+        108.8,
+        82.0
+      ],
+      [
+        108.8,
+        83.4
+      ],
+      [
+        110.3,
+        83.4
+      ],
+      [
+        110.3,
+        84.1
+      ],
+      [
+        111.2,
+        84.1
+      ]
+    ]
+  },
+  "date": "2026-10-30T21:26:10.136029+08:00",
+  "board_sha256": "f0fe143610f6c50a2f54d6aaa8bf04145f1fea052ec4a48512a21fa9d362b62a",
+  "all_references_visible_on_front_silkscreen": true,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "ignored_checks": [],
+  "drc_exclusions": [],
+  "non_reference_and_non_callout_pcb_data_identical": true,
+  "native_saved_and_reloaded": true,
+  "native_render_visually_reviewed": true,
+  "backup": "backups/before-component-silkscreen-20261030",
+  "added_callout_segments": 10,
+  "native_render_views_reviewed": [
+    "top",
+    "isometric"
+  ],
+  "render_files": [
+    "renders/pcb-final-top.png",
+    "renders/pcb-final-bottom.png",
+    "renders/pcb-final-isometric.png"
+  ]
+}

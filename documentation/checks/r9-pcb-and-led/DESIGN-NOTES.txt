@@ -1,0 +1,12 @@
+RGB Sleep Lamp R9 mechanical/PCB concept review
+
+Base now has4floor-grown PCB posts at radius25mm,angles45/135/225/315deg. Proposed PCB62mm diameter,1.6mm thick,4NPTH3.2mm holes. Seats8mm above inside floor,10.4mm from exportedbasebottom. Inserts nominalM3x4x4;3.7mm pockets provisional. CAD disk/envelope checks only; donor fit/thermal/physical notverified.
+
+The KiCad file here is ONLY a mechanical circle/mounting template with4mount footprints andNO signal circuit. The SVG is a functional placement concept, NOT validated footprint placement or routing. E1 baseline remains unchanged; no schematics changed to USB-only yet.
+USB-C only accepted by user; no battery and no220V inside lamp. External5V3A candidate. USB-C sink must identify correctCCconnection and respect available current, 5.1k Rd resistors alone do not guarantee3A. USB-C panel daughterboard connected to mainboard by short wires because mainboard edge is recessed from95mmhousing. Panelmodule mechanical retention/cableclearance notmodeled.
+5VfeedsLEDs directly;5Vto3.3Vregulator feedsESP;DATAlevelshifter thenDIN. Planremovebattery charger/boost fromfuturelampcircuit,notE1. ExactICs/connector/protection/PCBpowerbudget stillpending.
+Strip500mm*60LED/m=30LEDs. Full-white conservative60mAeach=>1.8AplusMCUbudget. Core62mmdiameter,pitch40mm=>2.515turns,100.58mm axialspan;assumed10mmstripwidth=>~110.6mmheight. Actualstripwidth,adhesive/radialbuild,cabletailsneedmeasurement.
+R9diffusertransitionnominal45degwithR0.3blend;nativegeometrysolidchecks passed. Slicerunchangedprofile2.9.6,0.4nozzle,PLA0.2mm,2perimeters,Arachne,snug45deg:estimatedsupport28.51g;R8snug28.44g. No materialreduction;remainingR6andthreadoverhangsdrivefullheight support. PhysicalprintNOT_RUN.
+Sources:
+https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections
+https://www.renesas.com/en/support/engineer-school/usb-power-delivery-03

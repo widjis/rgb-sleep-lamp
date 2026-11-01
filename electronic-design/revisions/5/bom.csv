@@ -1,0 +1,48 @@
+Reference,Value,Footprint
+C1,100nF,Capacitor_SMD:C_0805_2012Metric
+C2,10uF,Capacitor_SMD:C_0805_2012Metric
+D1,PWR RED,LED_SMD:LED_0805_2012Metric
+J1,3V3 TEST,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J2,UART TTL 3V3,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+J6,GPIO HEADER,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+J7,CONTROL / POWER,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+R1,10k,Resistor_SMD:R_0805_2012Metric
+R2,10k,Resistor_SMD:R_0805_2012Metric
+R3,10k,Resistor_SMD:R_0805_2012Metric
+R4,10k,Resistor_SMD:R_0805_2012Metric
+R5,10k,Resistor_SMD:R_0805_2012Metric
+R6,2.2k,Resistor_SMD:R_0805_2012Metric
+SW1,RESET,Button_Switch_THT:SW_PUSH_6mm
+SW2,FLASH,Button_Switch_THT:SW_PUSH_6mm
+U1,ESP-12F,Lamp_Local:ESP-12F_AntennaOverhang
+C3,47uF / 35V,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
+C5,470uF / 10V,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm
+C7,10uF / 10V,Capacitor_SMD:CP_Elec_5x5.4
+C8,22uF / 10V tantalum,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C
+C9,100nF,Capacitor_SMD:C_0805_2012Metric
+C10,100nF,Capacitor_SMD:C_0805_2012Metric
+F1,1A / >=32V,Fuse:Fuse_1206_3216Metric
+H1,M3 / 3.2mm,MountingHole:MountingHole_3.2mm_M3
+H2,M3 / 3.2mm,MountingHole:MountingHole_3.2mm_M3
+H3,M3 / 3.2mm,MountingHole:MountingHole_3.2mm_M3
+J3,WS2812B: 5V / DIN / GND,Connector_Lamp:LED_1x03_WirePads
+J4,PDC004 20V OUT,Connector_Lamp:PD20_1x02_WirePads
+J5,CASE BUTTON / GPIO5,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R7,330,Resistor_SMD:R_0805_2012Metric
+R8,100k,Resistor_SMD:R_0805_2012Metric
+R9,10k,Resistor_SMD:R_0805_2012Metric
+U2,74AHCT1G125,Package_TO_SOT_SMD:SOT-23-5
+U4,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2
+C4,22uF / 10V X7R,Capacitor_SMD:C_1210_3225Metric
+C11,10uF / 50V X7R,Capacitor_SMD:C_1210_3225Metric
+C12,100nF / 16V BST,Capacitor_SMD:C_0805_2012Metric
+C13,150pF REF / C0G,Capacitor_SMD:C_0805_2012Metric
+D2,SS34 / >=40V 3A; verify donor,Diode_SMD:D_SMA
+L1,15uH REF / >=3.5A; donor TBD,Inductor_SMD:L_Bourns_SRP1245A
+R10,210k 1% / REF,Resistor_SMD:R_0805_2012Metric
+R11,40.2k 1% / REF,Resistor_SMD:R_0805_2012Metric
+R12,100k REF / COMP,Resistor_SMD:R_0805_2012Metric
+R13,100k / ~900kHz,Resistor_SMD:R_0805_2012Metric
+R14,100k 1%,Resistor_SMD:R_0805_2012Metric
+R15,24.9k 1%,Resistor_SMD:R_0805_2012Metric
+U3,MP1584EN / donor verify,Lamp_Local:MP1584EN_SOIC8E_0603CLR

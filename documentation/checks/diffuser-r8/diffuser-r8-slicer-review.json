@@ -1,0 +1,201 @@
+{
+  "project": "RGB Sleep Lamp",
+  "mechanical_revision": 8,
+  "geometry_modified": false,
+  "slicer": "PrusaSlicer2.9.6",
+  "profiles": {
+    "printer": "Creality Ender-3 V2 - Enhanced",
+    "print": "0.20mm Quick @ Modified Width hermes-exp",
+    "filament": "Common PLA @CREALITY",
+    "nozzle_mm": 0.4,
+    "layer_mm": 0.2,
+    "extrusion_width_mm": 0.45,
+    "perimeters": 2,
+    "perimeter_generator": "arachne",
+    "support_threshold_degrees": 45
+  },
+  "geometry": {
+    "watertight": true,
+    "bounds_mm": [
+      94.97874069213867,
+      94.98937225341798,
+      144.9999999
+    ],
+    "inverted_downward_faces": {
+      "bottom_curve": {
+        "downward_area_under45deg_mm2": 827.1857303332915,
+        "z_range": [
+          0.22194925944010416,
+          1.5584157307942708
+        ],
+        "min_face_angle_deg": 15.00625989931656
+      },
+      "thin_wall": {
+        "downward_area_under45deg_mm2": 0.0,
+        "z_range": null,
+        "min_face_angle_deg": null
+      },
+      "thread_transition": {
+        "downward_area_under45deg_mm2": 368.1012169398272,
+        "z_range": [
+          138.33333333333334,
+          138.33333333333334
+        ],
+        "min_face_angle_deg": 44.72578671233076
+      },
+      "thread": {
+        "downward_area_under45deg_mm2": 536.8386399391347,
+        "z_range": [
+          139.081014474233,
+          144.98368848693428
+        ],
+        "min_face_angle_deg": 30.963641421587806
+      }
+    }
+  },
+  "slices": [
+    {
+      "file": "top-down-snug.gcode",
+      "support_filament_mm": 9536.2,
+      "support_volume_mm3": 22937.26,
+      "extrusion_filament_by_role_mm": {
+        "Custom": 20.0,
+        "Skirt/Brim": 9.82,
+        "Support material interface": 246.4,
+        "Support material": 9289.8,
+        "Perimeter": 918.25,
+        "External perimeter": 13533.98,
+        "Solid infill": 1679.14,
+        "Overhang perimeter": 27.06,
+        "Bridge infill": 45.67,
+        "Top solid infill": 514.14,
+        "Internal infill": 106.91
+      },
+      "support_z_range_mm": [
+        0.2,
+        144.05
+      ],
+      "support_by_10mm_z_bins_filament_mm": {
+        "0": 661.8,
+        "10": 684.25,
+        "20": 665.36,
+        "30": 683.38,
+        "40": 686.0,
+        "50": 685.47,
+        "60": 666.73,
+        "70": 685.98,
+        "80": 686.24,
+        "90": 686.34,
+        "100": 687.04,
+        "110": 666.59,
+        "120": 685.71,
+        "130": 622.77,
+        "140": 82.53
+      },
+      "model_layers": 1151,
+      "statistics": {
+        "filament used [mm]": "26391.18",
+        "filament used [cm3]": "63.48",
+        "filament used [g]": "78.71",
+        "estimated printing time (normal mode)": "9h 15m 43s"
+      },
+      "support_mass_g_estimate": 28.44
+    },
+    {
+      "file": "top-down-auto.gcode",
+      "support_filament_mm": 14117.42,
+      "support_volume_mm3": 33956.37,
+      "extrusion_filament_by_role_mm": {
+        "Custom": 20.0,
+        "Skirt/Brim": 10.45,
+        "Support material interface": 233.8,
+        "Support material": 13883.62,
+        "Perimeter": 918.26,
+        "External perimeter": 13533.98,
+        "Solid infill": 1679.14,
+        "Overhang perimeter": 27.06,
+        "Bridge infill": 45.67,
+        "Top solid infill": 514.14,
+        "Internal infill": 106.91
+      },
+      "support_z_range_mm": [
+        0.2,
+        144.45
+      ],
+      "support_by_10mm_z_bins_filament_mm": {
+        "0": 1165.48,
+        "10": 980.0,
+        "20": 952.84,
+        "30": 979.53,
+        "40": 982.02,
+        "50": 981.08,
+        "60": 954.49,
+        "70": 981.79,
+        "80": 981.97,
+        "90": 982.03,
+        "100": 983.75,
+        "110": 954.07,
+        "120": 982.08,
+        "130": 942.42,
+        "140": 313.86
+      },
+      "model_layers": 1166,
+      "statistics": {
+        "filament used [mm]": "30973.03",
+        "filament used [cm3]": "74.50",
+        "filament used [g]": "92.38",
+        "estimated printing time (normal mode)": "10h 47m 33s"
+      },
+      "support_mass_g_estimate": 42.11
+    },
+    {
+      "file": "open-bottom-auto.gcode",
+      "support_filament_mm": 18674.65,
+      "support_volume_mm3": 44917.79,
+      "extrusion_filament_by_role_mm": {
+        "Custom": 20.0,
+        "Skirt/Brim": 9.59,
+        "Support material": 18331.15,
+        "Support material interface": 343.5,
+        "Perimeter": 907.05,
+        "External perimeter": 13528.55,
+        "Solid infill": 1225.17,
+        "Internal infill": 108.03,
+        "Overhang perimeter": 39.34,
+        "Bridge infill": 697.85,
+        "Top solid infill": 490.82
+      },
+      "support_z_range_mm": [
+        0.2,
+        143.85
+      ],
+      "support_by_10mm_z_bins_filament_mm": {
+        "0": 1420.73,
+        "10": 1260.67,
+        "20": 1296.64,
+        "30": 1297.46,
+        "40": 1295.11,
+        "50": 1293.71,
+        "60": 1258.68,
+        "70": 1296.23,
+        "80": 1292.93,
+        "90": 1294.7,
+        "100": 1298.17,
+        "110": 1258.67,
+        "120": 1293.14,
+        "130": 1291.64,
+        "140": 526.17
+      },
+      "model_layers": 1155,
+      "statistics": {
+        "filament used [mm]": "35701.05",
+        "filament used [cm3]": "85.87",
+        "filament used [g]": "106.48",
+        "estimated printing time (normal mode)": "11h 23m 56s"
+      },
+      "support_mass_g_estimate": 55.7
+    }
+  ],
+  "conclusion": "Existing diffuser is not minimal-support at tested profile. Inversion reduces support; snug reduces more, but thread/reinforcement overhang still drives full-height support. R6 outer fillet near bed has shallow underside faces. Geometry unchanged. Needs local printability redesign or carefully qualified manual-support strategy, not merely orientation change. Physical print and thread fit NOT_RUN.",
+  "support_estimation": "Support extrusion path filament lengths including interface times1.75mm filament cross-section; mass usesPLA density1.24g/cm3. Values fromgeneratedGcode,notphysicalmeasurements."
+}

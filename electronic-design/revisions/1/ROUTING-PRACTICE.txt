@@ -1,0 +1,28 @@
+GPS Tracker routing practice - 2026-10-26 - NOT FOR FABRICATION
+
+40 footprints,38 nets,0 tracks/vias,0 copper zones.
+Native KiCad10.0.7 board saved and reloaded; every pad net compared to native schematic netlist.
+Native schematic save performed for both sheets after footprint assignment; ERC0errors0warnings.
+DRC:0 geometry violations,81 unconnected items EXPECTED because not routed. This is not a completed-board DRC pass.
+Outline112x98mm is provisional exercise space, not enclosure geometry. Component placement is an initial grouping, not qualified switching/RF/thermal layout.
+
+PROVISIONAL FOOTPRINTS:
+U2: generic SOIC8 EP2.29x3mm, pad9 GND. Actual IP2312 donor EP dimensions and stencil must be confirmed.
+L1,L2:Bourns SRN4018 envelope; actual donor dimensions, inductance, Isat/DCR not verified.
+C7:SMD electrolytic5x5.4mm; actual donor capacitance,ESR and size must be confirmed.
+C8:6032 tantalum C-case; verify actual part dimensions,polarity and regulator stability.
+SW3:2-pin header for EXTERNAL LATCHING POWER SWITCH, not a pushbutton. Off while charging.
+D4:existing SS34 SMC footprint retained; donor may be SMA/SMB/SMC, confirm actual package.
+U1:existing ESP-12E footprint for ESP-12F retained; verify module variant.
+Other0805 passive ratings/effective capacitance remain subject to donor validation.
+
+Learning steps in PCB Editor:
+1.Open GPS Tracker.kicad_pcb. Enable ratsnest in Appearance if connection lines are hidden.
+2.Select F.Cu; hover a pad and press X to begin routing. Esc stops. B.Cu can be used for a second layer; V inserts via during routing.
+3.Start with simple R6-D1 indicator or boot/reset nets. Hover pad/track and press E to inspect net/properties.
+4.Default signal width0.25mm; minimum0.20mm; defaultvia0.60/0.30mm; minimum outer via0.40mm.
+5.Power and switching loops need deliberate placement/width; minimumwidth is NOT a validated power trace width. Review before routing boost/charger power paths.
+6.Run Inspect>Design Rules Checker periodically. Unconnected count should decline as routes are added.
+7.Before any fabrication: verify footprints,pack rating,NTC,charger settings,RF antenna keepout,thermal design and full DRC/parity.
+
+Power design limitations from power-design-notes.txt remain: protected1S pack required,charge current1A provisional,SW3 OFF during charging,no power-path,thermal testing not performed.

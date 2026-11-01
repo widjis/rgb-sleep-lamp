@@ -1,0 +1,71 @@
+{
+  "parts": [
+    {
+      "id": "base",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 47900.385,
+      "bounds_mm": [
+        95.0,
+        95.0,
+        41.0
+      ],
+      "bed_z_min": 0.0,
+      "step_sha256": "a26f787581cc6bdd48d9957dbb10f097e4b1a7d3130f25bb4e8584b2141d54fe"
+    },
+    {
+      "id": "bottom_cover",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 16946.354,
+      "bounds_mm": [
+        95.0,
+        95.0,
+        2.4
+      ],
+      "bed_z_min": 0.0,
+      "step_sha256": "1966746549aec48f7bf3c823222381fcaa3426e012959e3207a7340ad010f802"
+    },
+    {
+      "id": "diffuser",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 42325.149,
+      "bounds_mm": [
+        95.0,
+        95.0,
+        145.0
+      ],
+      "bed_z_min": 0.0,
+      "step_sha256": "821b66bbd30366705675adc9b7d0b3c38d61a569a178f79daccd9f416a195735"
+    },
+    {
+      "id": "led_core",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 44985.894,
+      "bounds_mm": [
+        62.0,
+        62.0,
+        130.0
+      ],
+      "bed_z_min": 0.0,
+      "step_sha256": "eae66f40625807a56af4204030dd41559aa39b3dc65c0cae50005c58bb5dabd5"
+    }
+  ],
+  "warnings": [
+    "Imported source project: face references identify a part and clicked point; they are not parametric feature IDs.",
+    "Imported parts are shown in a spaced print-parts layout.",
+    "CAD/mesh checks do not prove physical fit, strength, minimum wall, collision-free assembly or print quality."
+  ],
+  "physical_tested": false,
+  "slicer_verified": false
+}

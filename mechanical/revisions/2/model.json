@@ -1,0 +1,77 @@
+{
+  "engine": "cadquery-source",
+  "name": "RGB Sleep Lamp",
+  "parts": [
+    {
+      "id": "base",
+      "label": "base",
+      "color": "#dbe6fa",
+      "offset": [
+        47.5000001,
+        47.50000010582785,
+        1e-07
+      ],
+      "features": []
+    },
+    {
+      "id": "bottom_cover",
+      "label": "bottom_cover",
+      "color": "#b9d6db",
+      "offset": [
+        150.5000002,
+        47.5,
+        -0.0
+      ],
+      "features": []
+    },
+    {
+      "id": "diffuser",
+      "label": "diffuser",
+      "color": "#d4c6ee",
+      "offset": [
+        253.5000002,
+        47.5,
+        -0.0
+      ],
+      "features": []
+    },
+    {
+      "id": "led_core",
+      "label": "led_core",
+      "color": "#e6d4b4",
+      "offset": [
+        340.0000002,
+        31.0,
+        -0.0
+      ],
+      "features": []
+    }
+  ],
+  "parameters": [],
+  "assumptions": [
+    "Original source/assets are preserved in a managed working copy. Imported history does not certify physical print acceptance."
+  ],
+  "print_notes": [
+    "This view spaces the individual parts for inspection; use the original source assembly for assembled placement."
+  ],
+  "artifacts": [
+    "assembly.step",
+    "model.json",
+    "validation.json",
+    "base.step",
+    "base.stl",
+    "bottom_cover.step",
+    "bottom_cover.stl",
+    "diffuser.step",
+    "diffuser.stl",
+    "led_core.step",
+    "led_core.stl"
+  ],
+  "source_files": [
+    "baseline.json",
+    "build.py",
+    "config.json"
+  ],
+  "entry_point": "build.py",
+  "parameter_bindings": {}
+}

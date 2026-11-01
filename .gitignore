@@ -1,0 +1,17 @@
+# Operating-system metadata
+.DS_Store
+.AppleDouble/
+._*
+Thumbs.db
+
+# Editor-local history, sessions and locks (explicit revision/backups remain tracked)
+.history/
+*.kicad_prl
+*.lck
+~$*
+*.swp
+*.swo
+
+# Python caches
+__pycache__/
+*.py[cod]

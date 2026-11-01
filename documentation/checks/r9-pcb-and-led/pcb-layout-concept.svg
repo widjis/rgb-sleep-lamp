@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680">
+<rect width="1100" height="680" fill="#f2f4f1"/>
+<style>text{font-family:Arial,sans-serif;fill:#22352b}.small{font-size:13px}.label{font-size:15px;font-weight:bold}</style>
+<text x="42" y="42" font-size="26" font-weight="bold">RGB Sleep Lamp — PCB concept</text>
+<text x="42" y="70" font-size="14">Mechanical outline / holes match CAD R9. Component blocks are illustrative; no routing or circuit approval.</text>
+<circle cx="290" cy="320" r="195.29999999999998" fill="#245f50" stroke="#183f35" stroke-width="3"/>
+<circle cx="401.3693180368812" cy="431.3693180368812" r="31.5" fill="#fff" opacity="0.15"/><circle cx="401.3693180368812" cy="431.3693180368812" r="10.08" fill="#f2f4f1" stroke="#ded9a5" stroke-width="3"/>
+<text x="401.3693180368812" y="395.3693180368812" class="small" text-anchor="middle">M1</text>
+<circle cx="178.63068196311878" cy="431.3693180368812" r="31.5" fill="#fff" opacity="0.15"/><circle cx="178.63068196311878" cy="431.3693180368812" r="10.08" fill="#f2f4f1" stroke="#ded9a5" stroke-width="3"/>
+<text x="178.63068196311878" y="395.3693180368812" class="small" text-anchor="middle">M2</text>
+<circle cx="178.63068196311875" cy="208.63068196311878" r="31.5" fill="#fff" opacity="0.15"/><circle cx="178.63068196311875" cy="208.63068196311878" r="10.08" fill="#f2f4f1" stroke="#ded9a5" stroke-width="3"/>
+<text x="178.63068196311875" y="172.63068196311878" class="small" text-anchor="middle">M3</text>
+<circle cx="401.3693180368812" cy="208.63068196311875" r="31.5" fill="#fff" opacity="0.15"/><circle cx="401.3693180368812" cy="208.63068196311875" r="10.08" fill="#f2f4f1" stroke="#ded9a5" stroke-width="3"/>
+<text x="401.3693180368812" y="172.63068196311875" class="small" text-anchor="middle">M4</text>
+<rect x="321.5" y="244.4" width="107.1" height="151.2" rx="5" fill="#dae7d4" stroke="#466b50" stroke-width="1.5"/>
+<text x="375.05" y="324.0" class="small" text-anchor="middle">ESP-12F</text>
+<rect x="176.60000000000002" y="244.4" width="75.6" height="50.4" rx="5" fill="#dae7d4" stroke="#466b50" stroke-width="1.5"/>
+<text x="214.4" y="273.6" class="small" text-anchor="middle">DATA level</text>
+<rect x="167.15" y="342.05" width="94.5" height="56.699999999999996" rx="5" fill="#dae7d4" stroke="#466b50" stroke-width="1.5"/>
+<text x="214.4" y="374.4" class="small" text-anchor="middle">5V → 3.3V</text>
+<rect x="113.6" y="291.65" width="37.8" height="56.699999999999996" rx="5" fill="#dae7d4" stroke="#466b50" stroke-width="1.5"/>
+<text x="132.5" y="324.0" class="small" text-anchor="middle">5V</text>
+<rect x="252.2" y="146.75" width="75.6" height="31.5" rx="5" fill="#dae7d4" stroke="#466b50" stroke-width="1.5"/>
+<text x="290.0" y="166.5" class="small" text-anchor="middle">LED OUT</text>
+<rect x="249.05" y="455.45" width="81.89999999999999" height="31.5" rx="5" fill="#dae7d4" stroke="#466b50" stroke-width="1.5"/>
+<text x="290.0" y="475.2" class="small" text-anchor="middle">GPIO / UART</text>
+<rect x="434.9" y="275.9" width="44.1" height="88.2" fill="#efd88b" stroke="#ffdd8c" stroke-dasharray="4 3"/>
+<text x="456.9" y="315" class="small" text-anchor="middle">RF</text>
+<text x="456.9" y="334" class="small" text-anchor="middle">keepout</text>
+<text x="290" y="550" class="label" text-anchor="middle">Ø62 mm · PCB 1.6 mm · 4 × Ø3.2 mm holes</text>
+<text x="290" y="575" class="small" text-anchor="middle">Hole coordinates: X/Y = ±17.678 mm; seats 8 mm above floor</text>
+<rect x="575" y="120" width="470" height="450" rx="15" fill="#fff" stroke="#d4ddd5"/>
+<text x="600" y="155" class="label" text-anchor="start">USB-C only / no battery</text>
+<text x="600" y="193" class="small" text-anchor="start">External adapter: candidate 5 V / 3 A</text>
+<text x="600" y="227" class="small" text-anchor="start">Panel USB-C board → protection → 5 V rail</text>
+<text x="600" y="261" class="small" text-anchor="start">5 V rail → 30 × WS2812B strip</text>
+<text x="600" y="295" class="small" text-anchor="start">5 V rail → regulator 3.3 V → ESP-12F</text>
+<text x="600" y="329" class="small" text-anchor="start">ESP DATA → level shifter → LED DIN</text>
+<text x="600" y="378" class="small" text-anchor="start">USB-C panel board connects by short wires.</text>
+<text x="600" y="401" class="small" text-anchor="start">Main PCB is recessed from the enclosure wall.</text>
+<text x="600" y="441" class="small" text-anchor="start">0.5 m strip @ 60 LED/m = 30 LEDs</text>
+<text x="600" y="466" class="small" text-anchor="start">Core Ø62 mm; pitch 40 mm; about 2.5 turns</text>
+<text x="600" y="491" class="small" text-anchor="start">Wound height ≈101 mm, plus strip width</text>
+<text x="600" y="531" class="small" text-anchor="start">Component packages / thermal / RF: not verified</text>
+<text x="42" y="630" class="small" text-anchor="start">Proposal only: connector, regulator, LED driver circuit and copper widths require detailed electrical design.</text>
+</svg>

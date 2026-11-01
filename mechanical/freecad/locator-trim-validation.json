@@ -1,0 +1,15 @@
+{
+  "protrusions_outside_taper_mm3": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "assembly_collision_mm3": {
+    "Imported_diffuser": 0.0,
+    "Imported_bottom_cover": 0.0,
+    "Imported_led_core": 0.0
+  },
+  "valid": true,
+  "physical_fit": "NOT_RUN",
+  "note": "Removed full exposed locator remainder over Z34.3..37.4; older base features hidden."
+}

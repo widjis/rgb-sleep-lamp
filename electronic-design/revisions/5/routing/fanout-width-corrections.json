@@ -1,0 +1,92 @@
+[
+  {
+    "uuid": "3983f4d5-729d-4dbf-a1e1-a6acd954ee46",
+    "net": "GND",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "46244932-3c9c-4f61-bbc5-152fe7e849a5",
+    "net": "GND",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "47637fe2-38bd-4a5b-b701-88520fef87ba",
+    "net": "GND",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "842250c6-e4b6-4a0b-aa94-1a9715ca147c",
+    "net": "GND",
+    "old_mm": 0.18,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "84e07086-7752-478a-908b-072d73c2bcef",
+    "net": "GND",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "9e8916ea-c8a1-4524-a1c3-9901729e1edc",
+    "net": "GND",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "c37a4107-ac2c-4eaa-810b-eb88db43958d",
+    "net": "GND",
+    "old_mm": 0.18,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "e736e6ff-d1f7-41a8-9223-a7d63ab9437b",
+    "net": "GND",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "d2ab8f66-c963-4a57-9639-f019a2f9d673",
+    "net": "Net-(U3-COMP)",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "ef3fff32-cb21-40ff-b043-dae1fe0c2c2d",
+    "net": "Net-(U3-COMP)",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "38290aa4-1006-4fbf-a065-60461e5eef50",
+    "net": "/RESET_N",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "4e6431f6-b41c-44d5-af80-7b510050bb8a",
+    "net": "/RESET_N",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "71471c88-be76-4e17-959c-8970c6a04756",
+    "net": "/RESET_N",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "f9942544-e574-4c4b-b3b0-efb375b9f245",
+    "net": "/GPIO16",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  },
+  {
+    "uuid": "fc094d9f-1eeb-40f7-82fc-a91ecd0d0c55",
+    "net": "/GPIO16",
+    "old_mm": 0.225,
+    "new_mm": 0.3
+  }
+]

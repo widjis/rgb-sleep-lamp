@@ -1,0 +1,203 @@
+{
+  "pcb_mount_layout": {
+    "status": "PROPOSED mechanical board, not E1; donor fit NOT final",
+    "outline_radius_mm": 31,
+    "outline_diameter_mm": 62,
+    "thickness_mm": 1.6,
+    "reduction_reason": "\u00d874 intersects existing cover posts with inward radius32; \u00d862 provides 1 mm radial margin",
+    "mount_circle_radius_mm": 25,
+    "angular_offset_deg": 45,
+    "hole_xy_mm": [
+      [
+        17.67766952966369,
+        17.677669529663685
+      ],
+      [
+        -17.677669529663685,
+        17.67766952966369
+      ],
+      [
+        -17.677669529663692,
+        -17.677669529663685
+      ],
+      [
+        17.677669529663685,
+        -17.677669529663692
+      ]
+    ],
+    "hole_diameter_mm": 3.2,
+    "hole_radius_mm": 1.6,
+    "seat_plane_inner_floor_mm": 8,
+    "seat_plane_exported_base_mm": 10.4,
+    "component_height_assumption_mm": 18,
+    "component_top_inner_floor_mm": 27.6,
+    "cover_underside_inner_floor_mm": 32,
+    "post_diameter_mm": 9,
+    "root_diameter_mm": 13,
+    "root_height_mm": 2,
+    "root_slope_deg": 45,
+    "pocket_diameter_mm": 3.7,
+    "pocket_depth_mm": 4.5,
+    "minimum_post_wall_mm": 2.35,
+    "pocket_floor_remaining_mm": 3.5,
+    "insert": "nominal M3x4x4; provisional interference, coupon required",
+    "screw_stack": "M3x5 plus assumed 0.5 mm washer + 1.6 mm PCB = 2.1 mm stack; 2.9 mm engagement, 1.1 mm insert-end margin; verify hardware",
+    "collisions_mm3": {
+      "board": 0.0,
+      "components": 0.0,
+      "cover": 0.0,
+      "insertion_sweep": 0.0
+    },
+    "tool_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "reference_geometry": "not fused, not exported, no new printed part",
+    "installation": "Remove diffuser and central cover/core, install inserts from above, lower PCB, fasten four screws, connect wiring then replace cover/core",
+    "electronics": "E1 files and metadata untouched",
+    "physical_fit": "NOT_RUN",
+    "slicer": "NOT_RUN"
+  },
+  "diffuser_transition": {
+    "line_start_rz_mm": [
+      44.7,
+      6
+    ],
+    "line_end_rz_mm": [
+      46.612132034,
+      7.912132034
+    ],
+    "blend_radius_mm": 0.3,
+    "blend_end_rz_mm": [
+      46.7,
+      8.124264069
+    ],
+    "min_slope_from_horizontal_deg": 45,
+    "blend_slope_range_deg": [
+      45,
+      90
+    ],
+    "minimum_radial_wall_mm": 0.8,
+    "lower_blend": "omitted to preserve exact female thread interface",
+    "remaining_support_sources": "External R6 fillet and original thread flanks; slicer NOT_RUN"
+  },
+  "reference": {
+    "url": "https://www.alpaco.it/generators/case/",
+    "author": "alpaco.it",
+    "lesson": "Open-side-up housing and separate lid orientation only; no geometry copied; maker claims are not lamp print validation"
+  },
+  "part_roles": {
+    "base": "closed-floor housing with integral exact male collar",
+    "bottom_cover": "flat central lift-out access cover"
+  },
+  "collar_aperture_mm": 86.0,
+  "cover_diameter_mm": 85.4,
+  "cover_thickness_mm": 3,
+  "cover_max_radius_mm": 42.7,
+  "vertical_swept_overlap_mm3": 0.0,
+  "tool_approach_overlap_mm3": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "collar_support": "continuous tapered wall; 55.9 degree inner underside from horizontal; no horizontal annular roof",
+  "remaining_support_limits": "Original thread flank radial projection 1.0 mm, slope about 45 degrees; crest flat 0.6 mm; side openings 13 and 7.2 mm geometric widths. Slicer bridge directions NOT_RUN",
+  "removal_order": "Unscrew diffuser, disconnect LED wiring as necessary, remove three accessible M3 cover screws, lift cover and attached core vertically through collar. Reverse for assembly; core may be preattached to cover. Base remains one print.",
+  "unchanged_geometry_comparison": {
+    "diffuser": 0.0,
+    "led_core": 0.0
+  },
+  "assembly_translation_mm": {
+    "base": [
+      0,
+      0,
+      0
+    ],
+    "bottom_cover": [
+      0,
+      0,
+      34.4
+    ],
+    "diffuser": [
+      0,
+      0,
+      37.4
+    ],
+    "led_core": [
+      0,
+      0,
+      37.4
+    ]
+  },
+  "envelope_correction": {
+    "limit_xy_mm": 95.001,
+    "removed_mm3": 1.2050070939731086,
+    "bounded_boolean": "PASSED",
+    "no_added_cavity_material": "PASSED",
+    "internal_reinforcement_preserved": "PASSED"
+  },
+  "floor_mm": 2.4,
+  "housing_height_mm": 43.4,
+  "deck_height_mm": 3,
+  "locating_radial_clearance_mm": 0.3,
+  "locating_overlap_mm": 3,
+  "insert_pocket_diameter_mm": 3.7,
+  "insert_pocket_depth_mm": 4.5,
+  "insert_nominal": "M3 brass OD4 x L4, flush upward entry; provisional pocket, coupon required",
+  "screw": "3 x M3x6 socket head; 3 mm deck stack, 3 mm insert engagement, 1 mm to insert bottom; no washer assumed; verify actual hardware",
+  "boss_root_underside_angle_from_horizontal_deg": 45,
+  "boss_construction": "floor-grown full-height posts, no suspended ledges",
+  "side_opening_nominal_bridge_spans_mm": {
+    "power": 13,
+    "button_max_width": 7.2
+  },
+  "bridge_note": "Geometric opening widths only; actual extrusion direction and bridge quality NOT_RUN",
+  "deck_housing_overlap_mm3": 0.0,
+  "floor_continuity": "PASSED",
+  "central_top_access": "PASSED",
+  "exact_transferred_collar": "PASSED",
+  "diffuser_core_identity": "unchanged shape objects",
+  "slicer": "NOT_RUN",
+  "physical_fit": "NOT_RUN",
+  "electronics": "E1 untouched; no electronics operations",
+  "print_orientation": {
+    "base": "closed floor down, cavity up",
+    "bottom_cover": "flat underside directly on bed; no skirt or collar"
+  },
+  "old_volumes_mm3": {
+    "base": 47900.38946376786,
+    "diffuser": 42325.717043819575,
+    "led_core": 44985.89432161622,
+    "bottom_cover": 16946.353959252836
+  },
+  "new_volumes_mm3": {
+    "base": 53782.10282952264,
+    "diffuser": 42325.717043819575,
+    "led_core": 44985.89432161622,
+    "bottom_cover": 16794.58996003543
+  },
+  "dimensions_mm": {
+    "base": [
+      95.0000002,
+      95.00000020583188,
+      43.4000002
+    ],
+    "diffuser": [
+      95.0000002,
+      95.0000002,
+      145.0000001
+    ],
+    "led_core": [
+      62.0,
+      62.0,
+      130.0
+    ],
+    "bottom_cover": [
+      85.4,
+      85.02529274004685,
+      3.0
+    ]
+  }
+}

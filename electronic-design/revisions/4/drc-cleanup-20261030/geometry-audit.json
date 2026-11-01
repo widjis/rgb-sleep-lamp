@@ -1,0 +1,10 @@
+{
+  "footprints_and_pad_nets_unchanged": true,
+  "tracks": 444,
+  "vias": 34,
+  "track_min_mm": 0.3,
+  "via_diameter_min_mm": 1.2,
+  "via_drill_min_mm": 0.6,
+  "native_gnd_unconnected": 0,
+  "native_unconnected": 0
+}

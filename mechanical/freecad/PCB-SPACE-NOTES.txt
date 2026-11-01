@@ -1,0 +1,13 @@
+Mechanical concept updated in existing FreeCAD document. PCB envelope diameter84mm, thickness1.6mm, three radius6mm open notches centered on radius37mm at0/120/240deg; four diameter3.2mm mounting holes on radius25mm at45/135/225/315deg. Existing casing/mount geometry unchanged. PCB undersideZ10.4mm. Nominal1mm aperture/post margin. CAD board/insertion-sweep overlaps0mm3. Native save/reopen passed. Area5184.767mm2 versus2986.901mm2 before (+73.58%). Component placement, RF/copper keepouts, connector trajectories, thermal and physical fit NOT validated. STEP export uses body-local Z0. E1 electronic PCB unchanged. Previous FreeCAD document preserved in before-maximized-pcb.FCStd.
+
+Latest update: inward outline offset5mm from diameter84/notchR6 baseline: diameter74mm/notchR11. Mounting holes and board height unchanged. CAD collision and vertical insertion sweep0mm3; electrical KiCad E1 unchanged. See maximized-pcb-validation.json.
+
+Latest: R3 outline fillets, mounting pattern38x32mm and base supports relocated. See placement-validation.json and electronic-design/planning/placement-decisions.md. Use base-current STEP/STL instead of archived R9 base.
+
+USB junction cleanup: extension root moved inwardY20 instead ofY30 to eliminate0.309mm ledge; all4 USB extension vertical corners blendedR2. All outer contour junctions checked tangential, maxerror<0.01deg. Board/base and insertion swept overlaps0mm3. See junction-validation.json.
+
+Base seam refinement: BaseWithSeamLip is current base. Outer ring OD95/ID92.6, Z34.3..37.1 conceals tapered shoulder and cover locating pins. Diffuser bottomZ37.4 leaves0.3mm visible axial seam. Threads unchanged. See seam-validation.json. base-current STEP/STL updated.
+
+Locator fix: BaseWithTrimmedLocators is current. Exposed locator material aboveZ35.9 trimmed while protecting original tapered wall; retained guiding overlap1.5mm above cover underside. Visible seam0.3mm unchanged. STEP/STL refreshed. See locator-trim-validation.json.
+
+Final locator correction: BaseFlushLocators is current. Found old BaseWithRepositionedPCBMounts also visible; hidden all older base objects. Removed remaining exposed locator material outside tapered envelope Z34.3..37.4. Residual protrusion0mm3 at all3 locators. base-current STEP/STL refreshed.

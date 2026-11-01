@@ -1,0 +1,25 @@
+{
+  "status": "MECHANICAL_CONCEPT",
+  "usb_tongue_width_mm": 16,
+  "front_y_mm": 41.8,
+  "fillet_radius_mm": 2,
+  "board_bounds_mm": [
+    71.42066381792972,
+    78.77836141579579
+  ],
+  "board_area_mm2": 3814.27010683297,
+  "collision": {
+    "board_base_mm3": 0.0,
+    "vertical_insertion_mm3": 0.0
+  },
+  "mount_holes": 3,
+  "module": "PDC00420V",
+  "module_dimensions": "PROVISIONAL18x11x5mm",
+  "daughterboard_bottom_z_mm": 14.8,
+  "main_pcb_top_z_mm": 12,
+  "daughterboard_spacing_mm": 2.8,
+  "module_front_overhang_mm": 2.2,
+  "physical_fit": "NOT_RUN",
+  "module_retention": "TBD",
+  "KiCad": "E1 unchanged"
+}

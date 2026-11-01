@@ -1,0 +1,26 @@
+{
+  "PDC004": {
+    "variant": "20V fixed",
+    "sku": "EP004131",
+    "qty": 1,
+    "interface": "J4:1 OUT+,2 OUT-",
+    "mechanical_dimensions": "provisional; measure actual module"
+  },
+  "U3": {
+    "part": "MP1584 complete module",
+    "qty": 1,
+    "interface": "wired1IN+,2IN-,3OUT+,4OUT-",
+    "output_setting": "5.00V before load connection",
+    "actual_module_pad_coordinates": "NOT assumed by wire-interface footprint"
+  },
+  "LED_STRIP": {
+    "type": "WS2812B5V",
+    "qty_leds": 30,
+    "length_m": 0.5,
+    "interface": "J3:1 5V,2 DIN,3 GND"
+  },
+  "CASE_BUTTON": {
+    "type": "momentary normally open",
+    "interface": "J5:1 GPIO5,2 GND"
+  }
+}

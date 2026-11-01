@@ -1,0 +1,105 @@
+(footprint "MP1584_Wired_Interface"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "1a538b9f-73c0-415e-9910-1d2b35ccbc5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "MP1584_Wired_Interface"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "145b1e38-6b91-4ebb-a467-65039efe5cb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa9d2917-345a-46cb-a101-3114c06f6fce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf3d9c88-e791-4239-9909-60b01b906ea9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -11.5 -9)
+		(end 11.5 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ad5c3da2-2b50-44e1-9fc6-7decf02cd81c")
+	)
+	(fp_rect
+		(start -11 -8.5)
+		(end 11 8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "56665174-b795-49f5-96bd-334d270f6141")
+	)
+	(pad "1" thru_hole circle
+		(at -9 -6)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "954f0a82-dc62-46e3-a8b2-a0f46b6519c9")
+	)
+	(pad "2" thru_hole circle
+		(at -9 6)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8bedca27-c1d4-474d-b51e-df6fdd9b67eb")
+	)
+	(pad "3" thru_hole circle
+		(at 9 -6)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9bfc130-417b-4729-ac4b-b2fd95366b17")
+	)
+	(pad "4" thru_hole circle
+		(at 9 6)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fbb34b8-083b-498f-a07d-666eef5cf0fb")
+	)
+	(embedded_fonts no)
+)

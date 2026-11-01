@@ -1,0 +1,376 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T05:33:19",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "circuit.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.2255 mm)",
+            "items": [
+                {
+                    "description": "Track [/GPIO14] on F.Cu, length 0.4567 mm",
+                    "pos": {
+                        "x": 87.5088,
+                        "y": 116.82
+                    },
+                    "uuid": "12cff7a4-b78c-4ee4-904b-2738ea5899c6"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 3.6690 mm",
+                    "pos": {
+                        "x": 88.5034,
+                        "y": 119.416
+                    },
+                    "uuid": "4921208b-289f-42b5-b0fd-96631e092796"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.2255 mm)",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 1.4097 mm",
+                    "pos": {
+                        "x": 88.5034,
+                        "y": 115.747
+                    },
+                    "uuid": "8c86aa55-c6ba-4f0b-9213-69c43373c947"
+                },
+                {
+                    "description": "Track [/GPIO14] on F.Cu, length 2.0220 mm",
+                    "pos": {
+                        "x": 87.8779,
+                        "y": 116.551
+                    },
+                    "uuid": "9c812fd2-55f3-411b-94f8-5a107b96842e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.2255 mm)",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 3.6690 mm",
+                    "pos": {
+                        "x": 88.5034,
+                        "y": 119.416
+                    },
+                    "uuid": "4921208b-289f-42b5-b0fd-96631e092796"
+                },
+                {
+                    "description": "Track [/GPIO14] on F.Cu, length 2.0220 mm",
+                    "pos": {
+                        "x": 87.8779,
+                        "y": 116.551
+                    },
+                    "uuid": "9c812fd2-55f3-411b-94f8-5a107b96842e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3706 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 132.0429
+                    },
+                    "uuid": "6b74a23f-f100-44ba-bb5f-36cf8ae77e2e"
+                },
+                {
+                    "description": "Track [/UART_RX] on F.Cu, length 0.4650 mm",
+                    "pos": {
+                        "x": 92.6449,
+                        "y": 129.125
+                    },
+                    "uuid": "cf98cfbd-aabc-4671-976c-c67291c32743"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3706 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 132.0429
+                    },
+                    "uuid": "6b74a23f-f100-44ba-bb5f-36cf8ae77e2e"
+                },
+                {
+                    "description": "Track [/UART_RX] on F.Cu, length 2.2230 mm",
+                    "pos": {
+                        "x": 92.6449,
+                        "y": 126.902
+                    },
+                    "uuid": "eeb29025-2a17-418c-8604-82e630888ab9"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6500 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'ORANGEFLAVOR LABS' on F.Silkscreen",
+                    "pos": {
+                        "x": 73.8,
+                        "y": 107.5
+                    },
+                    "uuid": "96a91502-9e3e-4697-a19b-8ab7b19fc6d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0676 mm)",
+            "items": [
+                {
+                    "description": "Segment of D1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.04,
+                        "y": 109.8125
+                    },
+                    "uuid": "32fe2280-348c-493e-bc31-3ec1307334c0"
+                },
+                {
+                    "description": "PCB text '3V3 PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 112.0
+                    },
+                    "uuid": "533896ab-af61-46ca-a10a-b0d68fc02d1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment of D1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.04,
+                        "y": 112.4975
+                    },
+                    "uuid": "0f5b0598-ce93-4163-acda-9cf4db2fbfdb"
+                },
+                {
+                    "description": "PCB text '3V3 PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 112.0
+                    },
+                    "uuid": "533896ab-af61-46ca-a10a-b0d68fc02d1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0043 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3V3 PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 112.0
+                    },
+                    "uuid": "533896ab-af61-46ca-a10a-b0d68fc02d1a"
+                },
+                {
+                    "description": "Segment of D1 on F.Silkscreen",
+                    "pos": {
+                        "x": 115.96,
+                        "y": 112.4975
+                    },
+                    "uuid": "8eb51317-8414-468c-b237-e65b7a0e14d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '3V3 PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 112.0
+                    },
+                    "uuid": "533896ab-af61-46ca-a10a-b0d68fc02d1a"
+                },
+                {
+                    "description": "Pad 2 [GND] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 111.48,
+                        "y": 111.5
+                    },
+                    "uuid": "5fd04a78-a18d-4268-bc7e-711388fadfa7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '3V3 PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 112.0
+                    },
+                    "uuid": "533896ab-af61-46ca-a10a-b0d68fc02d1a"
+                },
+                {
+                    "description": "Pad 1 [GND] of D1 on F.Cu",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 111.75
+                    },
+                    "uuid": "f78ef570-5119-4407-be62-e9b7f23f7f14"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

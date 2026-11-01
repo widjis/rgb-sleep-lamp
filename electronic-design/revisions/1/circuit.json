@@ -1,0 +1,1153 @@
+{
+  "kind": "native-kicad-import",
+  "title": "RGB Sleep Lamp electronics baseline",
+  "native_schematic": "circuit.kicad_sch",
+  "native_board": "circuit.kicad_pcb",
+  "width_mm": 199.01,
+  "height_mm": 98.05,
+  "thickness_mm": 1.6,
+  "components": [
+    {
+      "ref": "U1",
+      "symbol": "RF_Module:ESP-12F",
+      "value": "ESP-12F",
+      "footprint": "RF_Module:ESP-12E",
+      "schematic": [
+        110.49,
+        80.01,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR11",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        55.88,
+        118.11,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "R5",
+      "symbol": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        160.02,
+        97.79,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "J2",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "value": "UART TTL 3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "schematic": [
+        210.82,
+        55.88,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR05",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        160.02,
+        45.72,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "R1",
+      "symbol": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        60.96,
+        54.61,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "C1",
+      "symbol": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        40.64,
+        109.22,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR18",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        30.48,
+        96.52,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR16",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        187.96,
+        58.42,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR14",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        25.4,
+        45.72,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR10",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        55.88,
+        100.33,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR03",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        60.96,
+        45.72,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR12",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        96.52,
+        139.7,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "R2",
+      "symbol": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        76.2,
+        59.69,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "C2",
+      "symbol": "Device:C",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        55.88,
+        109.22,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR99",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        208.28,
+        125.73,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "J1",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "value": "3V3 TEST",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        48.26,
+        50.8,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "R6",
+      "symbol": "Device:R",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        208.28,
+        101.6,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR04",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        76.2,
+        50.8,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "SW2",
+      "symbol": "Switch:SW_Push",
+      "value": "FLASH",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "schematic": [
+        121.92,
+        134.62,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#FLG02",
+      "symbol": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        30.48,
+        91.44,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR15",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        25.4,
+        58.42,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR13",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        137.16,
+        139.7,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR08",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        40.64,
+        100.33,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR19",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        208.28,
+        92.71,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "J6",
+      "symbol": "Connector_Generic:Conn_01x08",
+      "value": "GPIO HEADER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "schematic": [
+        256.54,
+        60.96,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR06",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        177.8,
+        50.8,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR07",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        160.02,
+        106.68,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "R4",
+      "symbol": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        177.8,
+        59.69,
+        180.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR01",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        110.49,
+        54.61,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "SW1",
+      "symbol": "Switch:SW_Push",
+      "value": "RESET",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "schematic": [
+        81.28,
+        134.62,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR201",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        218.44,
+        104.14,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR202",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        228.6,
+        116.84,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "R3",
+      "symbol": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        160.02,
+        54.61,
+        180.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR02",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        110.49,
+        102.87,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#PWR09",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        40.64,
+        118.11,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "J7",
+      "symbol": "Connector_Generic:Conn_01x08",
+      "value": "CONTROL / POWER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "schematic": [
+        256.54,
+        101.6,
+        0.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "D1",
+      "symbol": "Device:LED",
+      "value": "PWR RED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "schematic": [
+        208.28,
+        116.84,
+        90.0
+      ],
+      "sheet": "circuit.kicad_sch"
+    },
+    {
+      "ref": "#FLG101",
+      "symbol": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        335.28,
+        45.72,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "D4",
+      "symbol": "Device:D_Schottky",
+      "value": "SS34",
+      "footprint": "Diode_SMD:D_SMC",
+      "schematic": [
+        167.64,
+        180.34,
+        180.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R9",
+      "symbol": "Device:R",
+      "value": "82k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        175.26,
+        119.38,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR124",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        297.18,
+        194.31,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR128",
+      "symbol": "power:+5V",
+      "value": "+5V",
+      "footprint": "",
+      "schematic": [
+        375.92,
+        40.64,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR104",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        106.68,
+        91.44,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "L1",
+      "symbol": "Device:L",
+      "value": "1uH; Isat >=4A",
+      "footprint": "Inductor_SMD:L_Bourns-SRN4018",
+      "schematic": [
+        144.78,
+        55.88,
+        90.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR101",
+      "symbol": "power:VBUS",
+      "value": "VBUS",
+      "footprint": "",
+      "schematic": [
+        81.28,
+        35.56,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#FLG104",
+      "symbol": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        375.92,
+        45.72,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C6",
+      "symbol": "Device:C",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        190.5,
+        200.66,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "L2",
+      "symbol": "Device:L",
+      "value": "4.7uH; Isat >=3A",
+      "footprint": "Inductor_SMD:L_Bourns-SRN4018",
+      "schematic": [
+        129.54,
+        180.34,
+        90.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR113",
+      "symbol": "power:+BATT",
+      "value": "+BATT",
+      "footprint": "",
+      "schematic": [
+        55.88,
+        175.26,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR126",
+      "symbol": "power:VBUS",
+      "value": "VBUS",
+      "footprint": "",
+      "schematic": [
+        335.28,
+        40.64,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#FLG102",
+      "symbol": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        355.6,
+        45.72,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR109",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        175.26,
+        128.27,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "U4",
+      "symbol": "Regulator_Linear:AMS1117-3.3",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "schematic": [
+        248.92,
+        180.34,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C3",
+      "symbol": "Device:C",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        20.32,
+        71.12,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR108",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        137.16,
+        107.95,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR111",
+      "symbol": "power:VBUS",
+      "value": "VBUS",
+      "footprint": "",
+      "schematic": [
+        40.64,
+        90.17,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C4",
+      "symbol": "Device:C",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        172.72,
+        73.66,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR114",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        55.88,
+        187.96,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C8",
+      "symbol": "Device:C_Polarized",
+      "value": "22uF / 10V\nTantalum",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C",
+      "schematic": [
+        274.32,
+        203.2,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR118",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        190.5,
+        209.55,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R13",
+      "symbol": "Device:R",
+      "value": "15k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        175.26,
+        228.6,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "D3",
+      "symbol": "Device:LED",
+      "value": "FULL",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "schematic": [
+        60.96,
+        114.3,
+        90.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR117",
+      "symbol": "power:+5V",
+      "value": "+5V",
+      "footprint": "",
+      "schematic": [
+        190.5,
+        175.26,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "SW3",
+      "symbol": "Switch:SW_SPST",
+      "value": "EXTERNAL RUN SWITCH",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        73.66,
+        180.34,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR105",
+      "symbol": "power:+BATT",
+      "value": "+BATT",
+      "footprint": "",
+      "schematic": [
+        172.72,
+        50.8,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "U2",
+      "symbol": "GPS_Local:IP2312",
+      "value": "IP2312 / 4.2V",
+      "footprint": "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm",
+      "schematic": [
+        106.68,
+        66.04,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR127",
+      "symbol": "power:+BATT",
+      "value": "+BATT",
+      "footprint": "",
+      "schematic": [
+        355.6,
+        40.64,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C9",
+      "symbol": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        297.18,
+        203.2,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C5",
+      "symbol": "Device:C",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic": [
+        99.06,
+        223.52,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR125",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        297.18,
+        212.09,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "J3",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "value": "PROTECTED 1S PACK",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        43.18,
+        180.34,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR112",
+      "symbol": "power:VBUS",
+      "value": "VBUS",
+      "footprint": "",
+      "schematic": [
+        60.96,
+        90.17,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR110",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        185.42,
+        132.08,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "U3",
+      "symbol": "Regulator_Switching:MT3608",
+      "value": "MT3608",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "schematic": [
+        129.54,
+        208.28,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR103",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        20.32,
+        80.01,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR120",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        248.92,
+        193.04,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R12",
+      "symbol": "Device:R",
+      "value": "110k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        175.26,
+        200.66,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R11",
+      "symbol": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        60.96,
+        99.06,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR115",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        129.54,
+        220.98,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR122",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        274.32,
+        212.09,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#FLG105",
+      "symbol": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        99.06,
+        172.72,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR123",
+      "symbol": "power:+3.3V",
+      "value": "+3.3V",
+      "footprint": "",
+      "schematic": [
+        274.32,
+        175.26,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "J4",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "value": "USB 5V INPUT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        45.72,
+        40.64,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "J5",
+      "symbol": "Connector_Generic:Conn_01x02",
+      "value": "BAT NTC 100k B4100",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        198.12,
+        106.68,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR116",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        99.06,
+        232.41,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "C7",
+      "symbol": "Device:C_Polarized",
+      "value": "10uF / 10V",
+      "footprint": "Capacitor_SMD:CP_Elec_5x5.4",
+      "schematic": [
+        228.6,
+        203.2,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR102",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        63.5,
+        48.26,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR121",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        228.6,
+        212.09,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R8",
+      "symbol": "Device:R",
+      "value": "135k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        137.16,
+        99.06,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R10",
+      "symbol": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        40.64,
+        99.06,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR106",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        172.72,
+        82.55,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "#PWR119",
+      "symbol": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "schematic": [
+        175.26,
+        237.49,
+        0.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "R7",
+      "symbol": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic": [
+        144.78,
+        66.04,
+        90.0
+      ],
+      "sheet": "power.kicad_sch"
+    },
+    {
+      "ref": "D2",
+      "symbol": "Device:LED",
+      "value": "CHG",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "schematic": [
+        40.64,
+        114.3,
+        90.0
+      ],
+      "sheet": "power.kicad_sch"
+    }
+  ],
+  "autoroute": false,
+  "notes": "Imported native KiCad electronics baseline from GPS Tracker. Preserve native schematic hierarchy, geometry, placement and nets. This is NOT a completed RGB LED lamp circuit; no RGB driver or enclosure fit validation. The native files are authoritative. Do not rebuild from this metadata summary as a flattened circuit. Keep autorouting disabled; user is learning manual routing."
+}

@@ -1,0 +1,8 @@
+{
+  "planes_omitted_from_router_only": 5,
+  "plane_boundaries_preserved_on_kicad_board": true,
+  "GND_fanout_routing_width_mm": 0.3,
+  "GND_bulk_return": "unchanged F.Cu/B.Cu copper pours; native refill after routing",
+  "automatic_neckdown": false,
+  "minimum_track_mm": 0.3
+}

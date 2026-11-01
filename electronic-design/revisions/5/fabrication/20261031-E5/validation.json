@@ -1,0 +1,106 @@
+{
+  "status": "PRODUCTION_REVIEW_PENDING",
+  "created_at": "2026-10-31T23:40:13.310289+08:00",
+  "kicad_version": "10.0.7",
+  "source_pcb": "/Users/widjis/Documents/Hardware Project/RGB Sleep Lamp/electronic-design/revisions/5/circuit.kicad_pcb",
+  "source_sha256": "7e6805146fe27a8ff927305ab1cc769ffe9999222ff86da6a5450937b462665a",
+  "native_zone_fill_saved": true,
+  "layers": [
+    {
+      "Path": "circuit-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-B_Cu.gbl",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "circuit-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "circuit-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "board_thickness_mm": 1.6,
+  "copper_layers": 2,
+  "design_rules": {
+    "min_clearance_mm": 0.3,
+    "min_track_mm": 0.3,
+    "via_drill_mm": 0.8,
+    "via_copper_diameter_mm": 1.2
+  },
+  "drc": {
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "ignored_checks": [],
+    "exclusions": [],
+    "report": "review/drc.json"
+  },
+  "drill": {
+    "PTH": {
+      "holes": 68,
+      "tool_holes_mm": {
+        "0.8": 37,
+        "1.0": 24,
+        "1.15": 4,
+        "1.2": 3
+      }
+    },
+    "NPTH": {
+      "holes": 3,
+      "tool_holes_mm": {
+        "3.2": 3
+      }
+    }
+  },
+  "gerbview_review": {
+    "status": "PASSED",
+    "views": [
+      "F.Cu+B.Cu+F.SilkS+profile+PTH+NPTH",
+      "F.SilkS+profile+PTH+NPTH"
+    ],
+    "note": "Native GerbView imported all nine plot/drill layers from final ZIP. Job metadata skipped by archive loader as expected. Mask layers structurally checked; not separately visually reviewed."
+  },
+  "native_board_render_review": "PASSED",
+  "files_sha256": {
+    "circuit-B_Cu.gbl": "74868231a72b0575533f7f868729e05015262a86421e8b2fb199cb42b87e74b3",
+    "circuit-B_Mask.gbs": "32d928f8979a7bbb3b7154a81cb1e9b7ad556d52a3aa93f0ddb9eb7f9232b0e7",
+    "circuit-B_Silkscreen.gbo": "3eed7b61c641510685758c68f13cc96841f7d2fc95c3990b6339cca3fe4ba662",
+    "circuit-Edge_Cuts.gm1": "244a6cf2f6054cfe48b2a09f976eddbd1d203a12012466eda670fcad8c552ecc",
+    "circuit-F_Cu.gtl": "79eb98e5240eb6dee13665b56e0873d2fea42344309340df4b0dfac39876aabc",
+    "circuit-F_Mask.gts": "2737623cd8dbcbf78e9df98c0bc27143572a4502b9dfc5a008806e468e2506b1",
+    "circuit-F_Silkscreen.gto": "8de14cd3aa0957c9c53d0736daa27857d9c78afa085e6c625a387ce0568afc13",
+    "circuit-NPTH.drl": "64c4550389a313f5f4f64f05432bab1bced36f5a65a540dfbe1429ffdab1ed1b",
+    "circuit-PTH.drl": "c7807147fffb06138879ad92ac0a4e1db9f6f1bd386e752f78c65e9a2848244f",
+    "circuit-job.gbrjob": "da31f2fe1afe1aedabd3813d892db8378d384b402e1f0eebd02a2ad9525202d0",
+    "README.txt": "989bfb4a57e9ba8c049c29bacb3fcb717c2bd6c608298895c26c82a0e7618ed1"
+  },
+  "zip": "RGB-Sleep-Lamp-E5-Gerber-20261031.zip",
+  "zip_sha256": "1e75d440db36d77e4ab26a2a32311f92f8bc10770ddc977735b678f7aa2ec35a",
+  "zip_integrity": "PASSED",
+  "physical_fit_thermal_operation": "NOT_RUN; donor status remains provisional",
+  "zip_entries": 10,
+  "zip_contents": "Native Gerber, job and drill files only; README/checksums remain outside ZIP to avoid GerbView detecting TXT files as Excellon."
+}

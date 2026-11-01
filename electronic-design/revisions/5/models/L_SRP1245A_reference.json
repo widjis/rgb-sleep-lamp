@@ -1,0 +1,13 @@
+{
+  "kind": "reference_envelope",
+  "body_overall_mm": [
+    13.5,
+    12.5,
+    4.8
+  ],
+  "font_marking": null,
+  "source": "https://www.bourns.com/docs/product-datasheets/srp1245a.pdf",
+  "donor_fit_verified": false,
+  "shapes_valid": true,
+  "vrml_units_mm": 2.54
+}

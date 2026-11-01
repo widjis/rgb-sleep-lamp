@@ -1,0 +1,426 @@
+{
+  "revision": 5,
+  "status": "LAYOUT_REVIEW_DRC_CLEAN",
+  "KiCad": "10.0.7",
+  "source_revision": 4,
+  "source_board_sha256": "f0fe143610f6c50a2f54d6aaa8bf04145f1fea052ec4a48512a21fa9d362b62a",
+  "board_sha256": "7e6805146fe27a8ff927305ab1cc769ffe9999222ff86da6a5450937b462665a",
+  "removed_routing": {
+    "PCB_TRACK": 444,
+    "PCB_VIA": 34
+  },
+  "unrouted_seed_tracks": 0,
+  "unrouted_seed_vias": 0,
+  "retained_E4_routing_UUIDs": 0,
+  "geometry_violations": 0,
+  "parity_violations": 0,
+  "unconnected_items": 0,
+  "erc_violations": 0,
+  "ignored_drc_checks": [],
+  "drc_exclusions": [],
+  "design_rules": {
+    "min_clearance_mm": 0.3,
+    "min_track_mm": 0.3,
+    "via_drill_mm": 0.8,
+    "via_diameter_mm": 1.2,
+    "annular_ring_mm": 0.2,
+    "copper_to_edge_mm": 0.35
+  },
+  "actual": {
+    "segments": {
+      "F.Cu": 340,
+      "B.Cu": 73
+    },
+    "length_mm": {
+      "F.Cu": 864.2241252281599,
+      "B.Cu": 338.60993763257426
+    },
+    "top_length_percent": 71.85,
+    "track_width_counts_mm": {
+      "0.3": 318,
+      "0.5": 46,
+      "1.0": 7,
+      "0.6": 2,
+      "0.8": 15,
+      "1.5": 25
+    },
+    "via_count": 33,
+    "vias": [
+      {
+        "uuid": "592d10ac-e0a7-41ab-9868-63b4fae76184",
+        "net": "/GPIO2",
+        "x": 89.1711,
+        "y": 107.0798,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "af1ed393-ebb7-42f4-aa11-4db7197df706",
+        "net": "/GPIO2",
+        "x": 94.698,
+        "y": 111.8975,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "db866dbd-0ddc-421d-b664-9e85c32ce029",
+        "net": "/GPIO2",
+        "x": 84.0069,
+        "y": 106.4258,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "1a214dbf-baaf-40c9-bc15-38c336ced655",
+        "net": "GND",
+        "x": 90.1071,
+        "y": 112.4915,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "1d3c2a95-9155-4267-98ea-465970812923",
+        "net": "GND",
+        "x": 90.8748,
+        "y": 98.0064,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "2de00a99-1bf3-42aa-bc7c-68653d1f8096",
+        "net": "VIN_BUCK",
+        "x": 118.275,
+        "y": 82.1143,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "8cc0808e-2b52-47eb-8553-82402271cb9b",
+        "net": "VIN_BUCK",
+        "x": 109.1226,
+        "y": 84.4877,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "9adf5ae5-68e8-4cfc-ab1a-06dd11d2d862",
+        "net": "VIN_BUCK",
+        "x": 109.1226,
+        "y": 76.3726,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "63bd5b6d-5e50-4e6b-9d62-e90a7351534e",
+        "net": "+5V",
+        "x": 105.5473,
+        "y": 90.1096,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "68d36862-b048-4a0b-80bf-d451cd0c8ed7",
+        "net": "+5V",
+        "x": 91.6619,
+        "y": 88.6456,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "fe1bc76a-2ec5-4204-a002-a4d668f78e42",
+        "net": "+5V",
+        "x": 110.1904,
+        "y": 94.1883,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "3c1610a1-a1a9-4d1d-b24e-054398c59618",
+        "net": "/RESET_N",
+        "x": 103.8416,
+        "y": 109.1241,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "b431ed4d-a09a-4a28-ae50-e56defbaa68f",
+        "net": "/RESET_N",
+        "x": 113.3488,
+        "y": 111.192,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "7def3593-880e-44ba-b216-b3dcf95cadd6",
+        "net": "USER_BUTTON_N",
+        "x": 96.2399,
+        "y": 111.9509,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "d1d1cc6a-f0b3-41fc-95cd-cd934dbbf4b0",
+        "net": "USER_BUTTON_N",
+        "x": 92.4804,
+        "y": 113.0571,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "bf195f4d-7a67-4aad-8726-d5623fc690a1",
+        "net": "/BOOT_GPIO0",
+        "x": 78.6412,
+        "y": 100.0,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "4ee25d40-7dbd-409c-90f5-ae5fd02fc93c",
+        "net": "/GPIO15",
+        "x": 96.5887,
+        "y": 119.8106,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "ffe9be64-9ac5-4940-a83f-dae52180518e",
+        "net": "/GPIO15",
+        "x": 87.4139,
+        "y": 119.8106,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "5fe6fda6-9386-4f61-854a-49d97d3910b2",
+        "net": "LED_DATA_3V3",
+        "x": 111.9354,
+        "y": 109.2225,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "612e8a48-342d-4f44-89b2-6705c2aee70f",
+        "net": "LED_DATA_3V3",
+        "x": 101.0476,
+        "y": 103.3656,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "8eecf603-6cb6-4a58-a6c8-7133f6557caa",
+        "net": "LED_DATA_3V3",
+        "x": 102.6088,
+        "y": 105.1313,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "bb830356-85ec-43f6-a546-797c932e1b96",
+        "net": "LED_DATA_3V3",
+        "x": 99.2192,
+        "y": 121.2006,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "261b8228-caf4-465e-bbff-40d49ea17f5a",
+        "net": "/GPIO12",
+        "x": 98.2834,
+        "y": 107.9183,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "28fb5d81-16f7-48df-b3b2-632600a17cbb",
+        "net": "/GPIO12",
+        "x": 107.1602,
+        "y": 121.5134,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "4be61004-c273-424a-b02c-dc332496b239",
+        "net": "/GPIO12",
+        "x": 106.5206,
+        "y": 107.4087,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "daffc7cc-b18f-4e82-9d91-1f99ed07c2f6",
+        "net": "/GPIO12",
+        "x": 112.2917,
+        "y": 114.1653,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "2a6af98b-05b4-45e1-a663-7aa5c266eab3",
+        "net": "/GPIO13",
+        "x": 90.3365,
+        "y": 109.2305,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "c95cee93-aac0-420f-bdf4-4bde96ee8f4b",
+        "net": "/GPIO13",
+        "x": 117.907,
+        "y": 106.5091,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "c8df6543-bc0c-4ed3-88fb-fc204d4dfa0e",
+        "net": "/GPIO14",
+        "x": 103.9008,
+        "y": 125.8014,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "38876d5b-fe6c-4f74-8d96-cdc8b0de3477",
+        "net": "/UART_RX",
+        "x": 106.505,
+        "y": 117.8218,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "3912ac5c-9006-4d90-b85b-e8cda32b24fd",
+        "net": "/UART_TX",
+        "x": 105.5032,
+        "y": 119.5,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "501a21fa-e470-4535-ba54-2e7824deda67",
+        "net": "/GPIO16",
+        "x": 107.4449,
+        "y": 125.0091,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      },
+      {
+        "uuid": "a8f157b7-8fcb-430d-ae09-eaae7bdb33b1",
+        "net": "/ADC",
+        "x": 105.9263,
+        "y": 124.9784,
+        "diameter_mm": 1.2,
+        "drill_mm": 0.8
+      }
+    ]
+  },
+  "native_saved_reloaded": true,
+  "native_render_reviewed": true,
+  "routing": "COMPLETE_DRC_CLEAN; FreeRouting fanout first, native width correction and local thermal bridge",
+  "donor_values_footprints": "PROVISIONAL; measure actual donor",
+  "thermal_loop_stability_physical_tests": "NOT_RUN",
+  "source_references": [
+    "https://github.com/freerouting/freerouting/blob/v2.5.0/src/main/java/app/freerouting/settings/LayerSettings.java",
+    "https://github.com/freerouting/freerouting/blob/v2.5.0/src/main/java/app/freerouting/util/ReflectionUtil.java"
+  ],
+  "footprint_pad_geometry_nets_placements_models_unchanged_from_E4": true,
+  "board_outline_curved_artwork_unchanged_from_E4": true,
+  "native_render_review": [
+    "renders/pcb-e5-top.png",
+    "renders/pcb-e5-bottom.png"
+  ],
+  "reference_labels_visible": 47,
+  "silkscreen_adjustments": [
+    {
+      "reference": "SW1",
+      "old_mm": [
+        102.680952,
+        109.25
+      ],
+      "new_mm": [
+        101.880952,
+        109.25
+      ]
+    },
+    {
+      "reference": "R12",
+      "old_mm": [
+        109.5,
+        93.8036
+      ],
+      "new_mm": [
+        111.1,
+        97.0036
+      ]
+    },
+    {
+      "reference": "R6",
+      "old_mm": [
+        117.005952,
+        107.3125
+      ],
+      "new_mm": [
+        117.005952,
+        107.7125
+      ]
+    },
+    {
+      "reference": "D1",
+      "old_mm": [
+        113.0,
+        108.8839
+      ],
+      "new_mm": [
+        116.8,
+        109.2839
+      ]
+    },
+    {
+      "reference": "R15",
+      "old_mm": [
+        106.55,
+        91.1786
+      ],
+      "new_mm": [
+        106.55,
+        91.3786
+      ]
+    },
+    {
+      "board_text": "J2: 1-GND 2-RX 3-TX 4-RST",
+      "old_mm": [
+        101.5,
+        103.0
+      ],
+      "new_mm": [
+        101.7,
+        102.5
+      ],
+      "height_mm": 0.8
+    },
+    {
+      "board_text": "UART 3V3",
+      "old_mm": [
+        100,
+        101.4
+      ],
+      "new_mm": [
+        100,
+        101.35
+      ]
+    }
+  ],
+  "silkscreen_vs_via_bores": {
+    "clearance_from_hole_mm": 0.1,
+    "text_vs_via_hole_collisions": []
+  },
+  "gerbview_review": {
+    "status": "PASSED",
+    "views": [
+      "F.Cu+B.Cu+F.SilkS+profile+PTH+NPTH",
+      "F.SilkS+profile+PTH+NPTH"
+    ],
+    "note": "Native GerbView imported all nine plot/drill layers from final ZIP. Job metadata skipped by archive loader as expected. Mask layers structurally checked; not separately visually reviewed."
+  },
+  "fabrication_zip": "fabrication/20261031-E5/RGB-Sleep-Lamp-E5-Gerber-20261031.zip",
+  "physical_fit_thermal_operation": "NOT_RUN; donor footprint status remains provisional",
+  "validated_at": "2026-10-31T23:43:20.438887+08:00"
+}

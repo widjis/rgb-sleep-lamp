@@ -1,0 +1,44 @@
+Reference,Value,Footprint
+SW1,RESET,Button_Switch_THT:SW_PUSH_6mm
+C1,100nF,Capacitor_SMD:C_0805_2012Metric
+U2,IP2312 / 4.2V,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm
+C6,22uF / 10V X5R,Capacitor_SMD:C_0805_2012Metric
+U4,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2
+SW3,EXTERNAL RUN SWITCH,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+C7,10uF / 10V,Capacitor_SMD:CP_Elec_5x5.4
+D3,FULL,LED_SMD:LED_0805_2012Metric
+R9,82k 1%,Resistor_SMD:R_0805_2012Metric
+C9,100nF,Capacitor_SMD:C_0805_2012Metric
+L2,4.7uH; Isat >=3A,Inductor_SMD:L_Bourns-SRN4018
+D4,SS34,Diode_SMD:D_SMC
+C3,22uF / 10V X5R,Capacitor_SMD:C_0805_2012Metric
+R8,135k 1%,Resistor_SMD:R_0805_2012Metric
+C2,10uF,Capacitor_SMD:C_0805_2012Metric
+R10,1k,Resistor_SMD:R_0805_2012Metric
+R7,1k,Resistor_SMD:R_0805_2012Metric
+D1,PWR RED,LED_SMD:LED_0805_2012Metric
+J6,GPIO HEADER,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+R12,110k 1%,Resistor_SMD:R_0805_2012Metric
+R4,10k,Resistor_SMD:R_0805_2012Metric
+J7,CONTROL / POWER,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+D2,CHG,LED_SMD:LED_0805_2012Metric
+R11,1k,Resistor_SMD:R_0805_2012Metric
+J5,BAT NTC 100k B4100,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+J1,3V3 TEST,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+C5,22uF / 10V X5R,Capacitor_SMD:C_0805_2012Metric
+SW2,FLASH,Button_Switch_THT:SW_PUSH_6mm
+R6,2.2k,Resistor_SMD:R_0805_2012Metric
+R13,15k 1%,Resistor_SMD:R_0805_2012Metric
+R5,10k,Resistor_SMD:R_0805_2012Metric
+J4,USB 5V INPUT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R3,10k,Resistor_SMD:R_0805_2012Metric
+U1,ESP-12F,RF_Module:ESP-12E
+J3,PROTECTED 1S PACK,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R1,10k,Resistor_SMD:R_0805_2012Metric
+R2,10k,Resistor_SMD:R_0805_2012Metric
+C8,"22uF / 10V
+Tantalum",Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C
+U3,MT3608,Package_TO_SOT_SMD:SOT-23-6
+L1,1uH; Isat >=4A,Inductor_SMD:L_Bourns-SRN4018
+J2,UART TTL 3V3,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+C4,22uF / 10V X5R,Capacitor_SMD:C_0805_2012Metric

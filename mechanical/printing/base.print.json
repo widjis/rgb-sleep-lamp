@@ -1,0 +1,124 @@
+{
+  "prepared_at": "2026-11-01T12:05:27.255900+08:00",
+  "stage": "prepared_offline_not_uploaded_not_queued",
+  "printer": "Creality Ender-3 V2 - Enhanced",
+  "material": "Common PLA @CREALITY",
+  "profile": "0.20mm Quick @ Modified Width hermes-exp",
+  "source_fcstd": "mechanical/freecad/RGB Sleep Lamp.FCStd",
+  "source_object": "BaseUSBPrecision",
+  "source_fcstd_sha256": "5b7a435baa1cdf99dd6b8c0fc975f06de053d7cc5dfd4f8d6d72a3bdc20c5285",
+  "source_stl_sha256": "026beeb305b8a85be43c5896f5236fc710557c448d6a91cd09fb7e3bf947d3f3",
+  "gcode_sha256": "2b7e934f8fda46666520fedd62888093245a194a606da0d68028a82e976d873f",
+  "gcode_bytes": 9347462,
+  "orientation": "closed bottom on bed; opening upwards",
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.2,
+  "first_layer_perimeters_mm_s": 8,
+  "first_layer_infill_mm_s": 25,
+  "config_overrides": {
+    "first_layer_infill_speed": [
+      "0",
+      "25"
+    ],
+    "support_material": [
+      "1",
+      "0"
+    ]
+  },
+  "support": "disabled; short bridges at side openings; native auto-check detects no support above 22.85 mm and none at revised collar starting 37.4 mm",
+  "perimeters": 2,
+  "infill": "20% gyroid",
+  "temperatures_c": {
+    "first_layer_nozzle": 200,
+    "later_nozzle": 196,
+    "bed": 60
+  },
+  "height_mm": 43.4,
+  "slicer_statistics": {
+    "filament used [mm]": "16936.25",
+    "filament used [cm3]": "40.74",
+    "filament used [g]": "50.51",
+    "estimated printing time (normal mode)": "5h 6m 31s"
+  },
+  "revision": {
+    "flank_angle_from_horizontal_deg": 50,
+    "bottom_lead_in_height_mm": 1.4,
+    "bottom_lead_in_angle_from_horizontal_deg": 54.46232220802562,
+    "crest_axial_thickness_mm": 0.4,
+    "pitch_mm": 3.5,
+    "root_diameter_mm": 88.8,
+    "major_diameter_mm": 90.8,
+    "radial_female_clearance_nominal_mm": 0.3,
+    "original_volume_mm3": 54047.140727717386,
+    "new_volume_mm3": 53994.00644688219,
+    "unchanged_cover_hashes": {
+      "cover.stl": "70eb6eac4eb93f03347a3f62db435863ac0aded862b11bcaeae33f79548b1e6c",
+      "cover.gcode": "49e4c53d3d38a8ad8eb8bcc242463b1c9783f05311cfe6c795af71ae31807473"
+    }
+  },
+  "checks": {
+    "native_shape_valid": true,
+    "solid_count": 1,
+    "cover_seated_overlap_mm3": 0.0,
+    "lower_housing_difference_mm3": 0.0,
+    "cover_diameter_mm": 85.4,
+    "collar_aperture_mm": 86.0,
+    "radial_cover_clearance_mm": 0.3,
+    "thread_fit_samples": [
+      {
+        "turns": 0,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      },
+      {
+        "turns": 0.125,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      },
+      {
+        "turns": 0.25,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      },
+      {
+        "turns": 0.5,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      },
+      {
+        "turns": 0.75,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      },
+      {
+        "turns": 1.0,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      },
+      {
+        "turns": 1.5,
+        "original_overlap_mm3": 0.0,
+        "revised_overlap_mm3": 0.0
+      }
+    ],
+    "subset_of_collision_validated_50_degree_candidate": true,
+    "native_gui_save_and_render_inspected": true,
+    "watertight_stl": true,
+    "gcode_config_checked": true,
+    "no_support_extrusion_in_final_gcode": true,
+    "automatic_diagnostic_thread_support_removed": true,
+    "physical_print_fit_and_strength_verified": false
+  },
+  "references": [
+    {
+      "url": "https://alpaco.it/generators/case/",
+      "creator": "alpaco.it",
+      "lesson": "Revisited existing project reference: open-side-up base and separate flat cover. No source geometry copied."
+    },
+    {
+      "url": "https://www.printables.com/model/1212149-standard-reverse-threaded-nut-bolt",
+      "creator": "Madaco",
+      "lesson": "Listing claims support-free threaded parts. Full page fetch unavailable; not physical validation for this design. No source geometry copied."
+    }
+  ]
+}

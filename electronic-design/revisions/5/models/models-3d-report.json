@@ -1,0 +1,110 @@
+{
+  "physical_components_with_models": 43,
+  "intentionally_no_body": [
+    "H1",
+    "H2",
+    "H3",
+    "J3"
+  ],
+  "broken_model_paths": [],
+  "standard_models_assigned": 9,
+  "broken_model_references_repaired": [
+    "L1",
+    "U3"
+  ],
+  "changes": [
+    {
+      "ref": "U3",
+      "before": [
+        "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm.step"
+      ],
+      "after": "${KIPRJMOD}/models/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm.step",
+      "kind": "generic SOIC-8E package; external body/pitch match, EP visualization uses 2.41x3.81 mm template"
+    },
+    {
+      "ref": "R3",
+      "before": [],
+      "after": "${KIPRJMOD}/models/R_0805_2012Metric.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "L1",
+      "before": [
+        "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP1245A.step"
+      ],
+      "after": "${KIPRJMOD}/models/L_SRP1245A_reference.wrl",
+      "kind": "reference envelope, donor unverified"
+    },
+    {
+      "ref": "J6",
+      "before": [],
+      "after": "${KIPRJMOD}/models/PinHeader_1x08_P2.54mm_Vertical.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "J2",
+      "before": [],
+      "after": "${KIPRJMOD}/models/PinHeader_1x04_P2.54mm_Vertical.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "C2",
+      "before": [],
+      "after": "${KIPRJMOD}/models/C_0805_2012Metric.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "R6",
+      "before": [],
+      "after": "${KIPRJMOD}/models/R_0805_2012Metric.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "J7",
+      "before": [],
+      "after": "${KIPRJMOD}/models/PinHeader_1x08_P2.54mm_Vertical.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "D1",
+      "before": [],
+      "after": "${KIPRJMOD}/models/LED_0805_2012Metric.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "J1",
+      "before": [],
+      "after": "${KIPRJMOD}/models/PinHeader_1x02_P2.54mm_Vertical.step",
+      "kind": "KiCad standard package model"
+    },
+    {
+      "ref": "C1",
+      "before": [],
+      "after": "${KIPRJMOD}/models/C_0805_2012Metric.step",
+      "kind": "KiCad standard package model"
+    }
+  ],
+  "existing_approximate_models": {
+    "J4": "PDC004 estimate",
+    "U1": "existing ESP-12E envelope used for ESP-12F"
+  },
+  "L1_datasheet": "https://www.bourns.com/docs/product-datasheets/srp1245a.pdf",
+  "source_board_sha256": "902e79e8c2df16d4ae6d8e37e48c5f9563f362d803aed1d94b60dbe16b32969a",
+  "non_model_pcb_data_identical": true,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "ignored_drc_checks": [],
+  "board_sha256": "9316717bfc83dbaf3c32afd8b57b20e1fffde99583499c4bb3c3ae43182ced20",
+  "backup": "backups/before-3d-completion-20261030",
+  "native_render_visually_reviewed": true,
+  "renders": [
+    "renders/pcb-final-top.png",
+    "renders/pcb-final-bottom.png",
+    "renders/pcb-final-isometric.png"
+  ],
+  "assembly_step": "circuit-assembled.step",
+  "assembly_step_sha256": "c5dcf5e6701dfbbd586eccdf5e7fe0e20ac4c2e9e0ced3bbf32bd5350b1806f5",
+  "step_exporter": "KiCad native export step --subst-models; L1 companion STEP confirmed in exported assembly",
+  "physical_fit_verified": false
+}

@@ -1,0 +1,42 @@
+{
+  "current_revision": 5,
+  "project": "current/circuit.kicad_pro",
+  "status": "LAYOUT_REVIEW_DRC_CLEAN",
+  "validation": {
+    "status": "LAYOUT_REVIEW_DRC_CLEAN",
+    "KiCad": "10.0.7",
+    "erc_violations": 0,
+    "geometry_violations": 0,
+    "parity_violations": 0,
+    "unconnected_items": 0,
+    "ignored_drc_checks": [],
+    "drc_exclusions": [],
+    "design_rules": {
+      "min_clearance_mm": 0.3,
+      "min_track_mm": 0.3,
+      "via_drill_mm": 0.8,
+      "via_diameter_mm": 1.2,
+      "annular_ring_mm": 0.2,
+      "copper_to_edge_mm": 0.35
+    },
+    "actual": {
+      "segments": {
+        "F.Cu": 340,
+        "B.Cu": 73
+      },
+      "top_length_percent": 71.85,
+      "via_count": 33,
+      "via_drill_mm": 0.8,
+      "via_diameter_mm": 1.2
+    },
+    "board_sha256": "7e6805146fe27a8ff927305ab1cc769ffe9999222ff86da6a5450937b462665a",
+    "native_render_reviewed": true,
+    "routing": "COMPLETE_DRC_CLEAN; all E4 tracks/vias removed and rerouted",
+    "physical_fit_thermal_operation": "NOT_RUN; donor footprints provisional"
+  },
+  "fabrication": {
+    "zip": "revisions/5/fabrication/20261031-E5/RGB-Sleep-Lamp-E5-Gerber-20261031.zip",
+    "status": "PRODUCTION_REVIEW_PENDING",
+    "zip_sha256": "1e75d440db36d77e4ab26a2a32311f92f8bc10770ddc977735b678f7aa2ec35a"
+  }
+}

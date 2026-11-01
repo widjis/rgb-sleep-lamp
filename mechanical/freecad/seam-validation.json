@@ -1,0 +1,20 @@
+{
+  "base_valid": true,
+  "solids": 1,
+  "visible_axial_seam_mm": 0.3,
+  "outer_lip_thickness_mm": 1.2,
+  "lip_z_mm": [
+    34.3,
+    37.1
+  ],
+  "diffuser_bottom_z_mm": 37.4,
+  "added_material_mm3": 778.8308700025882,
+  "assembly_overlap_mm3": {
+    "diffuser": 0.0,
+    "cover": 0.0,
+    "core": 0.0
+  },
+  "cover_vertical_sweep_overlap_mm3": 0.0,
+  "thread_geometry": "unchanged; added ring outside collar",
+  "physical_fit": "NOT_RUN"
+}

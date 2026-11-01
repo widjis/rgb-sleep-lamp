@@ -1,0 +1,23 @@
+{
+  "line_start_rz_mm": [
+    44.7,
+    6
+  ],
+  "line_end_rz_mm": [
+    46.612132034,
+    7.912132034
+  ],
+  "blend_radius_mm": 0.3,
+  "blend_end_rz_mm": [
+    46.7,
+    8.124264069
+  ],
+  "min_slope_from_horizontal_deg": 45,
+  "blend_slope_range_deg": [
+    45,
+    90
+  ],
+  "minimum_radial_wall_mm": 0.8,
+  "lower_blend": "omitted to preserve exact female thread interface",
+  "remaining_support_sources": "External R6 fillet and original thread flanks; slicer NOT_RUN"
+}

@@ -1,0 +1,17 @@
+{
+  "reference": "J7",
+  "pin": "7",
+  "net": "+3.3V",
+  "start_mm": [
+    120.7,
+    105.35
+  ],
+  "end_mm": [
+    119.0,
+    105.35
+  ],
+  "width_mm": 0.5,
+  "native_foreign_copper_clearance_test_mm": 0.305,
+  "footprint_pad_geometry_and_zone_settings_unchanged": true,
+  "track_uuid": "a027a912-818b-4ef3-8cbc-cb4b79cf6ebb"
+}

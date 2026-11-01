@@ -1,0 +1,12 @@
+Schematic visual cleanup - 2026-10-26
+Both sheets inspected, including full frame and detail renders.
+J3/J4 mirrored to face circuit; pin numbers and connections preserved.
+Direct R7 TEST-to-battery connection replaces redundant power stub.
+R/C/L/D/U/J/SW fields repositioned; rotated LED and resistor labels horizontal.
+J5 ground moved clear of R9 labels; main switch labels aligned away from buttons.
+Native ERC: 0 errors, 0 warnings.
+Before/after native netlist: all component reference/pin net groups identical.
+GPS Tracker.kicad_sch: 0 inward/perpendicular-at-pin external wire starts; 0 wire intersections with rectangle symbol interiors. Scanner covers rectangle bodies; other symbol outlines reviewed visually.
+power.kicad_sch: 0 inward/perpendicular-at-pin external wire starts; 0 wire intersections with rectangle symbol interiors. Scanner covers rectangle bodies; other symbol outlines reviewed visually.
+PCB unchanged. No physical/thermal testing. Existing power-design-notes.txt limitations remain.
+Backup: /Users/widjis/Documents/Hardware Project/GPS Tracker/backups/before-full-schematic-cleanup-20261026-052409

@@ -1,0 +1,46 @@
+{
+  "status": "LAYOUT_REVIEW_DRC_CLEAN",
+  "KiCad": "10.0.7",
+  "erc_violations": 0,
+  "geometry_violations": 0,
+  "parity_violations": 0,
+  "unconnected_items": 0,
+  "buck_pin_net_audit": "PASSED",
+  "routing": "PASSED native DRC + refill + schematic parity; all DRC checks enabled; no exclusions",
+  "donor_values_footprints": "PROVISIONAL; measure actual donor",
+  "thermal_loop_stability_physical_tests": "NOT_RUN",
+  "silkscreen_label": "ORANGEFLAVOR LABS; SVG path outlines imported as grouped native F.SilkS polygons; Arial Bold 1.35 mm cap height; left outer arc R34.1 mm; native render visually reviewed",
+  "clearance_mm": 0.3,
+  "min_track_mm": 0.3,
+  "min_via_diameter_mm": 1.2,
+  "min_via_drill_mm": 0.6,
+  "board_edge_clearance_mm": 0.35,
+  "final_drc": "drc-final.json",
+  "silkscreen_artwork_source": "artwork/ORANGEFLAVOR-LABS-curved.svg",
+  "silkscreen_electrical_geometry_unchanged": true,
+  "ignored_drc_checks": [],
+  "validation_evidence": "drc-cleanup-validation.json",
+  "models_3d": {
+    "populated_components": 43,
+    "broken_paths": 0,
+    "intentional_empty": [
+      "H1",
+      "H2",
+      "H3",
+      "J3"
+    ],
+    "report": "models/models-3d-report.json",
+    "physical_fit_verified": false,
+    "native_render_visually_reviewed": true,
+    "assembly_step": "circuit-assembled.step"
+  },
+  "component_references": {
+    "count": 47,
+    "layer": "F.SilkS",
+    "height_mm": 0.8,
+    "stroke_mm": 0.12,
+    "report": "silkscreen-components-validation.json",
+    "drc_violations": 0,
+    "visual_review": "PASSED_NATIVE_TOP_AND_ISOMETRIC"
+  }
+}

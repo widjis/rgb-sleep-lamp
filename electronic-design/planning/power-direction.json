@@ -1,0 +1,11 @@
+{
+  "input": "USB-C PD20V activator",
+  "path": [
+    "PD20V",
+    "buck5V ->WS2812B",
+    "regulator3.3V ->ESP"
+  ],
+  "battery": false,
+  "led_count": 30,
+  "status": "PLANNED_NOT_IMPLEMENTED_IN_E1"
+}

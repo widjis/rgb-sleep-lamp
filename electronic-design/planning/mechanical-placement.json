@@ -1,0 +1,148 @@
+{
+  "status": "CONCEPT",
+  "timestamp": "2026-10-26T21:38:37.658506",
+  "outline": {
+    "envelope_diameter_mm": 74,
+    "corner_fillet_mm": 3,
+    "inward_offset_baseline_mm": 5,
+    "area_mm2": 3730.106016749559
+  },
+  "mounts_xy_mm": [
+    [
+      14.500000000000004,
+      25.11473670974872
+    ],
+    [
+      -29.0,
+      3.5514757175273244e-15
+    ],
+    [
+      14.500000000000004,
+      -25.11473670974872
+    ]
+  ],
+  "hole_diameter_mm": 3.2,
+  "pcb_underside_z_mm": 10.4,
+  "base_valid": true,
+  "pcb_valid": true,
+  "collision_volume_mm3": {
+    "pcb_base": 0.0,
+    "insertion": 0.0,
+    "component_base": {
+      "ESP12FEnvelope": 0.0,
+      "PDModuleEnvelope": 0.0,
+      "USBPortEnvelope": 0.0,
+      "BuckReserve": 0.0,
+      "LogicReserve": 0.0
+    },
+    "driver_overlap": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "component_envelopes": {
+    "ESP12FEnvelope": {
+      "xyz_mm": [
+        -33.239092362730865,
+        -28.428203230275507,
+        12.0
+      ],
+      "size_mm": [
+        24.0,
+        16.0,
+        3.0
+      ],
+      "rotation_z_deg": 30
+    },
+    "PDModuleEnvelope": {
+      "xyz_mm": [
+        -7.5,
+        13.0,
+        14.8
+      ],
+      "size_mm": [
+        15.0,
+        31.0,
+        4.0
+      ]
+    },
+    "USBPortEnvelope": {
+      "xyz_mm": [
+        -4.5,
+        44.0,
+        15.0
+      ],
+      "size_mm": [
+        9.0,
+        4.0,
+        3.2
+      ]
+    },
+    "BuckReserve": {
+      "xyz_mm": [
+        5.0,
+        -10.0,
+        12.0
+      ],
+      "size_mm": [
+        22.0,
+        18.0,
+        8.0
+      ]
+    },
+    "LogicReserve": {
+      "xyz_mm": [
+        -7.0,
+        -27.0,
+        12.0
+      ],
+      "size_mm": [
+        18.0,
+        12.0,
+        5.0
+      ]
+    }
+  },
+  "NOT_RUN": [
+    "physical fit",
+    "RF performance",
+    "thermal",
+    "ERC/DRC",
+    "functional placement/routing",
+    "actual purchased USB module dimensions",
+    "USB daughterboard retention design"
+  ],
+  "sources": [
+    "https://joy-it.net/en/products/COM-ZY12PDN",
+    "https://shopee.co.id/ZY12PDN-USB-type-C-Power-Delivery-Trigger-i.13486297.15397874140",
+    "https://store.easyware.id/produk/pd-trigger-usb-c-tombol-5-20v/",
+    "https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_product_specification_en.pdf",
+    "https://documentation.espressif.com/esp8266_hardware_design_guidelines_en.html"
+  ],
+  "previous_mounts_xy_mm": [
+    [
+      19,
+      16
+    ],
+    [
+      -19,
+      16
+    ],
+    [
+      -19,
+      -16
+    ],
+    [
+      19,
+      -16
+    ]
+  ],
+  "mount_count": 3,
+  "mount_angles_deg": [
+    60,
+    180,
+    300
+  ],
+  "mount_radius_mm": 29
+}

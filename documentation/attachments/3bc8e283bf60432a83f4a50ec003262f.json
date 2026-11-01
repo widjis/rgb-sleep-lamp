@@ -1,0 +1,10 @@
+{
+  "id": "3bc8e283bf60432a83f4a50ec003262f",
+  "name": "Concept 3bc8e2",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Create one polished industrial design concept presentation with two side-by-side views of THE SAME plausible FDM 3D printed RGB bedside lamp. Left: fully assembled lamp, softly glowing pastel gradient RGB light, translucent frosted milky white cylindrical diffuser with gently rounded top, approximately 180mm tall overall and 95mm diameter, compact matte charcoal cylindrical base about 35mm high, subtle small front button and rear USB power opening. Right: clear exploded isometric view, same design and proportions, parts separated vertically with fine alignment lines on neutral warm light gray studio background. Show from top to bottom: removable closed-top thin frosted diffuser shell; central hollow white LED-support cylindrical core with a real-looking flexible WS2812B addressable RGB LED strip wrapped helically around its outside, visible discrete square LED packages and copper strip; small circular mounting platform; ESP32 development board on standoffs inside open dark base housing with simple power input module and tidy short wires to strip; removable screwed bottom plate with four screws. Diffuser surrounds core when assembled, electronics stay below lighting chamber. Maintain physically plausible assembly and clearance, no mains wiring, no batteries, no floating impossible parts. Broad translucent diffuser, smooth friendly silhouette, stable base, gentle glow appropriate to bedside use. Professional product visualization, precise exploded organization, realistic 3D render, not engineering drawing. Headings only: 'ASSEMBLED' above left and 'EXPLODED VIEW' above right. Small concise labels on right: 'Diffuser', 'WS2812B + core', 'ESP32 + power', 'Base', 'Bottom cover'. Do not imply manufacturing validation. No extra variants, no logos.",
+  "kind": "concept",
+  "source": "Codex image generation",
+  "item_id": "exec-7edbbbc3-4aea-44e5-b6d6-7b7c08107236"
+}

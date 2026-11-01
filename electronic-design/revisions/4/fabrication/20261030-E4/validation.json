@@ -1,0 +1,111 @@
+{
+  "status": "PRODUCTION_REVIEW_PENDING",
+  "created_at": "2026-10-30T22:17:22.076845+08:00",
+  "kicad_version": "10.0.7",
+  "source_pcb": "/Users/widjis/Documents/Hardware Project/RGB Sleep Lamp/electronic-design/revisions/4/circuit.kicad_pcb",
+  "source_sha256": "f0fe143610f6c50a2f54d6aaa8bf04145f1fea052ec4a48512a21fa9d362b62a",
+  "zone_refill_saved_native": true,
+  "zone_refill_did_not_change_pcb": true,
+  "main_pcb_unchanged": true,
+  "layers": [
+    {
+      "Path": "circuit-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-B_Cu.gbl",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "circuit-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "circuit-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "circuit-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "board_thickness_mm": 1.6,
+  "copper_layers": 2,
+  "drc": {
+    "status": "PASSED",
+    "violations": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "ignored_checks": [],
+    "exclusions": [],
+    "report": "review/drc.json"
+  },
+  "erc": {
+    "status": "PASSED",
+    "reported_violations": 0,
+    "existing_ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ],
+    "report": "review/erc.json"
+  },
+  "drill": {
+    "pth_holes": 69,
+    "npth_holes": 3,
+    "min_pth_drill_mm": 0.6,
+    "npth_drill_mm": 3.2
+  },
+  "gerbview_review": {
+    "status": "PASSED",
+    "views": [
+      "F.Cu+B.Cu+F.SilkS+profile+PTH+NPTH",
+      "F.SilkS+profile+PTH+NPTH"
+    ],
+    "note": "Native UI inspected; mask layers validated structurally via native export, not separately viewed"
+  },
+  "files_sha256": {
+    "circuit-B_Cu.gbl": "7440825d17bef876db81bc0c3019897e67124be59c3531b86ddb4eebfdab88f4",
+    "circuit-B_Mask.gbs": "6aca029c98062aeb110c93d991fb6725b77e55d429b00c5249025fa09fa71954",
+    "circuit-B_Silkscreen.gbo": "3cf97eb9d6084f548379229a9651ec22d935f3289d7e94e62863ef054d49b8f6",
+    "circuit-Edge_Cuts.gm1": "e2ab1153997d145bd331624b89aaf16bc10df613b6bf256e7833c1ccd9dc4b46",
+    "circuit-F_Cu.gtl": "67363defc7a650cba95a96fc888c71401068e5615ea649e9dda7c2504610eb9a",
+    "circuit-F_Mask.gts": "cc56cd783ea32e2764bb9b0aba569f5c60e98a0f4bfcb48103f53d18a48e60d6",
+    "circuit-F_Silkscreen.gto": "24c363a2eee5412e2429c17976dca4679886e70ef8a9b88d3726d8ec969046e4",
+    "circuit-NPTH.drl": "672eb19e0511d1840192e00ff847273e8cc4602ea803d5171fea4e707a28e2c8",
+    "circuit-PTH.drl": "40f93a440160f7945609d961789904bafd186852edea2fe920a2cf65d81232eb",
+    "circuit-job.gbrjob": "3d8d279913745a33336cc5cf1cf62fa90ed40acc4d2acd3f8a0a36615138afa9"
+  },
+  "zip": "RGB-Sleep-Lamp-E4-Gerber-20261030.zip",
+  "zip_sha256": "035a3177bc28e8f12b5c0dc3d65a71a1f12eaba65a80fd61ff152e84f727fe9c",
+  "zip_integrity": "PASSED",
+  "physical_fit_thermal_operation": "NOT_RUN; prior provisional donor status preserved"
+}

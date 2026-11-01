@@ -1,0 +1,14 @@
+{
+  "center_xy_mm": [
+    2,
+    -28
+  ],
+  "base_overlap_mm3": 0.0,
+  "driver_overlap_mm3": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "physical_fit": "NOT_RUN",
+  "only_ESP_envelope_synced": true
+}

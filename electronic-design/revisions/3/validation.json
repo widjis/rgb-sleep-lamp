@@ -1,0 +1,24 @@
+{
+  "status": "ACTIVE_ONLY_PASSIVES_PARKED",
+  "KiCad": "10.0.7",
+  "erc_violations": 0,
+  "geometry_violations": 0,
+  "parity_violations": 0,
+  "unconnected_items": 104,
+  "buck_pin_net_audit": "PASSED",
+  "inside": [
+    "D1",
+    "D2",
+    "H1",
+    "H2",
+    "H3",
+    "U1",
+    "U2",
+    "U3",
+    "U4"
+  ],
+  "parked_count": 38,
+  "routing": "NOT_RUN",
+  "donor_values_footprints": "PROVISIONAL; measure actual donor",
+  "thermal_loop_stability_physical_tests": "NOT_RUN"
+}

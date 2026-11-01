@@ -1,0 +1,10 @@
+{
+  "id": "ce138700706f45a0bd5461e80fa7ac32",
+  "name": "Concept ce1387",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Create a clean black line technical-style illustrative diagram on white background of ONLY the current cylindrical lamp diffuser. Two aligned orthographic views side by side, no perspective: left exterior side silhouette; right longitudinal section schematic. Geometry: outside diameter 95 mm, height 145 mm, straight vertical parallel sides, flat closed top with ONLY small radius 6 mm quarter-circle rounded top corners, not a dome. Bottom open. Exterior silhouette has no external threads, no base or LED core. Section depicts nominal 0.8 mm side walls and closed top, inner top corner radius 5.2 mm concentric with outer 6 mm. Bottom 6 mm region reinforced inward, with internal coarse screw thread schematically depicted on both section edges (pitch 3.5 mm, female bore diameter89.4 mm groove diameter91.4 mm), then short 2 mm sloped transition to thin shell. Preserve proportions height to width 145:95. Use readable minimal annotations: 'SIDE OUTLINE', 'SECTION \u2014 SCHEMATIC', '95 mm', '145 mm', '0.8 mm wall + top', 'R6', '6 mm threaded mouth', '2 mm transition'. Thin dimension lines, bold clean exterior outlines, light section hatching only in solid wall and reinforced mouth. Footer: 'Illustrative reference \u2014 not a CAD-derived drawing'. No shading, no render, no colors, no imagined additional features.",
+  "kind": "concept",
+  "source": "Codex image generation",
+  "item_id": "exec-734a3371-13df-487f-a8d5-47b58b13ef93"
+}

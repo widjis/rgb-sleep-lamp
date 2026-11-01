@@ -1,0 +1,33 @@
+{
+  "baseline": "../2",
+  "files_sha256": {
+    "header-pinout.json": "3d2fe9e8570f3c076bd01f5daf2b6b4d40dac807390c0bf155705dc8cfc824cb",
+    "placement-state.json": "8d4fd530ead0c24f62894a6791e14f836b1a7ddf083e8d2feb7f802c6aa77a20",
+    "pcb-parking-cropped.svg.png": "1f47a0d85ae77d5fddd052faf693cf19bbcce6869616aa00a42b281e787302c0",
+    "buck.kicad_sch": "764578245d4ff1fedd1e1cb1c675c813417c64d6b82edd691d3f7dbd9576773f",
+    "erc.json": "2eb8303baf3c05462ecaa963d4dd205327b1cd816d85cb1dbe450df76facbeeb",
+    "circuit.kicad_sch": "277794833f5c74ef82edb567fad2c3231ed370bf3683b833b789a6fd425cd4da",
+    "bom.csv": "80765dbdcde910c5ed030c1ce9dc07bce7f5a56e7eb3580503b2543daaf6a9f7",
+    "sources.md": "a9ccc39af05d6000a607fec2d778d4faa9de479f03ea4cbc37dfeb8f4d99bd68",
+    "circuit.kicad_pro": "cc447a0a5f886f0b9e49524424ac8398deaa05f740189fd9f4104a13f665ed54",
+    "fp-lib-table": "9fa8184a3467a5bbdadd016fd31e931fe5978bc7bd4ec839dfc2fea975de6990",
+    "power.kicad_sch": "4cfda69b87407d6e69a10ad5e15585a1cef1ec8955cf7f61a271f8514c511662",
+    "drc.json": "faeed991dfacac96f9d143313ed177eb36f87c2a22a6862fc282c9cd66828475",
+    "validation.json": "3700cc71183a709df1119eb09a1f479151bab8f3e970f6ea4c2bf1faf1ad5282",
+    "pcb-parking-cropped.svg": "c9194cf9d3d651703ac462f31af2b0478b8da42b737d90f3b9b82f353053f537",
+    "README.txt": "758482f001bc2fc417ab2a9e141ff889788b867a3deb2ee9c256003962e8b6c6",
+    "Lamp_Local.kicad_sym": "714f1e12b45afd0e1eec358b5b227db6af45e39d8e67571ab160985e36ef6e84",
+    "sym-lib-table": "98fff60ff0300cf579ba2bf006dd1632dfd5523936f7cd5412a76303bc47707b",
+    "schematic.pdf": "ba452779b10c649a97c2339a637a422650987455f1be4e2216ce608b4bfd8b3f",
+    "schematic-3.png": "1b2e8bbe2e69beadf5a6f6aa06cd58cdd59c0c7687ce321e8eb92e4d491f2afe",
+    "schematic-2.png": "aa93052e4886b1b1aeee221372eac4fd50501831c5793031f11f5f7fc10afe30",
+    "circuit.kicad_pcb": "a363c2b9a60bf2018b4b0b7fd159e8d11881043c2b395b41ffc778a05e85fed7",
+    "buck-reference.json": "341a70856a79acd7127ca906c54d2bf99f5c087672bc64ba86c55aa0deadecd4",
+    "netlist.net": "a25b9ab04f29e59a262e2042b02012fba61197bb43fa79e48a25e1dff6371dc4",
+    "schematic-1.png": "a175c76b58511d712bd5f0e5cb0c6987bad762952f2947cfe40a153d4f1982cd",
+    "Lamp_Local.pretty/ESP12F_AntennaOverhang.kicad_mod": "e9f23e62edc04c4c429cb71180231f33526941fa53b8a913eec03abaf5697bed",
+    "Lamp_Local.pretty/PD20_Wire_2Pad.kicad_mod": "6d5e85e9f9102e1c6c3f5a45fdda7f11f12169ffbea466a066245afc05049b23",
+    "Lamp_Local.pretty/LED_Wire_3Pad.kicad_mod": "08093ce7088c808af992603ddb43448e027e53909c3e0b5370d54576863d8bc7"
+  },
+  "status": "ACTIVE_ONLY_PASSIVES_PARKED"
+}

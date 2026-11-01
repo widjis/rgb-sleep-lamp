@@ -1,0 +1,4 @@
+(fp_lib_table (version 7)
+ (lib (name "Lamp_Local") (type "KiCad") (uri "${KIPRJMOD}/Lamp_Local.pretty") (options "") (descr "Project-local module and power footprints"))
+ (lib (name "Connector_Lamp") (type "KiCad") (uri "${KIPRJMOD}/Lamp_Local.pretty") (options "") (descr "Project wire connectors, using standard connector naming filters"))
+)

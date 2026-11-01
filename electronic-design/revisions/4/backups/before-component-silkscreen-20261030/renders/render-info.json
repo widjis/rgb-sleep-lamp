@@ -1,0 +1,26 @@
+{
+  "source": "../circuit.kicad_pcb",
+  "board_sha256": "9316717bfc83dbaf3c32afd8b57b20e1fffde99583499c4bb3c3ae43182ced20",
+  "renderer": "KiCad 10.0.7 native CLI",
+  "quality": "basic",
+  "views": [
+    "top",
+    "bottom",
+    "isometric"
+  ],
+  "zoom": {
+    "top": 0.82,
+    "bottom": 0.82,
+    "isometric": 0.78
+  },
+  "isometric_rotation_degrees": [
+    325,
+    0,
+    25
+  ],
+  "isometric_perspective": true,
+  "isometric_image_postprocessing": "transparent outer margins trimmed, 50px transparent padding",
+  "native_render_visually_reviewed": true,
+  "models_report": "../models/models-3d-report.json",
+  "date": "2026-10-30"
+}

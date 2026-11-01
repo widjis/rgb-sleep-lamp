@@ -1,0 +1,177 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T05:46:17",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "circuit.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "de14f3a9-bed9-4414-8a4b-fb9dad9ef51e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.1659 mm)",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 1.7661 mm",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 114.813
+                    },
+                    "uuid": "a98372f1-7d86-4930-b6e3-bb8c408f74c0"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.65,
+                        "y": 116.4
+                    },
+                    "uuid": "f71bece6-8beb-430b-8d11-501b5494136a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2258 mm)",
+            "items": [
+                {
+                    "description": "Track [USER_BUTTON_N] on F.Cu, length 6.8236 mm",
+                    "pos": {
+                        "x": 91.325,
+                        "y": 112.445
+                    },
+                    "uuid": "987afd80-5bc4-4105-800b-2fd323891e1c"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.0,
+                        "y": 110.5
+                    },
+                    "uuid": "ac7cae0a-7e31-4284-b84c-ac6ccf358104"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.0290 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 4.7668 mm",
+                    "pos": {
+                        "x": 89.65,
+                        "y": 116.4
+                    },
+                    "uuid": "3787a7ea-95bf-4b11-953d-32beb435c7d1"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 1.7661 mm",
+                    "pos": {
+                        "x": 89.5,
+                        "y": 114.813
+                    },
+                    "uuid": "a98372f1-7d86-4930-b6e3-bb8c408f74c0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_3V3' clearance 0.3000 mm; actual 0.2994 mm)",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 4.0092 mm",
+                    "pos": {
+                        "x": 90.7486,
+                        "y": 116.062
+                    },
+                    "uuid": "d85161e6-8881-4f81-8703-cc0a3d26f953"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.65,
+                        "y": 116.4
+                    },
+                    "uuid": "f71bece6-8beb-430b-8d11-501b5494136a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

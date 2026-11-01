@@ -1,0 +1,28 @@
+{
+  "current_revision": 5,
+  "project": "current/circuit.kicad_pro",
+  "status": "LAYOUT_REVIEW_DRC_CLEAN",
+  "validation": {
+    "status": "LAYOUT_REVIEW_DRC_CLEAN",
+    "KiCad": "10.0.7",
+    "erc_violations": 0,
+    "drc_violations": 0,
+    "geometry_violations": 0,
+    "parity_violations": 0,
+    "unconnected_items": 0,
+    "design_rules": {
+      "min_clearance_mm": 0.3,
+      "min_track_mm": 0.3,
+      "min_via_mm": 0.8,
+      "min_through_hole_mm": 0.4
+    },
+    "track_split": {
+      "f_cu_segments": 326,
+      "b_cu_segments": 118,
+      "top_share_by_length_pct": 56.1
+    },
+    "routing": "COMPLETE_DRC_CLEAN",
+    "donor_values_footprints": "PROVISIONAL; measure actual donor",
+    "thermal_loop_stability_physical_tests": "NOT_RUN"
+  }
+}

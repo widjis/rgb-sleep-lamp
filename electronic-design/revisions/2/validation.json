@@ -1,0 +1,20 @@
+{
+  "status": "PLACEMENT_REVIEW_UNROUTED",
+  "tool": "KiCad10.0.7",
+  "controller_connectivity_preserved": true,
+  "power_LED_button_and_UART_assertions": "PASSED",
+  "removed_battery_subsystem": "PASSED",
+  "circuit_footprints": 33,
+  "mounting_holes": 3,
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "drc_geometry_violations": 0,
+  "schematic_parity_violations": 0,
+  "unconnected_items": 84,
+  "routing": "NOT_RUN intentionally left for user",
+  "physical_fit": "NOT_RUN",
+  "thermal_load_and_RF_tests": "NOT_RUN",
+  "native_schematic_save": "CLI sch upgrade --force, both sheets",
+  "native_board_save": "pcbnew SaveBoard, reload and native DRC",
+  "outline_bspline_chord_tolerance_mm": 0.005
+}

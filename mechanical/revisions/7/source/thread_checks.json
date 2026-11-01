@@ -1,0 +1,44 @@
+{
+  "pitch_mm": 3.5,
+  "male_root_major_diameter_mm": [
+    88.8,
+    90.8
+  ],
+  "female_bore_groove_diameter_mm": [
+    89.4,
+    91.4
+  ],
+  "radial_clearance_mm": 0.3,
+  "axial_profile_allowance_mm": 0.3,
+  "collar_height_mm": 6,
+  "collar_root_wall_mm": 1.4,
+  "female_groove_back_wall_mm": 1.8,
+  "bspline_faces": {
+    "bottom_cover": 3,
+    "diffuser": 3
+  },
+  "male_outside_root_mm3": 632.2078755690055,
+  "female_groove_removed_mm3": 887.1387545369362,
+  "assembly_overlap_samples_mm3": [
+    [
+      0,
+      0.0
+    ],
+    [
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      1,
+      0.0
+    ],
+    [
+      1.5,
+      0.0
+    ]
+  ]
+}

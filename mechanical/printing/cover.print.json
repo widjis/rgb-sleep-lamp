@@ -1,0 +1,27 @@
+{
+  "printer": "Ender 3 V2",
+  "slug": "Ender_3_V2",
+  "profile": "0.20mm Quick @ Modified Width hermes-exp",
+  "first_layer_perimeters_mm_s": 8,
+  "first_layer_infill_mm_s": 25,
+  "config_changes": {
+    "first_layer_infill_speed": [
+      "0",
+      "25"
+    ]
+  },
+  "source_stl_sha256": "70eb6eac4eb93f03347a3f62db435863ac0aded862b11bcaeae33f79548b1e6c",
+  "gcode_sha256": "49e4c53d3d38a8ad8eb8bcc242463b1c9783f05311cfe6c795af71ae31807473",
+  "remote_raw_sha256": "49e4c53d3d38a8ad8eb8bcc242463b1c9783f05311cfe6c795af71ae31807473",
+  "model_id_at_upload": 3,
+  "job_id_at_start": 1,
+  "stage": "job_active_confirmed",
+  "server_estimated_seconds": 4457.270815,
+  "slicer_statistics": {
+    "filament used [mm]": "4021.61",
+    "filament used [g]": "11.99",
+    "estimated printing time (normal mode)": "1h 6m 36s"
+  },
+  "webcam": "fresh snapshot inspected: camera unavailable placeholder",
+  "physical_bed_clearance": "confirmed by user immediately before start"
+}

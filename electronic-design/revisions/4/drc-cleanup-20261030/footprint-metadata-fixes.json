@@ -1,0 +1,9 @@
+{
+  "assignments": {
+    "U1": "Lamp_Local:ESP-12F_AntennaOverhang",
+    "J3": "Connector_Lamp:LED_1x03_WirePads",
+    "J4": "Connector_Lamp:PD20_1x02_WirePads",
+    "U3": "Lamp_Local:MP1584EN_SOIC8E_0603CLR"
+  },
+  "geometry_and_pin_numbers_unchanged": true
+}

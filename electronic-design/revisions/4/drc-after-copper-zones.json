@@ -1,0 +1,468 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T21:56:36",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "circuit.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "d2439525-5cf6-4824-a4cc-ede9d23b518f"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 106.142861,
+                        "y": 58.202548
+                    },
+                    "uuid": "de14f3a9-bed9-4414-8a4b-fb9dad9ef51e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.3000 mm; actual 0.2551 mm)",
+            "items": [
+                {
+                    "description": "Track [/UART_RX] on F.Cu, length 0.0644 mm",
+                    "pos": {
+                        "x": 92.6998,
+                        "y": 126.956
+                    },
+                    "uuid": "219d86bf-ce6d-460b-a63a-ecb704e27105"
+                },
+                {
+                    "description": "Pad 20 [USER_BUTTON_N] of U1 on F.Cu",
+                    "pos": {
+                        "x": 94.4,
+                        "y": 127.5
+                    },
+                    "uuid": "f71efc15-c682-4459-80d3-eab2df93df8a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.3000 mm; actual 0.2551 mm)",
+            "items": [
+                {
+                    "description": "Track [/UART_RX] on F.Cu, length 2.2230 mm",
+                    "pos": {
+                        "x": 92.7449,
+                        "y": 127.002
+                    },
+                    "uuid": "b314464d-7037-4f73-9f54-0a8c0d4b48be"
+                },
+                {
+                    "description": "Pad 20 [USER_BUTTON_N] of U1 on F.Cu",
+                    "pos": {
+                        "x": 94.4,
+                        "y": 127.5
+                    },
+                    "uuid": "f71efc15-c682-4459-80d3-eab2df93df8a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.3000 mm; actual 0.2779 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/UART_TX] of J2",
+                    "pos": {
+                        "x": 86.5,
+                        "y": 115.58
+                    },
+                    "uuid": "9ebb0817-59fc-452e-bb2b-a6e244664196"
+                },
+                {
+                    "description": "Track [/GPIO14] on F.Cu, length 2.0220 mm",
+                    "pos": {
+                        "x": 87.7779,
+                        "y": 116.551
+                    },
+                    "uuid": "cb35d417-c6ed-4746-b906-8cee8e3d7f05"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [GND] of J5",
+                    "pos": {
+                        "x": 86.5,
+                        "y": 103.235
+                    },
+                    "uuid": "4f7817cd-fcd8-49cd-860e-664f9327846c"
+                },
+                {
+                    "description": "Track [/BOOT_GPIO0] on F.Cu, length 8.6000 mm",
+                    "pos": {
+                        "x": 82.785,
+                        "y": 101.785
+                    },
+                    "uuid": "fc214d8b-4c98-4100-a25d-52e7b915a511"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(D2-K)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 110.52,
+                        "y": 86.095
+                    },
+                    "uuid": "453c394a-0dac-4482-b090-a874746dba6d"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U3-EN)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 110.52,
+                        "y": 87.365
+                    },
+                    "uuid": "30e72067-a36a-4b8d-84df-c3c3f6fd4696"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(U3-COMP)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 110.52,
+                        "y": 88.635
+                    },
+                    "uuid": "ad93009c-f64d-475f-ab1a-b1639479aa97"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [Net-(U3-FB)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 110.52,
+                        "y": 89.905
+                    },
+                    "uuid": "42739d60-1da8-4b92-bc37-566ec72bb459"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [Net-(U3-FREQ)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 115.48,
+                        "y": 88.635
+                    },
+                    "uuid": "c0623936-6207-4eb5-8034-f87b7858c9be"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'PWR_20V' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [VIN_BUCK] of U3 on F.Cu",
+                    "pos": {
+                        "x": 115.48,
+                        "y": 87.365
+                    },
+                    "uuid": "50e1e651-5bea-4614-81fb-2220173172d3"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'GND' clearance 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [Net-(U3-BST)] of U3 on F.Cu",
+                    "pos": {
+                        "x": 115.48,
+                        "y": 86.095
+                    },
+                    "uuid": "5b069068-c866-4f1a-ade7-5bc561171232"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 113.0,
+                        "y": 88.0
+                    },
+                    "uuid": "f533ffb3-2d1e-474b-92c3-dbc0aca86482"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4426 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 132.0429
+                    },
+                    "uuid": "6b74a23f-f100-44ba-bb5f-36cf8ae77e2e"
+                },
+                {
+                    "description": "Track [/UART_RX] on F.Cu, length 0.3888 mm",
+                    "pos": {
+                        "x": 92.7449,
+                        "y": 129.225
+                    },
+                    "uuid": "744520d2-2c28-4c38-b51b-00fd9c577d01"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4426 mm)",
+            "items": [
+                {
+                    "description": "Arc on Edge.Cuts",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 132.0429
+                    },
+                    "uuid": "6b74a23f-f100-44ba-bb5f-36cf8ae77e2e"
+                },
+                {
+                    "description": "Track [/UART_RX] on F.Cu, length 2.2230 mm",
+                    "pos": {
+                        "x": 92.7449,
+                        "y": 127.002
+                    },
+                    "uuid": "b314464d-7037-4f73-9f54-0a8c0d4b48be"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/GPIO15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 96.5745,
+                        "y": 119.027
+                    },
+                    "uuid": "c0055289-8e50-414e-9845-0d83d07b6c47"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0286 mm)",
+            "items": [
+                {
+                    "description": "Segment of J7 on F.Silkscreen",
+                    "pos": {
+                        "x": 119.32,
+                        "y": 119.32
+                    },
+                    "uuid": "2c9666c0-f1ae-4d32-a4aa-b9e51dab83c0"
+                },
+                {
+                    "description": "PCB text '3V3 PWR' on F.Silkscreen",
+                    "pos": {
+                        "x": 116.5,
+                        "y": 113.5
+                    },
+                    "uuid": "533896ab-af61-46ca-a10a-b0d68fc02d1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

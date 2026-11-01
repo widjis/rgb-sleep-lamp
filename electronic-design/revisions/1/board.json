@@ -1,0 +1,1671 @@
+{
+  "width_mm": 199.01,
+  "height_mm": 98.05,
+  "origin_mm": [
+    -46.985,
+    29.975
+  ],
+  "components": [
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "at": [
+        137.485,
+        31.525
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            137.485,
+            31.525
+          ],
+          "net": "/RESET_N"
+        },
+        {
+          "number": "1",
+          "at": [
+            137.485,
+            38.025
+          ],
+          "net": "/RESET_N"
+        },
+        {
+          "number": "2",
+          "at": [
+            132.985,
+            31.525
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "at": [
+            132.985,
+            38.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        159.985,
+        45.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            159.035,
+            45.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            160.935,
+            45.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "IP2312 / 4.2V",
+      "footprint": "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm",
+      "at": [
+        74.96000000000001,
+        42.38999999999999
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "",
+          "at": [
+            74.39,
+            41.63999999999999
+          ],
+          "net": ""
+        },
+        {
+          "number": "",
+          "at": [
+            74.39,
+            43.13999999999999
+          ],
+          "net": ""
+        },
+        {
+          "number": "",
+          "at": [
+            75.53,
+            41.63999999999999
+          ],
+          "net": ""
+        },
+        {
+          "number": "",
+          "at": [
+            75.53,
+            43.13999999999999
+          ],
+          "net": ""
+        },
+        {
+          "number": "1",
+          "at": [
+            72.485,
+            40.48499999999999
+          ],
+          "net": "Net-(D2-K)"
+        },
+        {
+          "number": "2",
+          "at": [
+            72.485,
+            41.755
+          ],
+          "net": "Net-(U2-TEST)"
+        },
+        {
+          "number": "3",
+          "at": [
+            72.485,
+            43.025
+          ],
+          "net": "Net-(D3-K)"
+        },
+        {
+          "number": "4",
+          "at": [
+            72.485,
+            44.294999999999995
+          ],
+          "net": "Net-(J5-Pin_1)"
+        },
+        {
+          "number": "5",
+          "at": [
+            77.435,
+            44.294999999999995
+          ],
+          "net": "+BATT"
+        },
+        {
+          "number": "6",
+          "at": [
+            77.435,
+            43.025
+          ],
+          "net": "Net-(U2-ICHG)"
+        },
+        {
+          "number": "7",
+          "at": [
+            77.435,
+            41.755
+          ],
+          "net": "Net-(U2-SW)"
+        },
+        {
+          "number": "8",
+          "at": [
+            77.435,
+            40.48499999999999
+          ],
+          "net": "VBUS"
+        },
+        {
+          "number": "9",
+          "at": [
+            74.96000000000001,
+            42.38999999999999
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "C6",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        137.985,
+        73.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            137.035,
+            73.025
+          ],
+          "net": "+5V"
+        },
+        {
+          "number": "2",
+          "at": [
+            138.935,
+            73.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "U4",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "at": [
+        154.985,
+        78.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            151.83499999999998,
+            75.725
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "at": [
+            151.83499999999998,
+            78.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            158.135,
+            78.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "3",
+          "at": [
+            151.83499999999998,
+            80.32499999999999
+          ],
+          "net": "+5V"
+        }
+      ]
+    },
+    {
+      "ref": "SW3",
+      "value": "EXTERNAL RUN SWITCH",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "at": [
+        93.985,
+        76.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            93.985,
+            76.025
+          ],
+          "net": "+BATT"
+        },
+        {
+          "number": "2",
+          "at": [
+            93.985,
+            78.565
+          ],
+          "net": "Net-(SW3-B)"
+        }
+      ]
+    },
+    {
+      "ref": "C7",
+      "value": "10uF / 10V",
+      "footprint": "Capacitor_SMD:CP_Elec_5x5.4",
+      "at": [
+        143.985,
+        83.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            141.785,
+            83.025
+          ],
+          "net": "+5V"
+        },
+        {
+          "number": "2",
+          "at": [
+            146.185,
+            83.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "D3",
+      "value": "FULL",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "at": [
+        108.985,
+        66.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            108.0475,
+            66.025
+          ],
+          "net": "Net-(D3-K)"
+        },
+        {
+          "number": "2",
+          "at": [
+            109.9225,
+            66.025
+          ],
+          "net": "Net-(D3-A)"
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "value": "82k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        100.985,
+        50.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            100.07249999999999,
+            50.025
+          ],
+          "net": "Net-(J5-Pin_1)"
+        },
+        {
+          "number": "2",
+          "at": [
+            101.89750000000001,
+            50.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        175.985,
+        80.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            175.03500000000003,
+            80.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            176.935,
+            80.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "L2",
+      "value": "4.7uH; Isat >=3A",
+      "footprint": "Inductor_SMD:L_Bourns-SRN4018",
+      "at": [
+        114.985,
+        68.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            113.46,
+            68.025
+          ],
+          "net": "Net-(SW3-B)"
+        },
+        {
+          "number": "2",
+          "at": [
+            116.51,
+            68.025
+          ],
+          "net": "Net-(D4-A)"
+        }
+      ]
+    },
+    {
+      "ref": "D4",
+      "value": "SS34",
+      "footprint": "Diode_SMD:D_SMC",
+      "at": [
+        128.985,
+        68.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            125.585,
+            68.025
+          ],
+          "net": "+5V"
+        },
+        {
+          "number": "2",
+          "at": [
+            132.385,
+            68.025
+          ],
+          "net": "Net-(D4-A)"
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        65.935,
+        36.525
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            64.985,
+            36.525
+          ],
+          "net": "VBUS"
+        },
+        {
+          "number": "2",
+          "at": [
+            66.88499999999999,
+            36.525
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "R8",
+      "value": "135k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        108.985,
+        50.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            108.07249999999999,
+            50.025
+          ],
+          "net": "Net-(U2-ICHG)"
+        },
+        {
+          "number": "2",
+          "at": [
+            109.89750000000001,
+            50.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        159.985,
+        50.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            159.035,
+            50.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            160.935,
+            50.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "R10",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        102.985,
+        61.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            102.07249999999999,
+            61.025
+          ],
+          "net": "VBUS"
+        },
+        {
+          "number": "2",
+          "at": [
+            103.89750000000001,
+            61.025
+          ],
+          "net": "Net-(D2-A)"
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        118.985,
+        50.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            118.0725,
+            50.025
+          ],
+          "net": "Net-(U2-TEST)"
+        },
+        {
+          "number": "2",
+          "at": [
+            119.8975,
+            50.025
+          ],
+          "net": "+BATT"
+        }
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "PWR RED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "at": [
+        189.985,
+        87.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            189.0475,
+            87.025
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "at": [
+            190.9225,
+            87.025
+          ],
+          "net": "Net-(D1-A)"
+        }
+      ]
+    },
+    {
+      "ref": "J6",
+      "value": "GPIO HEADER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "at": [
+        166.985,
+        15.024999999999999
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            166.985,
+            15.024999999999999
+          ],
+          "net": "/BOOT_GPIO0"
+        },
+        {
+          "number": "2",
+          "at": [
+            166.985,
+            17.564999999999998
+          ],
+          "net": "/GPIO2"
+        },
+        {
+          "number": "3",
+          "at": [
+            166.985,
+            20.104999999999997
+          ],
+          "net": "/GPIO4"
+        },
+        {
+          "number": "4",
+          "at": [
+            166.985,
+            22.644999999999996
+          ],
+          "net": "/GPIO5"
+        },
+        {
+          "number": "5",
+          "at": [
+            166.985,
+            25.184999999999995
+          ],
+          "net": "/GPIO12"
+        },
+        {
+          "number": "6",
+          "at": [
+            166.985,
+            27.725
+          ],
+          "net": "/GPIO13"
+        },
+        {
+          "number": "7",
+          "at": [
+            166.985,
+            30.265
+          ],
+          "net": "/GPIO14"
+        },
+        {
+          "number": "8",
+          "at": [
+            166.985,
+            32.805
+          ],
+          "net": "/GPIO15"
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "value": "110k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        128.985,
+        78.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            128.0725,
+            78.025
+          ],
+          "net": "+5V"
+        },
+        {
+          "number": "2",
+          "at": [
+            129.89749999999998,
+            78.025
+          ],
+          "net": "Net-(U3-FB)"
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        179.985,
+        50.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            179.0725,
+            50.025
+          ],
+          "net": "/GPIO2"
+        },
+        {
+          "number": "2",
+          "at": [
+            180.89749999999998,
+            50.025
+          ],
+          "net": "+3.3V"
+        }
+      ]
+    },
+    {
+      "ref": "J7",
+      "value": "CONTROL / POWER",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+      "at": [
+        166.985,
+        55.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            166.985,
+            55.025
+          ],
+          "net": "/GPIO16"
+        },
+        {
+          "number": "2",
+          "at": [
+            166.985,
+            57.565000000000005
+          ],
+          "net": "/ADC"
+        },
+        {
+          "number": "3",
+          "at": [
+            166.985,
+            60.105
+          ],
+          "net": "/ESP_EN"
+        },
+        {
+          "number": "4",
+          "at": [
+            166.985,
+            62.645
+          ],
+          "net": "/RESET_N"
+        },
+        {
+          "number": "5",
+          "at": [
+            166.985,
+            65.185
+          ],
+          "net": "/UART_TX"
+        },
+        {
+          "number": "6",
+          "at": [
+            166.985,
+            67.725
+          ],
+          "net": "/UART_RX"
+        },
+        {
+          "number": "7",
+          "at": [
+            166.985,
+            70.26499999999999
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "8",
+          "at": [
+            166.985,
+            72.805
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "D2",
+      "value": "CHG",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "at": [
+        102.985,
+        66.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            102.0475,
+            66.025
+          ],
+          "net": "Net-(D2-K)"
+        },
+        {
+          "number": "2",
+          "at": [
+            103.9225,
+            66.025
+          ],
+          "net": "Net-(D2-A)"
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        108.985,
+        61.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            108.07249999999999,
+            61.025
+          ],
+          "net": "VBUS"
+        },
+        {
+          "number": "2",
+          "at": [
+            109.89750000000001,
+            61.025
+          ],
+          "net": "Net-(D3-A)"
+        }
+      ]
+    },
+    {
+      "ref": "J5",
+      "value": "BAT NTC 100k B4100",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "at": [
+        93.985,
+        44.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            93.985,
+            44.025
+          ],
+          "net": "Net-(J5-Pin_1)"
+        },
+        {
+          "number": "2",
+          "at": [
+            93.985,
+            46.565000000000005
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "3V3 TEST",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "at": [
+        189.985,
+        44.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            189.985,
+            44.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            189.985,
+            46.565000000000005
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "C5",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        104.985,
+        79.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            104.035,
+            79.025
+          ],
+          "net": "Net-(SW3-B)"
+        },
+        {
+          "number": "2",
+          "at": [
+            105.935,
+            79.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "SW2",
+      "value": "FLASH",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "at": [
+        146.235,
+        37.775
+      ],
+      "angle": 90.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            146.235,
+            37.775
+          ],
+          "net": "/BOOT_GPIO0"
+        },
+        {
+          "number": "1",
+          "at": [
+            146.235,
+            31.275
+          ],
+          "net": "/BOOT_GPIO0"
+        },
+        {
+          "number": "2",
+          "at": [
+            150.735,
+            37.775
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "at": [
+            150.735,
+            31.275
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        183.985,
+        87.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            183.0725,
+            87.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            184.89749999999998,
+            87.025
+          ],
+          "net": "Net-(D1-A)"
+        }
+      ]
+    },
+    {
+      "ref": "R13",
+      "value": "15k 1%",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        128.985,
+        84.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            128.0725,
+            84.025
+          ],
+          "net": "Net-(U3-FB)"
+        },
+        {
+          "number": "2",
+          "at": [
+            129.89749999999998,
+            84.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        183.985,
+        71.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            183.0725,
+            71.025
+          ],
+          "net": "/GPIO15"
+        },
+        {
+          "number": "2",
+          "at": [
+            184.89749999999998,
+            71.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "USB 5V INPUT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "at": [
+        76.025,
+        32.525
+      ],
+      "angle": -90.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            76.025,
+            32.525
+          ],
+          "net": "VBUS"
+        },
+        {
+          "number": "2",
+          "at": [
+            73.485,
+            32.525
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        179.985,
+        45.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            179.0725,
+            45.025
+          ],
+          "net": "/BOOT_GPIO0"
+        },
+        {
+          "number": "2",
+          "at": [
+            180.89749999999998,
+            45.025
+          ],
+          "net": "+3.3V"
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "value": "ESP-12F",
+      "footprint": "RF_Module:ESP-12E",
+      "at": [
+        127.985,
+        12.024999999999999
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            120.385,
+            8.524999999999999
+          ],
+          "net": "/RESET_N"
+        },
+        {
+          "number": "2",
+          "at": [
+            120.385,
+            10.524999999999999
+          ],
+          "net": "/ADC"
+        },
+        {
+          "number": "3",
+          "at": [
+            120.385,
+            12.524999999999999
+          ],
+          "net": "/ESP_EN"
+        },
+        {
+          "number": "4",
+          "at": [
+            120.385,
+            14.524999999999999
+          ],
+          "net": "/GPIO16"
+        },
+        {
+          "number": "5",
+          "at": [
+            120.385,
+            16.525
+          ],
+          "net": "/GPIO14"
+        },
+        {
+          "number": "6",
+          "at": [
+            120.385,
+            18.525
+          ],
+          "net": "/GPIO12"
+        },
+        {
+          "number": "7",
+          "at": [
+            120.385,
+            20.525
+          ],
+          "net": "/GPIO13"
+        },
+        {
+          "number": "8",
+          "at": [
+            120.385,
+            22.525
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "9",
+          "at": [
+            122.985,
+            24.025
+          ],
+          "net": "unconnected-(U1-CS0-Pad9)"
+        },
+        {
+          "number": "10",
+          "at": [
+            124.985,
+            24.025
+          ],
+          "net": "unconnected-(U1-MISO-Pad10)"
+        },
+        {
+          "number": "11",
+          "at": [
+            126.985,
+            24.025
+          ],
+          "net": "unconnected-(U1-GPIO9-Pad11)"
+        },
+        {
+          "number": "12",
+          "at": [
+            128.985,
+            24.025
+          ],
+          "net": "unconnected-(U1-GPIO10-Pad12)"
+        },
+        {
+          "number": "13",
+          "at": [
+            130.985,
+            24.025
+          ],
+          "net": "unconnected-(U1-MOSI-Pad13)"
+        },
+        {
+          "number": "14",
+          "at": [
+            132.985,
+            24.025
+          ],
+          "net": "unconnected-(U1-SCLK-Pad14)"
+        },
+        {
+          "number": "15",
+          "at": [
+            135.58499999999998,
+            22.525
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "16",
+          "at": [
+            135.58499999999998,
+            20.525
+          ],
+          "net": "/GPIO15"
+        },
+        {
+          "number": "17",
+          "at": [
+            135.58499999999998,
+            18.525
+          ],
+          "net": "/GPIO2"
+        },
+        {
+          "number": "18",
+          "at": [
+            135.58499999999998,
+            16.525
+          ],
+          "net": "/BOOT_GPIO0"
+        },
+        {
+          "number": "19",
+          "at": [
+            135.58499999999998,
+            14.524999999999999
+          ],
+          "net": "/GPIO4"
+        },
+        {
+          "number": "20",
+          "at": [
+            135.58499999999998,
+            12.524999999999999
+          ],
+          "net": "/GPIO5"
+        },
+        {
+          "number": "21",
+          "at": [
+            135.58499999999998,
+            10.524999999999999
+          ],
+          "net": "/UART_RX"
+        },
+        {
+          "number": "22",
+          "at": [
+            135.58499999999998,
+            8.524999999999999
+          ],
+          "net": "/UART_TX"
+        }
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "PROTECTED 1S PACK",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "at": [
+        93.985,
+        60.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            93.985,
+            60.025
+          ],
+          "net": "+BATT"
+        },
+        {
+          "number": "2",
+          "at": [
+            93.985,
+            62.565000000000005
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        151.985,
+        45.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            151.0725,
+            45.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            152.89749999999998,
+            45.025
+          ],
+          "net": "/RESET_N"
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "at": [
+        151.985,
+        50.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            151.0725,
+            50.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            152.89749999999998,
+            50.025
+          ],
+          "net": "/ESP_EN"
+        }
+      ]
+    },
+    {
+      "ref": "C8",
+      "value": "22uF / 10V\nTantalum",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C",
+      "at": [
+        166.985,
+        80.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            164.515,
+            80.025
+          ],
+          "net": "+3.3V"
+        },
+        {
+          "number": "2",
+          "at": [
+            169.45499999999998,
+            80.025
+          ],
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "MT3608",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "at": [
+        115.985,
+        77.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            114.8475,
+            76.07499999999999
+          ],
+          "net": "Net-(D4-A)"
+        },
+        {
+          "number": "2",
+          "at": [
+            114.8475,
+            77.025
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "at": [
+            114.8475,
+            77.975
+          ],
+          "net": "Net-(U3-FB)"
+        },
+        {
+          "number": "4",
+          "at": [
+            117.1225,
+            77.975
+          ],
+          "net": "Net-(SW3-B)"
+        },
+        {
+          "number": "5",
+          "at": [
+            117.1225,
+            77.025
+          ],
+          "net": "Net-(SW3-B)"
+        },
+        {
+          "number": "6",
+          "at": [
+            117.1225,
+            76.07499999999999
+          ],
+          "net": "unconnected-(U3-NC-Pad6)"
+        }
+      ]
+    },
+    {
+      "ref": "L1",
+      "value": "1uH; Isat >=4A",
+      "footprint": "Inductor_SMD:L_Bourns-SRN4018",
+      "at": [
+        121.985,
+        34.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            120.46,
+            34.025
+          ],
+          "net": "Net-(U2-SW)"
+        },
+        {
+          "number": "2",
+          "at": [
+            123.51,
+            34.025
+          ],
+          "net": "+BATT"
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "UART TTL 3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "at": [
+        189.985,
+        58.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            189.985,
+            58.025
+          ],
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "at": [
+            189.985,
+            60.565000000000005
+          ],
+          "net": "/UART_RX"
+        },
+        {
+          "number": "3",
+          "at": [
+            189.985,
+            63.105
+          ],
+          "net": "/UART_TX"
+        },
+        {
+          "number": "4",
+          "at": [
+            189.985,
+            65.64500000000001
+          ],
+          "net": "/RESET_N"
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "value": "22uF / 10V X5R",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "at": [
+        123.985,
+        44.025
+      ],
+      "angle": 0.0,
+      "side": "F",
+      "pads": [
+        {
+          "number": "1",
+          "at": [
+            123.035,
+            44.025
+          ],
+          "net": "+BATT"
+        },
+        {
+          "number": "2",
+          "at": [
+            124.935,
+            44.025
+          ],
+          "net": "GND"
+        }
+      ]
+    }
+  ],
+  "track_count": 0,
+  "min_track_mm": null,
+  "vias": []
+}

@@ -1,0 +1,20 @@
+{
+  "strip_length_mm": 500,
+  "led_density_per_m": 60,
+  "led_count": 30,
+  "core_diameter_mm": 62,
+  "core_height_mm": 130,
+  "pitch_mm": 40,
+  "turns": 2.5145396354373206,
+  "centerline_height_mm": 100.58158541749282,
+  "assumed_strip_width_mm": 10,
+  "approx_occupied_height_mm": 110.58158541749282,
+  "power": {
+    "input": "external5V USB-C",
+    "led_worst_case_current_A": 1.7999999999999998,
+    "controller_allowance_A": 0.5,
+    "suggested_adapter": "5V3A with compliant advertised current handling; verifyactualstrip/cable",
+    "battery": false
+  },
+  "notes": "Helix estimate neglects adhesive/strip radial thickness and lead lengths. Verify actual strip width and 30LED count. No mains inside printed housing."
+}

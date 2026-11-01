@@ -1,0 +1,67 @@
+{
+  "parts": [
+    {
+      "id": "base",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 49007.4,
+      "bounds_mm": [
+        95.0,
+        95.0,
+        41.0
+      ],
+      "bed_z_min": 0
+    },
+    {
+      "id": "diffuser",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 59356.08,
+      "bounds_mm": [
+        95.0,
+        95.0,
+        145.0
+      ],
+      "bed_z_min": 0
+    },
+    {
+      "id": "led_core",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 44985.89,
+      "bounds_mm": [
+        62.0,
+        62.0,
+        130.0
+      ],
+      "bed_z_min": 0
+    },
+    {
+      "id": "bottom_cover",
+      "valid": true,
+      "solids": 1,
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 16946.35,
+      "bounds_mm": [
+        95.0,
+        95.0,
+        2.4
+      ],
+      "bed_z_min": 0
+    }
+  ],
+  "warnings": [
+    "Valid CAD does not prove physical strength, fit, or print quality.",
+    "Check orientation, underside slopes \u226545\u00b0 from the bed, and two-ended bridges \u226440 mm in your slicer.",
+    "Full minimum-wall and inter-part collision checks are not automated; inspect them before printing."
+  ],
+  "physical_tested": false,
+  "slicer_verified": false
+}

@@ -1,0 +1,97 @@
+{
+  "status": "PLACEMENT_REVIEW_UNROUTED",
+  "locked_mechanics": {
+    "source": "mechanical/freecad/RGB Sleep Lamp.FCStd:USBSupportBlend",
+    "origin_kicad_mm": [
+      100,
+      100
+    ],
+    "mapping": "x=100+MCADx;y=100-MCADy",
+    "mount_holes_diameter_mm": 3.2,
+    "mount_angles_deg": [
+      60,
+      180,
+      300
+    ],
+    "mount_radius_mm": 29,
+    "board_thickness_mm": 1.6,
+    "outline_bspline_tolerance_mm": 0.005
+  },
+  "rules": {
+    "track_min_mm": 0.2,
+    "via_outer_min_mm": 0.4,
+    "via_default_outer_drill_mm": [
+      0.6,
+      0.3
+    ],
+    "clearance_mm": 0.2,
+    "copper_edge_mm": 0.5
+  },
+  "functional_groups": {
+    "controller": [
+      "U1",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "C1",
+      "C2",
+      "SW1",
+      "SW2"
+    ],
+    "power": [
+      "J4",
+      "F1",
+      "U3",
+      "C3",
+      "C4",
+      "U4",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "led": [
+      "U2",
+      "C10",
+      "R7",
+      "R8",
+      "C5",
+      "J3"
+    ],
+    "user": [
+      "J5",
+      "R9"
+    ],
+    "indicator": [
+      "R6",
+      "D1"
+    ]
+  },
+  "critical_nets": [
+    "+5V",
+    "GND",
+    "+3.3V",
+    "LED_DATA_3V3",
+    "Net-(J3-Pin_2)"
+  ],
+  "port_policy": {
+    "USB": "PDC004 fixed20V at existing +Y case opening; J4 is wired output interface only",
+    "LED": "J3 solder wire pads",
+    "UART": "J2 external3V3 TTL adapter"
+  },
+  "load_assumption": {
+    "LED_count": 30,
+    "LED_current_max_A": 1.8,
+    "controller_allowance_A": 0.5,
+    "buck_target_A": 2.5,
+    "rail_5V_A": 2.3
+  },
+  "remaining_evidence": [
+    "routing",
+    "actual PDC004 and buck dimensions/retention",
+    "capacitor ESR/donor identity",
+    "closed-case thermal/load/RF",
+    "prototype fit"
+  ]
+}
